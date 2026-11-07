@@ -39,12 +39,12 @@ jobs:
 
           INPUT_PRESET="${{ github.event.inputs.preset }}"
           if [ "$INPUT_PRESET" = "all" ]; then
-            PRESETS="worldwide mozambique angola nigeria south-africa kenya united-states canada mexico the-bahamas panama brazil argentina colombia venezuela uruguay"
+            PRESETS="worldwide mozambique angola nigeria south-africa kenya united-states canada mexico the-bahamas panama brazil argentina colombia venezuela uruguay hong-kong macau taiwan kosovo kurdistan"
           elif [ -n "$INPUT_PRESET" ]; then
             PRESETS="$INPUT_PRESET"
           else
-            # Rotacao diaria inteligente (ciclo de 5 dias) para equilibrar paises longos e lotes de paises curtos (2 a 5 por dia)
-            DAY_MOD=$(( $(date -u +%j) % 5 ))
+            # Rotacao diaria inteligente (ciclo de 6 dias) para equilibrar paises longos e lotes de paises curtos (2 a 5 por dia)
+            DAY_MOD=$(( $(date -u +%j) % 6 ))
             case $DAY_MOD in
               0)
                 echo "Batch 0 (Long Presets - North America): Worldwide + United States"
@@ -65,6 +65,10 @@ jobs:
               4)
                 echo "Batch 4 (Short Presets - South America): Argentina, Colombia, Venezuela, Uruguay"
                 PRESETS="argentina colombia venezuela uruguay"
+                ;;
+              5)
+                echo "Batch 5 (Short Presets - Special Territories): Hong Kong, Macau, Taiwan, Kosovo, Kurdistan"
+                PRESETS="hong-kong macau taiwan kosovo kurdistan"
                 ;;
             esac
           fi

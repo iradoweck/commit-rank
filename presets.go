@@ -381,6 +381,10 @@ var PRESETS = map[string]QueryPreset{
 		title:   "Taiwan",
 		include: []string{"taiwan", "Taichung", "Kaohsiung", "Taipei", "Taoyuan", "Tainan", "Hsinchu", "Keelung", "Chiayi", "Changhua"},
 	},
+	"hong-kong": QueryPreset{
+		title:   "Hong Kong",
+		include: []string{"hong+kong", "kowloon"},
+	},
 	"niger": QueryPreset{
 		title:   "Niger",
 		include: []string{"niger", "Niamey", "Maradi", "Zinder", "Tahoua", "Agadez", "Arlit", "Birni-N'Konni", "Dosso", "Gaya", "Tessaoua"},
@@ -523,7 +527,7 @@ var PRESETS = map[string]QueryPreset{
 	},
 	"hong kong": QueryPreset{
 		title:   "Hong Kong",
-		include: []string{"hong+kong", "香港", "kowloon", "九龍"},
+		include: []string{"hong+kong", "kowloon"},
 	},
 	"macau": QueryPreset{
 		title:   "Macau",
