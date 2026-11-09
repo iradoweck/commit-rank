@@ -590,9 +590,7 @@ var PRESETS = map[string]QueryPreset{
 		title: "United States",
 		include: []string{
 			"United+States", "USA", "California", "New+York", "Texas", "Washington",
-			"Massachusetts", "Illinois", "San+Francisco", "Seattle", "New+York+City",
-			"Los+Angeles", "Austin", "Boston", "Chicago", "San+Jose",
-			"San+Diego", "Atlanta", "Denver", "Washington+D.C.",
+			"Massachusetts", "Illinois",
 		},
 	},
 	"macedonia": QueryPreset{
