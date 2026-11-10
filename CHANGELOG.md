@@ -4,6 +4,59 @@ All notable changes and milestones in the **Most Active GitHub Users (Commit Ran
 
 ---
 
+### 2026-11-10 — Version 3.4.0
+
+- **UI & Developer Profile Experience**
+  - **Dedicated Developer Profile View (`#user/:login`)**: High-fidelity personal profile page featuring:
+    - Dynamic national ranking badge with country flag (`#X in Country`).
+    - Continental ranking calculation comparing developers within the same regional group (`#X in Continent`).
+    - Worldwide ranking position and global activity tier (`Worldwide Top 100` / `Global Scope Top`).
+    - Comprehensive breakdown of Git commits, pull requests, issues, and combined impact scores.
+    - Official GitHub profile link and company affiliation.
+  - **Triple Embeddable Profile Badges**:
+    - **Country Badge** (`[Country] - Top #X`).
+    - **Continent Badge** (`[Continent] - Top #X`).
+    - **Worldwide Global Badge** (`Worldwide - Top #X`).
+    - Integrated 1-click Markdown copy buttons ready for GitHub Profile `README.md`.
+  - **Side-by-Side Top Ranking Cut Filter**:
+    - Inline filter selector on country leaderboards: `Top 5`, `Top 10`, `Top 50`, `Top 100`, and `All`.
+    - Positioned side-by-side with metric selectors (`All`, `Commits`, `Contribs`) without layout breaking or wrapping.
+    - Dynamically resizes tables and pagination while strictly preserving each developer's authentic placement.
+  - **Live Global Search on Homepage**:
+    - Real-time instant search bar supporting countries and developers simultaneously.
+    - Pre-cached multi-country developer index with floating autocomplete dropdown displaying avatars, country flags, ranks, and total scores.
+  - **Community Call to Action Banner**:
+    - Sleek modern footer banner on the homepage inviting community contributions with direct links to *"Star on GitHub"* and *"Suggest Country"*.
+
+---
+
+### 2026-11-09 — Version 3.3.0
+
+- **Special Countries & Territories Expansion**
+  - Activated 5 special autonomous regions and territories in the directory: **Hong Kong** (`HK`), **Macau** (`MO`), **Taiwan** (`TW`), **Kosovo** (`XK`), and **Kurdistan** (`KRD`).
+  - Added dedicated placeholder datasets in strict UTF-8 without BOM.
+  - Sanitized query presets in `presets.go`, removing non-ASCII and CJK characters to ensure 100% Go runtime encoding stability.
+- **Crawler & Workflow Batch 5 Scheduling**
+  - Upgraded GitHub Actions daily workflow rotation from a 5-day to a 6-day cycle (`DAY_MOD % 6`).
+  - Allocated **Batch 5** exclusively to the 5 special territories for fast, lightweight automated updates.
+- **US Query Preset Optimization**
+  - Trimmed redundant municipal search terms for the United States preset to reduce query payload size and eliminate HTTP 502/504 gateway timeouts on GitHub's Elasticsearch backend.
+
+---
+
+### 2026-11-06 — Version 3.2.0
+
+- **Crawler Engine Resilience & Deep Rate-Limit Defense**
+  - **Secondary Rate-Limit Handling**: Added automatic 65-second backoff with temporal jitter and `Retry-After` header parsing in `net/net.go`.
+  - **Partial Edge Salvaging**: Engineered resilient parsing in `github/github.go` to salvage valid user edges when GraphQL returns partial field errors (`RESOURCE_LIMITS_EXCEEDED`).
+  - **Toxic Cursor Bypass**: Implemented automatic cursor skipping (`followers:<N`) to bypass corrupted bot accounts and infinite query loops.
+  - **Go 1.24 Runtime Modernization**: Upgraded Go compiler to 1.24 across `go.mod`, Dockerfiles, and GitHub Actions workflows.
+- **Americas Regional Presets Expansion**
+  - Added 10 countries across the Americas: **United States**, **Canada**, **Mexico**, **The Bahamas**, **Panama**, **Brazil**, **Argentina**, **Colombia**, **Venezuela**, and **Uruguay**.
+  - Intelligent 5-day rotation batches implemented in `.github/workflows/update-rankings.yml`.
+
+---
+
 ### 2026-11-04 — Version 3.1.0
 
 - **UI & Mobile-First Experience**
