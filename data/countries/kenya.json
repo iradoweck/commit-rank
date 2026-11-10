@@ -2,7 +2,7 @@
   "country": "Kenya",
   "generated_at": "2026-11-10",
   "min_followers_required": 178,
-  "total_users": 50531,
+  "total_users": 50532,
   "definition_checksum": "cfb274ccc5735862ad46bc8ac9f80f0cdf662d97854bfd95c0f2be7cbd7e36d7",
   "users": [
     {
@@ -10,8 +10,8 @@
       "name": " 🐘",
       "login": "mwakidenis",
       "avatar_url": "https://avatars.githubusercontent.com/u/182089390?u=a635ac548d9e5151f8e6c7e2e095bc3f7b10be79\u0026v=4",
-      "contributions": 421970,
-      "commits": 421375,
+      "contributions": 423347,
+      "commits": 422752,
       "prs": 420,
       "company": "-",
       "organizations": []
@@ -21,8 +21,8 @@
       "name": "Maurice Gift",
       "login": "mauricegift",
       "avatar_url": "https://avatars.githubusercontent.com/u/200888291?u=c79e1e8dae546e3d9f92b3613d7e8aa4f3764080\u0026v=4",
-      "contributions": 167709,
-      "commits": 167678,
+      "contributions": 167716,
+      "commits": 167685,
       "prs": 1,
       "company": "@gifted-solstice",
       "organizations": []
@@ -89,8 +89,8 @@
       "name": "Vikshan",
       "login": "iamvikshan",
       "avatar_url": "https://avatars.githubusercontent.com/u/103361575?u=d4bc6da275b5b0893be43b67f6af4239b0ce3ef3\u0026v=4",
-      "contributions": 2623,
-      "commits": 2513,
+      "contributions": 2627,
+      "commits": 2517,
       "prs": 56,
       "company": "@kenyattauniversity",
       "organizations": []
@@ -168,7 +168,7 @@
       "name": "Kabiru Mwenja",
       "login": "akabiru",
       "avatar_url": "https://avatars.githubusercontent.com/u/17295175?u=554245ab33cd1c1d2d32c87064098c18c154ca0e\u0026v=4",
-      "contributions": 1772,
+      "contributions": 1773,
       "commits": 1230,
       "prs": 269,
       "company": "@opf",
@@ -584,17 +584,6 @@
     },
     {
       "rank": 49,
-      "name": "Okello Elly",
-      "login": "Elly739",
-      "avatar_url": "https://avatars.githubusercontent.com/u/195096877?u=b3f4b438e48e7ccac2747c53a90d29a7c99b6623\u0026v=4",
-      "contributions": 637,
-      "commits": 612,
-      "prs": 1,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 50,
       "name": "Juma Allan",
       "login": "jumaallan",
       "avatar_url": "https://avatars.githubusercontent.com/u/25085146?u=3c574e95ababae0a5f65e30ebc4549bb6bce7f7a\u0026v=4",
@@ -610,6 +599,17 @@
       ]
     },
     {
+      "rank": 50,
+      "name": "Okello Elly",
+      "login": "Elly739",
+      "avatar_url": "https://avatars.githubusercontent.com/u/195096877?u=b3f4b438e48e7ccac2747c53a90d29a7c99b6623\u0026v=4",
+      "contributions": 637,
+      "commits": 612,
+      "prs": 1,
+      "company": "-",
+      "organizations": []
+    },
+    {
       "rank": 51,
       "name": "Gabriel Kimanthi",
       "login": "Gabriel-project39",
@@ -622,17 +622,6 @@
     },
     {
       "rank": 52,
-      "name": "c_a",
-      "login": "achingachris",
-      "avatar_url": "https://avatars.githubusercontent.com/u/50122165?u=e911ec89b2b41a7659b3cc83bb0b9b294b99febc\u0026v=4",
-      "contributions": 633,
-      "commits": 581,
-      "prs": 24,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 53,
       "name": "Alex Mwaniki",
       "login": "lxmwaniky",
       "avatar_url": "https://avatars.githubusercontent.com/u/112326970?u=77e01af63d85c6b048a2b1fe99747eda6b099602\u0026v=4",
@@ -643,18 +632,18 @@
       "organizations": []
     },
     {
-      "rank": 54,
-      "name": "Ochieng Brian",
-      "login": "ochiengbrian",
-      "avatar_url": "https://avatars.githubusercontent.com/u/68417924?u=b48bd88789ae19693dcb0458526610e291567693\u0026v=4",
-      "contributions": 617,
-      "commits": 613,
-      "prs": 0,
-      "company": "masterpiece",
+      "rank": 53,
+      "name": "c_a",
+      "login": "achingachris",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50122165?u=e911ec89b2b41a7659b3cc83bb0b9b294b99febc\u0026v=4",
+      "contributions": 633,
+      "commits": 581,
+      "prs": 24,
+      "company": "-",
       "organizations": []
     },
     {
-      "rank": 55,
+      "rank": 54,
       "name": "Keith Kadima",
       "login": "tufstraka",
       "avatar_url": "https://avatars.githubusercontent.com/u/67703106?v=4",
@@ -665,6 +654,17 @@
       "organizations": [
         "opensource254"
       ]
+    },
+    {
+      "rank": 55,
+      "name": "Ochieng Brian",
+      "login": "ochiengbrian",
+      "avatar_url": "https://avatars.githubusercontent.com/u/68417924?u=b48bd88789ae19693dcb0458526610e291567693\u0026v=4",
+      "contributions": 617,
+      "commits": 613,
+      "prs": 0,
+      "company": "masterpiece",
+      "organizations": []
     },
     {
       "rank": 56,
@@ -1208,25 +1208,25 @@
     },
     {
       "rank": 2,
-      "name": "spaceyatech",
-      "members": 2,
-      "impact": "Normal"
-    },
-    {
-      "rank": 3,
-      "name": "py-contributors",
-      "members": 2,
-      "impact": "Normal"
-    },
-    {
-      "rank": 4,
       "name": "afridevelopers",
       "members": 2,
       "impact": "Normal"
     },
     {
+      "rank": 3,
+      "name": "smileidentity",
+      "members": 2,
+      "impact": "Normal"
+    },
+    {
+      "rank": 4,
+      "name": "canonical",
+      "members": 2,
+      "impact": "Normal"
+    },
+    {
       "rank": 5,
-      "name": "opensource254",
+      "name": "spaceyatech",
       "members": 2,
       "impact": "Normal"
     },
@@ -1238,277 +1238,277 @@
     },
     {
       "rank": 7,
-      "name": "smileidentity",
+      "name": "py-contributors",
       "members": 2,
       "impact": "Normal"
     },
     {
       "rank": 8,
-      "name": "canonical",
+      "name": "opensource254",
       "members": 2,
       "impact": "Normal"
     },
     {
       "rank": 9,
-      "name": "uonafya",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 10,
-      "name": "codehack-s",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 11,
-      "name": "databytenitt",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 12,
-      "name": "infinitycollaborations",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 13,
       "name": "golclinics",
       "members": 1,
       "impact": "Normal"
     },
     {
-      "rank": 14,
-      "name": "bizilabs",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 15,
-      "name": "devcnairobi",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 16,
-      "name": "microsoftstudentambassadors-kenya",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 17,
-      "name": "buildforsdg",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 18,
-      "name": "salamander-tech-hub",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 19,
-      "name": "chuka-uni-engineers",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 20,
-      "name": "recodehive",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 21,
-      "name": "grassrootseconomics",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 22,
-      "name": "android254",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 23,
-      "name": "zero-to-mastery",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 24,
-      "name": "kenyattauniversity",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 25,
-      "name": "forfuturellc",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 26,
-      "name": "nairobi-gophers",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 27,
-      "name": "hypercritical-studio",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 28,
-      "name": "codefiti",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 29,
-      "name": "design-and-code",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 30,
-      "name": "keeplas",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 31,
-      "name": "sokojunction",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 32,
-      "name": "geekstalk",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 33,
-      "name": "ilri",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 34,
-      "name": "inethi",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 35,
-      "name": "dev-protocol",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 36,
-      "name": "jkuatdsc",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 37,
-      "name": "manuelapps",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 38,
-      "name": "teambloomm",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 39,
-      "name": "mymoti",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 40,
-      "name": "moringaschool",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 41,
-      "name": "hackclub",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 42,
-      "name": "microsoft",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 43,
-      "name": "beamkenya",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 44,
+      "rank": 10,
       "name": "stanleyworks",
       "members": 1,
       "impact": "Normal"
     },
     {
-      "rank": 45,
-      "name": "blacktimber-labs",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 46,
-      "name": "nerds-catapult",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 47,
-      "name": "teamro04",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 48,
+      "rank": 11,
       "name": "rafikitools",
       "members": 1,
       "impact": "Normal"
     },
     {
-      "rank": 49,
-      "name": "chryz-hub",
+      "rank": 12,
+      "name": "design-sparx",
       "members": 1,
       "impact": "Normal"
     },
     {
-      "rank": 50,
+      "rank": 13,
+      "name": "forfuturellc",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 14,
+      "name": "kenyattauniversity",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 15,
+      "name": "design-and-code",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 16,
+      "name": "teambloomm",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 17,
+      "name": "sokojunction",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 18,
+      "name": "nerds-catapult",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 19,
+      "name": "microsoft",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 20,
+      "name": "chapter-house",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 21,
+      "name": "recodehive",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 22,
+      "name": "spidernitt",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 23,
       "name": "themindleproject",
       "members": 1,
       "impact": "Normal"
     },
     {
-      "rank": 51,
+      "rank": 24,
+      "name": "manuelapps",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 25,
+      "name": "geekstalk",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 26,
+      "name": "beamkenya",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 27,
+      "name": "inethi",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 28,
+      "name": "dev-protocol",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 29,
       "name": "appslab-ke",
       "members": 1,
       "impact": "Normal"
     },
     {
+      "rank": 30,
+      "name": "uonafya",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 31,
+      "name": "mymoti",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 32,
+      "name": "buildforsdg",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 33,
+      "name": "midrift-hurinet",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 34,
+      "name": "microsoftstudentambassadors-kenya",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 35,
+      "name": "salamander-tech-hub",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 36,
+      "name": "tekvora-systems",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 37,
+      "name": "zero-to-mastery",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 38,
+      "name": "ilri",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 39,
+      "name": "nairobi-gophers",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 40,
+      "name": "bizilabs",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 41,
+      "name": "jkuatdsc",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 42,
+      "name": "factory24",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 43,
+      "name": "futurespace-kenya",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 44,
+      "name": "grassrootseconomics",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 45,
+      "name": "infinitycollaborations",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 46,
+      "name": "usehover",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 47,
+      "name": "chajigo",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 48,
+      "name": "opf",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 49,
+      "name": "android254",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 50,
+      "name": "chryz-hub",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 51,
+      "name": "hypercritical-studio",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
       "rank": 52,
-      "name": "codenosekai",
+      "name": "codefiti",
       "members": 1,
       "impact": "Normal"
     },
@@ -1520,73 +1520,73 @@
     },
     {
       "rank": 54,
-      "name": "spidernitt",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 55,
-      "name": "usehover",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 56,
-      "name": "chapter-house",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 57,
-      "name": "opf",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 58,
-      "name": "chajigo",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 59,
-      "name": "midrift-hurinet",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 60,
-      "name": "futurespace-kenya",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 61,
-      "name": "sabotage-linux",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 62,
-      "name": "tekvora-systems",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 63,
-      "name": "design-sparx",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 64,
       "name": "garatropic",
       "members": 1,
       "impact": "Normal"
     },
     {
+      "rank": 55,
+      "name": "moringaschool",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 56,
+      "name": "devcnairobi",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 57,
+      "name": "codehack-s",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 58,
+      "name": "teamro04",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 59,
+      "name": "chuka-uni-engineers",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 60,
+      "name": "blacktimber-labs",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 61,
+      "name": "databytenitt",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 62,
+      "name": "sabotage-linux",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 63,
+      "name": "hackclub",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 64,
+      "name": "keeplas",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
       "rank": 65,
-      "name": "factory24",
+      "name": "codenosekai",
       "members": 1,
       "impact": "Normal"
     }

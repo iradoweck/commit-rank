@@ -2,7 +2,7 @@
   "country": "Nigeria",
   "generated_at": "2026-11-10",
   "min_followers_required": 158,
-  "total_users": 98251,
+  "total_users": 98252,
   "definition_checksum": "13c6da78c54821080093ffa672699a060b09f83111c66c2b1a8cbb2ed6147de7",
   "users": [
     {
@@ -72,8 +72,8 @@
       "name": "Ariyo Oluwafemi",
       "login": "Resolutefemi",
       "avatar_url": "https://avatars.githubusercontent.com/u/198766034?u=9b0953ce996cd66df972679b8f2632407a1cafc6\u0026v=4",
-      "contributions": 2897,
-      "commits": 2851,
+      "contributions": 2898,
+      "commits": 2852,
       "prs": 6,
       "company": "-",
       "organizations": []
@@ -230,6 +230,17 @@
     },
     {
       "rank": 18,
+      "name": "Ewetumo Alexander",
+      "login": "influx6",
+      "avatar_url": "https://avatars.githubusercontent.com/u/131629?u=077ae20589d63892f7e7a4f4782067125356b4f6\u0026v=4",
+      "contributions": 1596,
+      "commits": 1067,
+      "prs": 183,
+      "company": "@Ewe-Studios",
+      "organizations": []
+    },
+    {
+      "rank": 19,
       "name": "Timidan",
       "login": "Timidan",
       "avatar_url": "https://avatars.githubusercontent.com/u/25876969?u=c4f95a87bcc132cff1970526c5d676ceb5ef4037\u0026v=4",
@@ -241,17 +252,6 @@
         "Bloceducare",
         "HydroBlockchain"
       ]
-    },
-    {
-      "rank": 19,
-      "name": "Ewetumo Alexander",
-      "login": "influx6",
-      "avatar_url": "https://avatars.githubusercontent.com/u/131629?u=077ae20589d63892f7e7a4f4782067125356b4f6\u0026v=4",
-      "contributions": 1589,
-      "commits": 1066,
-      "prs": 182,
-      "company": "@Ewe-Studios",
-      "organizations": []
     },
     {
       "rank": 20,
@@ -739,6 +739,17 @@
     },
     {
       "rank": 60,
+      "name": "Hammed Oyedele",
+      "login": "devhammed",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22827908?u=f3f6ce9b9aaafcfddd1277b3ef2e4a45cc7fc4a8\u0026v=4",
+      "contributions": 415,
+      "commits": 365,
+      "prs": 18,
+      "company": "@verbalate",
+      "organizations": []
+    },
+    {
+      "rank": 61,
       "name": "Daniel Favour Dohou",
       "login": "dohoudaniel",
       "avatar_url": "https://avatars.githubusercontent.com/u/106144737?u=44f2d2d38ad5ad653ebdf09f6141be285ecb7e92\u0026v=4",
@@ -753,17 +764,6 @@
         "afridevelopers",
         "Algorithmia-SE"
       ]
-    },
-    {
-      "rank": 61,
-      "name": "Hammed Oyedele",
-      "login": "devhammed",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22827908?u=f3f6ce9b9aaafcfddd1277b3ef2e4a45cc7fc4a8\u0026v=4",
-      "contributions": 415,
-      "commits": 365,
-      "prs": 18,
-      "company": "@verbalate",
-      "organizations": []
     },
     {
       "rank": 62,
@@ -789,17 +789,6 @@
     },
     {
       "rank": 64,
-      "name": "Tosin Olaitan",
-      "login": "tosinchukwu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/78284223?u=fc57cc151bc36f801c7fcd122913620a6ab489bb\u0026v=4",
-      "contributions": 397,
-      "commits": 353,
-      "prs": 22,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 65,
       "name": "Robinson Honour",
       "login": "ikwerre-dev",
       "avatar_url": "https://avatars.githubusercontent.com/u/117399956?u=319fcc7fd548b518688bf31fd2161c42c37d8548\u0026v=4",
@@ -807,6 +796,17 @@
       "commits": 368,
       "prs": 6,
       "company": "@Pxxl-Space",
+      "organizations": []
+    },
+    {
+      "rank": 65,
+      "name": "Tosin Olaitan",
+      "login": "tosinchukwu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78284223?u=fc57cc151bc36f801c7fcd122913620a6ab489bb\u0026v=4",
+      "contributions": 397,
+      "commits": 353,
+      "prs": 22,
+      "company": "-",
       "organizations": []
     },
     {
@@ -880,8 +880,8 @@
       "name": "David Dada",
       "login": "obadafidii",
       "avatar_url": "https://avatars.githubusercontent.com/u/58336536?u=52128bc72942ca99ba4ae0df7b8d32771498b140\u0026v=4",
-      "contributions": 349,
-      "commits": 300,
+      "contributions": 350,
+      "commits": 301,
       "prs": 25,
       "company": "@zigng",
       "organizations": [
@@ -1031,17 +1031,6 @@
     },
     {
       "rank": 85,
-      "name": "Kelechi A. Nwankwo ",
-      "login": "Kanegraffiti",
-      "avatar_url": "https://avatars.githubusercontent.com/u/33545211?u=670569c003802b0b74a327b28a67c3dd3ad14bb1\u0026v=4",
-      "contributions": 202,
-      "commits": 143,
-      "prs": 58,
-      "company": "Kanegraffiti",
-      "organizations": []
-    },
-    {
-      "rank": 86,
       "name": "Joshua Igho Efe",
       "login": "JoshuaIgho",
       "avatar_url": "https://avatars.githubusercontent.com/u/170576900?u=d4beb592d22c5ec9c3470661585ba31ad703552a\u0026v=4",
@@ -1052,7 +1041,7 @@
       "organizations": []
     },
     {
-      "rank": 87,
+      "rank": 86,
       "name": "Afolabi Ridwan Damilare ",
       "login": "mercyharbo",
       "avatar_url": "https://avatars.githubusercontent.com/u/64808015?u=823df05af46406ee99931b7a48412a7220f306aa\u0026v=4",
@@ -1060,6 +1049,17 @@
       "commits": 195,
       "prs": 3,
       "company": "Open to work",
+      "organizations": []
+    },
+    {
+      "rank": 87,
+      "name": "Kelechi A. Nwankwo ",
+      "login": "Kanegraffiti",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33545211?u=670569c003802b0b74a327b28a67c3dd3ad14bb1\u0026v=4",
+      "contributions": 202,
+      "commits": 143,
+      "prs": 58,
+      "company": "Kanegraffiti",
       "organizations": []
     },
     {
@@ -1222,523 +1222,523 @@
     },
     {
       "rank": 2,
-      "name": "dogecoin-2-0",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 3,
-      "name": "dash0hq",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 4,
-      "name": "weaveworks",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 5,
-      "name": "automattic",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 6,
-      "name": "ifycode-extension",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 7,
-      "name": "learnopolia",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 8,
-      "name": "communitypro",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 9,
-      "name": "poietes-ng",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 10,
-      "name": "kiri-labs",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 11,
-      "name": "pascalcoin",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 12,
-      "name": "henqsoft",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 13,
-      "name": "collabocate-osc",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 14,
-      "name": "usestaqed",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 15,
-      "name": "dsc-unilag",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 16,
-      "name": "ucan-wg",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 17,
-      "name": "eddiehubcommunity",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 18,
-      "name": "bloceducare",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 19,
-      "name": "hydroblockchain",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 20,
-      "name": "bhokosaitech",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 21,
-      "name": "futurfusion",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 22,
-      "name": "campus-experts",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 23,
-      "name": "open-source-learners",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 24,
-      "name": "fluxcd",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 25,
-      "name": "fossasia",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 26,
-      "name": "ometer",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 27,
-      "name": "flow-css",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 28,
-      "name": "superradcompany",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 29,
-      "name": "crown-branding-agency",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 30,
-      "name": "tenseijs",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 31,
-      "name": "tagitup",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 32,
-      "name": "akeruai",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 33,
-      "name": "getporter",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 34,
-      "name": "ayinke-llc",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 35,
-      "name": "machine-learning-lagos",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 36,
-      "name": "github",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 37,
-      "name": "zigng",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 38,
-      "name": "hngprojects",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 39,
-      "name": "smash-tech-group",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 40,
-      "name": "catalyst-business-consult",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 41,
       "name": "nexlabstudio",
       "members": 1,
       "impact": "Normal"
     },
     {
-      "rank": 42,
-      "name": "caretaker-app",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 43,
-      "name": "dsccovenantuniversity",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 44,
-      "name": "dpgalliance",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 45,
-      "name": "foris-labs",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 46,
-      "name": "buildforsdgcohort2",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 47,
-      "name": "disciples-church-of-god",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 48,
-      "name": "digitalgoldenera",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 49,
-      "name": "tcp-ecosystem",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 50,
-      "name": "taaskly",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 51,
-      "name": "aetechlabs",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 52,
-      "name": "bug0inc",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 53,
+      "rank": 3,
       "name": "go-gitea",
       "members": 1,
       "impact": "Normal"
     },
     {
-      "rank": 54,
-      "name": "line-age",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 55,
-      "name": "faradayafrica",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 56,
-      "name": "thehackersdeck",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 57,
-      "name": "ninja-indie-group",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 58,
-      "name": "mambila-technologies",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 59,
-      "name": "afridevelopers",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 60,
-      "name": "sailscastshq",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 61,
-      "name": "krom-tech",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 62,
-      "name": "ifycode-study",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 63,
-      "name": "verbalate",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 64,
-      "name": "codingpeps",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 65,
-      "name": "hakaselabs",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 66,
-      "name": "outray-platform",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 67,
-      "name": "wnfs-wg",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 68,
-      "name": "emerging-devs",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 69,
+      "rank": 4,
       "name": "theopenlane",
       "members": 1,
       "impact": "Normal"
     },
     {
-      "rank": 70,
+      "rank": 5,
       "name": "andela",
       "members": 1,
       "impact": "Normal"
     },
     {
-      "rank": 71,
-      "name": "devclokoja",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 72,
-      "name": "the-basket-group",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 73,
-      "name": "team-of-developers-101",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 74,
-      "name": "buildforsdg",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 75,
-      "name": "tranqbay",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 76,
-      "name": "antapex",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 77,
-      "name": "cupanda",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 78,
-      "name": "ifycode-support",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 79,
-      "name": "federal-university-of-technology-owerri",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 80,
-      "name": "algorithmia-se",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 81,
-      "name": "soctral",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 82,
-      "name": "ogavisaa",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 83,
-      "name": "furnituree",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 84,
-      "name": "oscafrica",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 85,
+      "rank": 6,
       "name": "moniswapfi",
       "members": 1,
       "impact": "Normal"
     },
     {
-      "rank": 86,
-      "name": "a-justice-league",
+      "rank": 7,
+      "name": "ogavisaa",
       "members": 1,
       "impact": "Normal"
     },
     {
-      "rank": 87,
+      "rank": 8,
+      "name": "tenseijs",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 9,
+      "name": "mambila-technologies",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 10,
+      "name": "algorithmia-se",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 11,
+      "name": "zigng",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 12,
+      "name": "hakaselabs",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 13,
+      "name": "fossasia",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 14,
+      "name": "eddiehubcommunity",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 15,
+      "name": "thehackersdeck",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 16,
+      "name": "superradcompany",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 17,
+      "name": "automattic",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 18,
+      "name": "ifycode-study",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 19,
+      "name": "akeruai",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 20,
+      "name": "flow-css",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 21,
+      "name": "kiri-labs",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 22,
+      "name": "digitalgoldenera",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 23,
+      "name": "tcp-ecosystem",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 24,
+      "name": "the-basket-group",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 25,
+      "name": "afridevelopers",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 26,
+      "name": "poietes-ng",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 27,
+      "name": "ometer",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 28,
+      "name": "tranqbay",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 29,
+      "name": "ninja-indie-group",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 30,
+      "name": "henqsoft",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 31,
+      "name": "taaskly",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 32,
       "name": "q-m-s-quran-memorization-school",
       "members": 1,
       "impact": "Normal"
     },
     {
-      "rank": 88,
+      "rank": 33,
       "name": "binarybuccaneers",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 34,
+      "name": "caretaker-app",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 35,
+      "name": "hydroblockchain",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 36,
+      "name": "devclokoja",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 37,
+      "name": "machine-learning-lagos",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 38,
+      "name": "buildforsdg",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 39,
+      "name": "buildforsdgcohort2",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 40,
+      "name": "crown-branding-agency",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 41,
+      "name": "oscafrica",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 42,
+      "name": "team-of-developers-101",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 43,
+      "name": "hngprojects",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 44,
+      "name": "smash-tech-group",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 45,
+      "name": "outray-platform",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 46,
+      "name": "usestaqed",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 47,
+      "name": "bloceducare",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 48,
+      "name": "pascalcoin",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 49,
+      "name": "learnopolia",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 50,
+      "name": "collabocate-osc",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 51,
+      "name": "a-justice-league",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 52,
+      "name": "communitypro",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 53,
+      "name": "soctral",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 54,
+      "name": "campus-experts",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 55,
+      "name": "krom-tech",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 56,
+      "name": "tagitup",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 57,
+      "name": "open-source-learners",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 58,
+      "name": "faradayafrica",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 59,
+      "name": "weaveworks",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 60,
+      "name": "antapex",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 61,
+      "name": "disciples-church-of-god",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 62,
+      "name": "bhokosaitech",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 63,
+      "name": "github",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 64,
+      "name": "dash0hq",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 65,
+      "name": "codingpeps",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 66,
+      "name": "dsc-unilag",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 67,
+      "name": "catalyst-business-consult",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 68,
+      "name": "dsccovenantuniversity",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 69,
+      "name": "futurfusion",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 70,
+      "name": "dogecoin-2-0",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 71,
+      "name": "verbalate",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 72,
+      "name": "cupanda",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 73,
+      "name": "sailscastshq",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 74,
+      "name": "emerging-devs",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 75,
+      "name": "getporter",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 76,
+      "name": "fluxcd",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 77,
+      "name": "ucan-wg",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 78,
+      "name": "wnfs-wg",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 79,
+      "name": "furnituree",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 80,
+      "name": "ifycode-extension",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 81,
+      "name": "dpgalliance",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 82,
+      "name": "foris-labs",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 83,
+      "name": "federal-university-of-technology-owerri",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 84,
+      "name": "ayinke-llc",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 85,
+      "name": "ifycode-support",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 86,
+      "name": "line-age",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 87,
+      "name": "aetechlabs",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 88,
+      "name": "bug0inc",
       "members": 1,
       "impact": "Normal"
     }

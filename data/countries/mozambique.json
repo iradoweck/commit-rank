@@ -1153,193 +1153,193 @@
   "organizations": [
     {
       "rank": 1,
-      "name": "eddiehubcommunity",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 2,
-      "name": "mjrfusion",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 3,
-      "name": "omeuspace",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 4,
-      "name": "arisinghackers",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 5,
-      "name": "appdez",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 6,
       "name": "factorialco",
       "members": 1,
       "impact": "Normal"
     },
     {
-      "rank": 7,
-      "name": "nexel002",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 8,
-      "name": "ekutivasolutions",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 9,
-      "name": "paymentsds",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 10,
-      "name": "hermaak",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 11,
-      "name": "tigrion-labs",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 12,
-      "name": "smartek-mz",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 13,
-      "name": "dsai-for-moz",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 14,
-      "name": "landia-developers",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 15,
-      "name": "faturizze",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 16,
-      "name": "sp-persona",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 17,
-      "name": "devszonemz",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 18,
-      "name": "letstofreecode",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 19,
-      "name": "n26",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 20,
-      "name": "proxmeru",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 21,
-      "name": "pythonmozambique",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 22,
-      "name": "foss-labs-service",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 23,
+      "rank": 2,
       "name": "s-academy",
       "members": 1,
       "impact": "Normal"
     },
     {
-      "rank": 24,
-      "name": "s-mailer",
+      "rank": 3,
+      "name": "tigrion-labs",
       "members": 1,
       "impact": "Normal"
     },
     {
-      "rank": 25,
+      "rank": 4,
       "name": "plyrius",
       "members": 1,
       "impact": "Normal"
     },
     {
-      "rank": 26,
-      "name": "room-organization",
+      "rank": 5,
+      "name": "faturizze",
       "members": 1,
       "impact": "Normal"
     },
     {
-      "rank": 27,
-      "name": "stacksjs",
+      "rank": 6,
+      "name": "s-mailer",
       "members": 1,
       "impact": "Normal"
     },
     {
-      "rank": 28,
-      "name": "cym3",
+      "rank": 7,
+      "name": "omeuspace",
       "members": 1,
       "impact": "Normal"
     },
     {
-      "rank": 29,
+      "rank": 8,
       "name": "piminder",
       "members": 1,
       "impact": "Normal"
     },
     {
-      "rank": 30,
+      "rank": 9,
+      "name": "ekutivasolutions",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 10,
+      "name": "paymentsds",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 11,
+      "name": "arisinghackers",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 12,
+      "name": "appdez",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 13,
+      "name": "devszonemz",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 14,
+      "name": "cym3",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 15,
+      "name": "foss-labs-service",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 16,
+      "name": "hermaak",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 17,
+      "name": "proxmeru",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 18,
       "name": "maputo-frontenders",
       "members": 1,
       "impact": "Normal"
     },
     {
-      "rank": 31,
+      "rank": 19,
+      "name": "pythonmozambique",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 20,
+      "name": "mjrfusion",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 21,
+      "name": "smartek-mz",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 22,
+      "name": "landia-developers",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 23,
+      "name": "sp-persona",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 24,
+      "name": "equip-mozambique",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 25,
+      "name": "n26",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 26,
+      "name": "letstofreecode",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 27,
       "name": "hutadev",
       "members": 1,
       "impact": "Normal"
     },
     {
+      "rank": 28,
+      "name": "stacksjs",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 29,
+      "name": "nexel002",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 30,
+      "name": "dsai-for-moz",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 31,
+      "name": "room-organization",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
       "rank": 32,
-      "name": "equip-mozambique",
+      "name": "eddiehubcommunity",
       "members": 1,
       "impact": "Normal"
     }
