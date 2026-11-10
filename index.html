@@ -283,7 +283,7 @@
                 </p>
             </div>
 
-            <!-- Instant Search Bar -->
+            <!-- Instant Search Bar with Live Suggestions -->
             <div class="max-w-xl mx-auto relative">
                 <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -293,10 +293,27 @@
                 <input 
                     type="text" 
                     id="countrySearch" 
-                    placeholder="Search country by name or code (e.g. Mozambique, Angola, Kenya)..."
-                    class="w-full pl-10 pr-4 py-2.5 text-sm bg-white border border-slate-200 rounded-xl outline-none focus:border-slate-900 focus:ring-1 focus:ring-slate-900 transition shadow-xs"
-                    oninput="filterCountries()"
+                    placeholder="Search developer (@login, name) or country (e.g. Mozambique, Brazil)..."
+                    class="w-full pl-10 pr-10 py-2.5 text-sm bg-white border border-slate-200 rounded-xl outline-none focus:border-slate-900 focus:ring-1 focus:ring-slate-900 transition shadow-xs"
+                    oninput="handleGlobalSearchInput()"
+                    onfocus="handleGlobalSearchFocus()"
+                    autocomplete="off"
                 >
+                <button 
+                    id="clearCountrySearchBtn" 
+                    onclick="clearGlobalSearch()" 
+                    class="hidden absolute right-2.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-slate-700 transition cursor-pointer p-1 rounded-md hover:bg-slate-100"
+                    title="Clear search"
+                >
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                    </svg>
+                </button>
+
+                <!-- Floating Live Search Dropdown -->
+                <div id="globalSearchDropdown" class="hidden absolute left-0 right-0 top-full mt-2 bg-white border border-slate-200 rounded-2xl shadow-xl z-50 overflow-hidden divide-y divide-slate-100 max-h-96 overflow-y-auto">
+                    <!-- Populated via JS -->
+                </div>
             </div>
 
             <!-- A-Z Alphabet Quick Bar -->
@@ -481,7 +498,7 @@
                     </button>
                 </div>
 
-                <!-- Right controls: Metric Pills + Stats Badge (Scrollable on small mobile) -->
+                <!-- Right controls: Metric Pills + Top Cut Filter + Stats Badge (Scrollable on small mobile) -->
                 <div class="flex flex-col sm:flex-row sm:items-center justify-between lg:justify-end gap-2 w-full lg:w-auto">
                     <!-- Metric Sort Filter (All vs Commits vs Contributions) -->
                     <div id="metricSortGroup" class="grid grid-cols-3 sm:inline-flex p-1 bg-slate-100/80 rounded-xl text-xs font-medium border border-slate-200/70 w-full sm:w-auto">
@@ -507,6 +524,25 @@
                                 <line x1="6" y1="9" x2="6" y2="21"/>
                             </svg>
                             <span class="truncate">Contribs</span>
+                        </button>
+                    </div>
+
+                    <!-- Top Filter Selector (Top 5, Top 10, Top 50, Top 100, All) -->
+                    <div id="topCutFilterGroup" class="grid grid-cols-5 sm:inline-flex p-1 bg-slate-100/80 rounded-xl text-xs font-mono font-medium border border-slate-200/70 w-full sm:w-auto">
+                        <button id="topCut5Btn" onclick="setDevsTopCut(5)" class="justify-center px-2 sm:px-2.5 py-1.5 rounded-lg text-slate-500 hover:text-slate-950 transition cursor-pointer flex items-center" title="Top 5 Ranking">
+                            <span>Top 5</span>
+                        </button>
+                        <button id="topCut10Btn" onclick="setDevsTopCut(10)" class="justify-center px-2 sm:px-2.5 py-1.5 rounded-lg text-slate-500 hover:text-slate-950 transition cursor-pointer flex items-center" title="Top 10 Ranking">
+                            <span>Top 10</span>
+                        </button>
+                        <button id="topCut50Btn" onclick="setDevsTopCut(50)" class="justify-center px-2 sm:px-2.5 py-1.5 rounded-lg text-slate-500 hover:text-slate-950 transition cursor-pointer flex items-center" title="Top 50 Ranking">
+                            <span>Top 50</span>
+                        </button>
+                        <button id="topCut100Btn" onclick="setDevsTopCut(100)" class="justify-center px-2 sm:px-2.5 py-1.5 rounded-lg text-slate-500 hover:text-slate-950 transition cursor-pointer flex items-center" title="Top 100 Ranking">
+                            <span>Top 100</span>
+                        </button>
+                        <button id="topCutAllBtn" onclick="setDevsTopCut('all')" class="justify-center px-2 sm:px-2.5 py-1.5 rounded-lg bg-white shadow-xs text-slate-950 font-semibold transition cursor-pointer flex items-center" title="Show All Indexed Users">
+                            <span>All</span>
                         </button>
                     </div>
 
@@ -729,6 +765,227 @@
                 </div>
             </div>
 
+        </section>
+
+        <!-- VIEW 2.5: DEDICATED DEVELOPER PROFILE VIEW (#user/:login) -->
+        <section id="developerView" class="fade-in space-y-8 hidden">
+            <!-- Header Nav -->
+            <div class="flex items-center justify-between border-b border-slate-100 pb-4">
+                <button onclick="navigateBackFromDevView(event)" class="inline-flex items-center gap-2 text-xs font-medium text-slate-500 hover:text-slate-950 transition">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+                    </svg>
+                    <span id="devViewBackLabel">Back</span>
+                </button>
+
+                <div class="flex items-center gap-2 text-xs font-mono text-slate-400">
+                    <span>Developer Insights</span>
+                </div>
+            </div>
+
+            <!-- Profile Main Card -->
+            <div class="p-6 sm:p-8 rounded-3xl bg-white border border-slate-200/90 shadow-sm relative overflow-hidden">
+                <!-- Background decorative mesh -->
+                <div class="absolute -right-16 -top-16 w-64 h-64 bg-slate-100/60 rounded-full blur-3xl pointer-events-none"></div>
+
+                <div class="relative flex flex-col md:flex-row md:items-center justify-between gap-6">
+                    <div class="flex flex-col sm:flex-row items-start sm:items-center gap-5">
+                        <div class="relative">
+                            <img id="devProfileAvatar" src="" alt="Avatar" class="w-20 h-20 sm:w-24 sm:h-24 rounded-2xl border-2 border-slate-200 shadow-sm object-cover bg-slate-100">
+                            <span id="devProfileBadgePosition" class="absolute -bottom-2 -right-2 px-2 py-0.5 rounded-full text-[11px] font-mono font-bold shadow-xs">#1</span>
+                        </div>
+                        <div class="space-y-1.5">
+                            <div class="flex flex-wrap items-center gap-2.5">
+                                <h1 id="devProfileName" class="text-2xl sm:text-3xl font-extrabold text-slate-950 tracking-tight">Developer Name</h1>
+                                <a id="devProfileGithubLink" href="#" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-mono bg-slate-100 hover:bg-slate-200 text-slate-800 transition">
+                                    <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
+                                        <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                                    </svg>
+                                    <span id="devProfileLogin">@login</span>
+                                </a>
+                            </div>
+                            <p id="devProfileCompany" class="text-xs sm:text-sm text-slate-500 flex items-center gap-1.5">
+                                <svg class="w-4 h-4 text-slate-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                                </svg>
+                                <span id="devProfileCompanyText">-</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Primary Action Buttons -->
+                    <div class="flex items-center gap-2.5">
+                        <a id="devProfileGithubBtn" href="#" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-slate-900 hover:bg-black text-white px-4 py-2 rounded-xl text-xs font-semibold transition shadow-xs cursor-pointer">
+                            <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                            </svg>
+                            <span>Open on GitHub</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- National, Continental & Worldwide Ranking Banner Grid -->
+                <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-6 border-t border-slate-100">
+                    <!-- National Rank Card -->
+                    <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200/80 flex items-center justify-between">
+                        <div class="space-y-1">
+                            <span class="text-[11px] font-semibold text-slate-500 uppercase tracking-wider">Country Ranking</span>
+                            <div class="flex items-center gap-2">
+                                <img id="devProfileCountryFlag" src="" alt="Flag" class="w-5 h-5 rounded-full object-cover">
+                                <span id="devProfileCountryName" class="text-sm font-bold text-slate-900">Country</span>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <span id="devProfileCountryRank" class="text-2xl font-black font-mono text-slate-950">#1</span>
+                            <span class="block text-[10px] text-slate-400 font-mono">National Top</span>
+                        </div>
+                    </div>
+
+                    <!-- Continental Rank Card -->
+                    <div class="p-4 rounded-2xl bg-indigo-50/70 border border-indigo-200/80 flex items-center justify-between">
+                        <div class="space-y-1">
+                            <span class="text-[11px] font-semibold text-indigo-700 uppercase tracking-wider">Continent Rank</span>
+                            <div class="flex items-center gap-1.5">
+                                <span id="devProfileContinentName" class="text-sm font-bold text-slate-900">Africa</span>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <span id="devProfileContinentRank" class="text-2xl font-black font-mono text-indigo-700">#--</span>
+                            <span class="block text-[10px] text-indigo-600 font-mono">Continental Top</span>
+                        </div>
+                    </div>
+
+                    <!-- Worldwide Rank Card -->
+                    <div class="p-4 rounded-2xl bg-slate-950 text-white flex items-center justify-between shadow-xs">
+                        <div class="space-y-1">
+                            <span class="text-[11px] font-semibold text-slate-400 uppercase tracking-wider">Worldwide Rank</span>
+                            <div class="flex items-center gap-2">
+                                <span class="text-sm font-bold text-white">Global Scope</span>
+                            </div>
+                        </div>
+                        <div class="text-right">
+                            <span id="devProfileGlobalRank" class="text-2xl font-black font-mono text-emerald-400">#--</span>
+                            <span id="devProfileGlobalStatus" class="block text-[10px] text-slate-400 font-mono">Worldwide Top</span>
+                        </div>
+                    </div>
+
+                    <!-- Total Impact Score -->
+                    <div class="p-4 rounded-2xl bg-emerald-50/70 border border-emerald-200/80 flex items-center justify-between">
+                        <div class="space-y-1">
+                            <span class="text-[11px] font-semibold text-emerald-700 uppercase tracking-wider">Total Score</span>
+                            <span class="text-xs text-emerald-600 block">Commits + Contribs</span>
+                        </div>
+                        <div class="text-right">
+                            <span id="devProfileTotalScore" class="text-2xl font-black font-mono text-emerald-700">0</span>
+                            <span class="block text-[10px] text-emerald-600 font-mono">Combined</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Metrics breakdown cards -->
+                <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="p-4 rounded-2xl bg-white border border-slate-200 shadow-2xs space-y-2">
+                        <div class="flex items-center justify-between text-xs text-slate-500 font-medium">
+                            <span class="flex items-center gap-1.5 text-cyan-700 font-semibold">
+                                <svg class="w-3.5 h-3.5 text-cyan-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="4"/>
+                                    <line x1="1.05" y1="12" x2="7" y2="12"/>
+                                    <line x1="17.01" y1="12" x2="22.96" y2="12"/>
+                                </svg>
+                                <span>Git Commits</span>
+                            </span>
+                            <span class="font-mono text-[11px] text-slate-400">Public Repositories</span>
+                        </div>
+                        <div id="devProfileCommits" class="text-2xl font-black font-mono text-slate-900">0</div>
+                    </div>
+
+                    <div class="p-4 rounded-2xl bg-white border border-slate-200 shadow-2xs space-y-2">
+                        <div class="flex items-center justify-between text-xs text-slate-500 font-medium">
+                            <span class="flex items-center gap-1.5 text-indigo-700 font-semibold">
+                                <svg class="w-3.5 h-3.5 text-indigo-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="18" cy="18" r="3"/>
+                                    <circle cx="6" cy="6" r="3"/>
+                                    <path d="M13 6h3a2 2 0 0 1 2 2v7"/>
+                                    <line x1="6" y1="9" x2="6" y2="21"/>
+                                </svg>
+                                <span>Other Contributions</span>
+                            </span>
+                            <span class="font-mono text-[11px] text-slate-400">PRs, Issues & Reviews</span>
+                        </div>
+                        <div id="devProfileContributions" class="text-2xl font-black font-mono text-slate-900">0</div>
+                    </div>
+                </div>
+
+                <!-- Embeddable README Badges for this Developer (Country, Continent & Worldwide) -->
+                <div class="mt-8 pt-6 border-t border-slate-100 space-y-5">
+                    <div>
+                        <span class="text-sm font-bold text-slate-900 block">Embeddable Ranking Badges</span>
+                        <span class="text-xs text-slate-500">Showcase your verified national, continental, and global ranking directly on your GitHub Profile README.</span>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <!-- Badge 1: Country Badge -->
+                        <div class="p-4 bg-slate-50/70 border border-slate-200 rounded-2xl space-y-2.5">
+                            <div class="flex items-center justify-between">
+                                <span class="text-xs font-semibold text-slate-700">Country Badge</span>
+                                <img id="devProfileBadgeImg" src="" alt="Country Badge Preview" class="h-5">
+                            </div>
+                            <div class="relative">
+                                <input 
+                                    type="text" 
+                                    readonly 
+                                    value="" 
+                                    id="devProfileBadgeInput"
+                                    class="w-full text-[11px] font-mono bg-white border border-slate-200 rounded-xl pl-3 pr-16 py-2 text-slate-700 outline-none select-all shadow-2xs"
+                                >
+                                <button onclick="copySnippet('devProfileBadgeInput', this)" class="absolute right-1 top-1 bottom-1 px-2.5 bg-slate-900 hover:bg-black text-white text-[11px] font-semibold rounded-lg transition cursor-pointer">
+                                    Copy
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Badge 2: Continental Badge -->
+                        <div class="p-4 bg-slate-50/70 border border-slate-200 rounded-2xl space-y-2.5">
+                            <div class="flex items-center justify-between">
+                                <span class="text-xs font-semibold text-slate-700" id="devProfileContinentBadgeTitle">Continent Badge</span>
+                                <img id="devProfileContinentBadgeImg" src="" alt="Continent Badge Preview" class="h-5">
+                            </div>
+                            <div class="relative">
+                                <input 
+                                    type="text" 
+                                    readonly 
+                                    value="" 
+                                    id="devProfileContinentBadgeInput"
+                                    class="w-full text-[11px] font-mono bg-white border border-slate-200 rounded-xl pl-3 pr-16 py-2 text-slate-700 outline-none select-all shadow-2xs"
+                                >
+                                <button onclick="copySnippet('devProfileContinentBadgeInput', this)" class="absolute right-1 top-1 bottom-1 px-2.5 bg-slate-900 hover:bg-black text-white text-[11px] font-semibold rounded-lg transition cursor-pointer">
+                                    Copy
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Badge 3: Worldwide Global Badge -->
+                        <div class="p-4 bg-slate-50/70 border border-slate-200 rounded-2xl space-y-2.5">
+                            <div class="flex items-center justify-between">
+                                <span class="text-xs font-semibold text-slate-700">Worldwide Badge</span>
+                                <img id="devProfileWorldwideBadgeImg" src="" alt="Worldwide Badge Preview" class="h-5">
+                            </div>
+                            <div class="relative">
+                                <input 
+                                    type="text" 
+                                    readonly 
+                                    value="" 
+                                    id="devProfileWorldwideBadgeInput"
+                                    class="w-full text-[11px] font-mono bg-white border border-slate-200 rounded-xl pl-3 pr-16 py-2 text-slate-700 outline-none select-all shadow-2xs"
+                                >
+                                <button onclick="copySnippet('devProfileWorldwideBadgeInput', this)" class="absolute right-1 top-1 bottom-1 px-2.5 bg-slate-900 hover:bg-black text-white text-[11px] font-semibold rounded-lg transition cursor-pointer">
+                                    Copy
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- VIEW 3: DEDICATED DOCUMENTATION PAGE (#documentation) -->
@@ -1416,6 +1673,7 @@
         async function openCountryView(country) {
             document.getElementById('homeView').classList.add('hidden');
             document.getElementById('docsView').classList.add('hidden');
+            document.getElementById('developerView').classList.add('hidden');
             document.getElementById('countryView').classList.remove('hidden');
             
             document.getElementById('countryTitle').textContent = country.name;
@@ -1438,6 +1696,7 @@
             currentRawDevs = data.users || [];
             currentRawOrgs = data.organizations || [];
             currentDevsSort = 'all';
+            currentDevsTopCut = 'all';
             currentTableSearchQuery = '';
             const searchInput = document.getElementById('tableSearchInput');
             if (searchInput) searchInput.value = '';
@@ -1445,6 +1704,7 @@
             if (clearBtn) clearBtn.classList.add('hidden');
 
             updateSortMetricUI();
+            updateTopCutUI();
             applyDevsSorting(1);
             updateCountryAccordion(country, data);
             
@@ -1539,6 +1799,7 @@
         function showHomeView(e) {
             if (e) e.preventDefault();
             document.getElementById('countryView').classList.add('hidden');
+            document.getElementById('developerView').classList.add('hidden');
             document.getElementById('docsView').classList.add('hidden');
             document.getElementById('homeView').classList.remove('hidden');
             window.location.hash = '';
@@ -1553,6 +1814,7 @@
             const orgsContent = document.getElementById('orgsTabContent');
             const searchInput = document.getElementById('tableSearchInput');
             const sortGroup = document.getElementById('metricSortGroup');
+            const topCutGroup = document.getElementById('topCutFilterGroup');
 
             const activeTabClass = 'inline-flex items-center justify-center gap-1.5 px-3 sm:px-4 py-2 sm:py-1.5 rounded-lg bg-white shadow-xs text-slate-900 font-semibold transition cursor-pointer select-none';
             const inactiveTabClass = 'inline-flex items-center justify-center gap-1.5 px-3 sm:px-4 py-2 sm:py-1.5 rounded-lg text-slate-500 hover:text-slate-900 transition cursor-pointer select-none';
@@ -1563,6 +1825,7 @@
                 devsContent.classList.remove('hidden');
                 orgsContent.classList.add('hidden');
                 if (sortGroup) sortGroup.classList.remove('hidden');
+                if (topCutGroup) topCutGroup.classList.remove('hidden');
                 if (searchInput) searchInput.placeholder = 'Search developer by name, @login, or company...';
             } else {
                 orgsBtn.className = activeTabClass;
@@ -1570,6 +1833,7 @@
                 orgsContent.classList.remove('hidden');
                 devsContent.classList.add('hidden');
                 if (sortGroup) sortGroup.classList.add('hidden');
+                if (topCutGroup) topCutGroup.classList.add('hidden');
                 if (searchInput) searchInput.placeholder = 'Search organization by name (@org)...';
             }
 
@@ -1592,6 +1856,7 @@
         let currentDevsList = [];
         let currentDevsPage = 1;
         let currentDevsSort = 'all'; // 'all' | 'commits' | 'contributions'
+        let currentDevsTopCut = 'all'; // 5 | 10 | 50 | 100 | 'all'
         let currentActiveTab = 'devs'; // 'devs' | 'orgs'
         let currentRawOrgs = [];
         let currentTableSearchQuery = '';
@@ -1716,6 +1981,27 @@
             if (thContribs) thContribs.textContent = currentDevsSort === 'contributions' ? '▼' : '';
         }
 
+        function setDevsTopCut(cut) {
+            currentDevsTopCut = cut;
+            updateTopCutUI();
+            executeActiveTableFilter(1);
+        }
+
+        function updateTopCutUI() {
+            const cuts = [5, 10, 50, 100, 'all'];
+            cuts.forEach(c => {
+                const id = c === 'all' ? 'topCutAllBtn' : `topCut${c}Btn`;
+                const btn = document.getElementById(id);
+                if (!btn) return;
+                const isSelected = currentDevsTopCut === c;
+                if (isSelected) {
+                    btn.className = 'justify-center px-2 sm:px-2.5 py-1.5 rounded-lg bg-white shadow-xs text-slate-950 font-semibold transition cursor-pointer flex items-center select-none';
+                } else {
+                    btn.className = 'justify-center px-2 sm:px-2.5 py-1.5 rounded-lg text-slate-500 hover:text-slate-950 transition cursor-pointer flex items-center select-none';
+                }
+            });
+        }
+
         function applyDevsSorting(targetPage = 1) {
             if (!currentRawDevs || currentRawDevs.length === 0) {
                 currentRankedDevs = [];
@@ -1782,9 +2068,18 @@
             const countEl = document.getElementById('tableSearchMatchesCount');
 
             if (currentActiveTab === 'devs') {
-                let filtered = currentRankedDevs;
+                // Aplica o corte de Top (Top 5, Top 10, Top 50, Top 100, All)
+                let baseDevs = currentRankedDevs;
+                if (currentDevsTopCut !== 'all') {
+                    const cutLimit = parseInt(currentDevsTopCut, 10);
+                    if (!isNaN(cutLimit) && cutLimit > 0) {
+                        baseDevs = currentRankedDevs.slice(0, cutLimit);
+                    }
+                }
+
+                let filtered = baseDevs;
                 if (q.length > 0) {
-                    filtered = currentRankedDevs.filter(u => 
+                    filtered = baseDevs.filter(u => 
                         (u.name && u.name.toLowerCase().includes(q)) ||
                         (u.login && u.login.toLowerCase().includes(q)) ||
                         (u.company && u.company.toLowerCase().includes(q))
@@ -1793,7 +2088,8 @@
                     if (countEl) countEl.textContent = `${filtered.length} matched dev${filtered.length === 1 ? '' : 's'} (Rank preserved)`;
                 } else {
                     if (badge) badge.classList.add('hidden');
-                    if (countEl) countEl.textContent = `${currentRankedDevs.length} developers`;
+                    const cutLabel = currentDevsTopCut === 'all' ? '' : ` (Top ${currentDevsTopCut})`;
+                    if (countEl) countEl.textContent = `${baseDevs.length} developers${cutLabel}`;
                 }
                 renderDevelopersTable(filtered, page);
             } else {
@@ -1864,13 +2160,20 @@
                 tr.innerHTML = `
                     <td class="py-3 px-4 select-none">${getRankBadgeSvg(u.dynamicRank || u.rank)}</td>
                     <td class="py-3 px-4">
-                        <a href="https://github.com/${safeLogin}" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2.5 group">
-                            ${avatarImg}
-                            <div class="truncate">
-                                <span class="font-medium text-slate-900 group-hover:underline block truncate">${safeName}</span>
-                                <span class="font-mono text-slate-400 text-[10px] block truncate">@${safeLogin}</span>
-                            </div>
-                        </a>
+                        <div class="flex items-center justify-between gap-2">
+                            <a href="#user/${safeLogin}" onclick="openDeveloperProfileView('${safeLogin}', currentActiveCountry ? currentActiveCountry.id : 'worldwide', event)" class="flex items-center gap-2.5 group cursor-pointer">
+                                ${avatarImg}
+                                <div class="truncate">
+                                    <span class="font-medium text-slate-900 group-hover:underline block truncate">${safeName}</span>
+                                    <span class="font-mono text-slate-400 text-[10px] block truncate">@${safeLogin}</span>
+                                </div>
+                            </a>
+                            <a href="https://github.com/${safeLogin}" target="_blank" rel="noopener noreferrer" class="opacity-0 group-hover:opacity-100 p-1 text-slate-400 hover:text-slate-900 transition shrink-0" title="Open on GitHub">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                                </svg>
+                            </a>
+                        </div>
                     </td>
                     <td class="py-3 px-4 font-mono font-semibold text-slate-900">${commits.toLocaleString()}</td>
                     <td class="py-3 px-4 font-mono text-slate-700">${contributions.toLocaleString()}</td>
@@ -1972,6 +2275,402 @@
             });
         }
 
+        // Índice global de desenvolvedores em memória para busca rápida em tempo real
+        let globalDevsIndex = null;
+        let isGlobalIndexLoading = false;
+        let previousViewBeforeDevProfile = 'home'; // 'home' | 'country'
+
+        async function ensureGlobalDevsIndex() {
+            if (globalDevsIndex !== null || isGlobalIndexLoading) return globalDevsIndex;
+            isGlobalIndexLoading = true;
+            const index = [];
+            
+            try {
+                // Carrega em paralelo os 21 datasets
+                const promises = countries.map(async (c) => {
+                    try {
+                        const res = await fetch(`data/countries/${c.id}.json`);
+                        if (!res.ok) return;
+                        const data = await res.json();
+                        const cName = data.country || c.name;
+                        const users = data.users || [];
+                        users.forEach(u => {
+                            if (!u.login) return;
+                            index.push({
+                                login: u.login,
+                                name: u.name || u.login,
+                                company: u.company || '-',
+                                avatar_url: u.avatar_url || `https://github.com/${u.login}.png`,
+                                rank: u.rank || 0,
+                                commits: u.commits || 0,
+                                contributions: u.contributions || 0,
+                                country_id: c.id,
+                                country_name: cName,
+                                group: c.group || 'global',
+                                flag: c.flag || 'un'
+                            });
+                        });
+                    } catch (e) {
+                        // Ignore individual country fetch error
+                    }
+                });
+
+                await Promise.all(promises);
+                globalDevsIndex = index;
+            } catch (err) {
+                globalDevsIndex = [];
+            } finally {
+                isGlobalIndexLoading = false;
+            }
+            return globalDevsIndex;
+        }
+
+        async function handleGlobalSearchFocus() {
+            ensureGlobalDevsIndex();
+            const term = (document.getElementById('countrySearch').value || '').trim();
+            if (term.length > 0) {
+                handleGlobalSearchInput();
+            }
+        }
+
+        async function handleGlobalSearchInput() {
+            const input = document.getElementById('countrySearch');
+            const clearBtn = document.getElementById('clearCountrySearchBtn');
+            const dropdown = document.getElementById('globalSearchDropdown');
+            const val = (input ? input.value : '').trim();
+            const lower = val.toLowerCase();
+
+            if (clearBtn) {
+                if (val.length > 0) clearBtn.classList.remove('hidden');
+                else clearBtn.classList.add('hidden');
+            }
+
+            // Sempre atualiza o filtro visual de países na home
+            filterCountries();
+
+            if (val.length === 0) {
+                if (dropdown) dropdown.classList.add('hidden');
+                return;
+            }
+
+            // Garante que o índice global está carregado
+            const index = await ensureGlobalDevsIndex();
+            if (!index || index.length === 0) {
+                if (dropdown) dropdown.classList.add('hidden');
+                return;
+            }
+
+            // Busca por desenvolvedores matching login, name ou company
+            const matchedDevs = [];
+            const seenLogins = new Set();
+            for (const item of index) {
+                if (
+                    item.login.toLowerCase().includes(lower) ||
+                    item.name.toLowerCase().includes(lower) ||
+                    (item.company && item.company.toLowerCase().includes(lower))
+                ) {
+                    if (!seenLogins.has(item.login + item.country_id)) {
+                        seenLogins.add(item.login + item.country_id);
+                        matchedDevs.push(item);
+                        if (matchedDevs.length >= 8) break; // Limite de 8 sugestões elegantes
+                    }
+                }
+            }
+
+            // Países correspondentes
+            const matchedCountries = countries.filter(c => 
+                c.name.toLowerCase().includes(lower) || c.code.toLowerCase().includes(lower)
+            ).slice(0, 3);
+
+            if (matchedDevs.length === 0 && matchedCountries.length === 0) {
+                if (dropdown) dropdown.classList.add('hidden');
+                return;
+            }
+
+            dropdown.innerHTML = '';
+
+            // Seção 1: Países encontrados
+            if (matchedCountries.length > 0) {
+                const headerC = document.createElement('div');
+                headerC.className = 'px-4 py-2 bg-slate-50 text-[10px] font-mono uppercase tracking-wider text-slate-400 font-semibold';
+                headerC.textContent = 'Countries';
+                dropdown.appendChild(headerC);
+
+                matchedCountries.forEach(c => {
+                    const row = document.createElement('div');
+                    row.className = 'px-4 py-2.5 hover:bg-slate-50 transition flex items-center justify-between cursor-pointer group';
+                    const flagUrl = getFlagUrl(c);
+                    row.innerHTML = `
+                        <div class="flex items-center gap-2.5">
+                            <img src="${flagUrl}" class="w-5 h-5 rounded-full object-cover shadow-2xs" alt="${c.name} Flag">
+                            <span class="text-xs font-semibold text-slate-900 group-hover:text-slate-950">${escapeHtml(c.name)}</span>
+                            <span class="text-[10px] font-mono text-slate-400 bg-slate-100 px-1.5 py-0.5 rounded">${c.code}</span>
+                        </div>
+                        <span class="text-[11px] text-slate-400 font-mono group-hover:text-slate-700">Open &rarr;</span>
+                    `;
+                    row.onmousedown = (e) => {
+                        e.preventDefault();
+                        dropdown.classList.add('hidden');
+                        openCountryView(c);
+                    };
+                    dropdown.appendChild(row);
+                });
+            }
+
+            // Seção 2: Desenvolvedores encontrados
+            if (matchedDevs.length > 0) {
+                const headerD = document.createElement('div');
+                headerD.className = 'px-4 py-2 bg-slate-50 text-[10px] font-mono uppercase tracking-wider text-slate-400 font-semibold flex items-center justify-between';
+                headerD.innerHTML = `
+                    <span>Developers</span>
+                    <span class="text-emerald-600 font-mono text-[9px] lowercase">live ranking matches</span>
+                `;
+                dropdown.appendChild(headerD);
+
+                matchedDevs.forEach(dev => {
+                    const row = document.createElement('div');
+                    row.className = 'px-4 py-2.5 hover:bg-slate-50 transition flex items-center justify-between cursor-pointer group';
+                    const totalScore = (dev.commits || 0) + (dev.contributions || 0);
+                    const safeDevLogin = encodeURIComponent(dev.login);
+                    const countryFlagUrl = `https://hatscripts.github.io/circle-flags/flags/${dev.flag}.svg`;
+
+                    row.innerHTML = `
+                        <div class="flex items-center gap-3 min-w-0">
+                            <img src="${dev.avatar_url}" onerror="this.src='https://github.com/${safeDevLogin}.png'" class="w-7 h-7 rounded-full border border-slate-200 object-cover shrink-0" alt="${escapeHtml(dev.login)}">
+                            <div class="truncate">
+                                <div class="flex items-center gap-1.5 truncate">
+                                    <span class="text-xs font-bold text-slate-900 group-hover:text-emerald-700 truncate">${escapeHtml(dev.name)}</span>
+                                    <span class="text-[11px] font-mono text-slate-400">@${escapeHtml(dev.login)}</span>
+                                </div>
+                                <div class="flex items-center gap-1.5 text-[10px] text-slate-400 font-mono truncate">
+                                    <img src="${countryFlagUrl}" class="w-3.5 h-3.5 rounded-full inline object-cover" alt="">
+                                    <span>${escapeHtml(dev.country_name)}</span>
+                                    <span>&bull;</span>
+                                    <span class="font-bold text-slate-700">Rank #${dev.rank}</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-right shrink-0 pl-3">
+                            <span class="block text-xs font-mono font-bold text-emerald-600">${totalScore.toLocaleString()}</span>
+                            <span class="block text-[9px] font-mono text-slate-400">score</span>
+                        </div>
+                    `;
+                    row.onmousedown = (e) => {
+                        e.preventDefault();
+                        dropdown.classList.add('hidden');
+                        openDeveloperProfileView(dev.login, dev.country_id);
+                    };
+                    dropdown.appendChild(row);
+                });
+            }
+
+            dropdown.classList.remove('hidden');
+        }
+
+        function clearGlobalSearch() {
+            const input = document.getElementById('countrySearch');
+            const clearBtn = document.getElementById('clearCountrySearchBtn');
+            const dropdown = document.getElementById('globalSearchDropdown');
+            if (input) input.value = '';
+            if (clearBtn) clearBtn.classList.add('hidden');
+            if (dropdown) dropdown.classList.add('hidden');
+            filterCountries();
+        }
+
+        // Fecha o dropdown flutuante ao clicar fora
+        document.addEventListener('click', (e) => {
+            const searchBar = document.getElementById('countrySearch');
+            const dropdown = document.getElementById('globalSearchDropdown');
+            if (dropdown && !dropdown.contains(e.target) && e.target !== searchBar) {
+                dropdown.classList.add('hidden');
+            }
+        });
+
+        // VIEW DE PERFIL DEDICADA DO DESENVOLVEDOR
+        async function openDeveloperProfileView(login, preferredCountryId = null, event = null) {
+            if (event) event.preventDefault();
+
+            const currentHash = window.location.hash;
+            if (currentHash.startsWith('#country/')) {
+                previousViewBeforeDevProfile = 'country';
+            } else {
+                previousViewBeforeDevProfile = 'home';
+            }
+
+            document.getElementById('homeView').classList.add('hidden');
+            document.getElementById('countryView').classList.add('hidden');
+            document.getElementById('docsView').classList.add('hidden');
+            document.getElementById('developerView').classList.remove('hidden');
+
+            // Carrega índice global se ainda não estiver carregado
+            const index = await ensureGlobalDevsIndex();
+
+            // Procura todas as ocorrências deste login (pode estar no país e no worldwide)
+            const cleanLogin = (login || '').toLowerCase().trim();
+            const matches = index.filter(u => u.login.toLowerCase() === cleanLogin);
+
+            let primaryRecord = null;
+            let worldwideRecord = null;
+
+            if (matches.length > 0) {
+                worldwideRecord = matches.find(m => m.country_id === 'worldwide');
+                if (preferredCountryId && preferredCountryId !== 'worldwide') {
+                    primaryRecord = matches.find(m => m.country_id === preferredCountryId) || matches.find(m => m.country_id !== 'worldwide') || matches[0];
+                } else {
+                    primaryRecord = matches.find(m => m.country_id !== 'worldwide') || matches[0];
+                }
+            }
+
+            const safeName = primaryRecord ? primaryRecord.name : login;
+            const safeLogin = login;
+            const safeCompany = primaryRecord ? primaryRecord.company : '-';
+            const avatarUrl = (primaryRecord && primaryRecord.avatar_url) ? primaryRecord.avatar_url : `https://github.com/${encodeURIComponent(login)}.png`;
+            const commits = primaryRecord ? primaryRecord.commits : 0;
+            const contribs = primaryRecord ? primaryRecord.contributions : 0;
+            const totalScore = commits + contribs;
+
+            // Preenche elementos visuais
+            document.getElementById('devProfileAvatar').src = avatarUrl;
+            document.getElementById('devProfileName').textContent = safeName;
+            document.getElementById('devProfileLogin').textContent = `@${safeLogin}`;
+            document.getElementById('devProfileGithubLink').href = `https://github.com/${encodeURIComponent(safeLogin)}`;
+            document.getElementById('devProfileGithubBtn').href = `https://github.com/${encodeURIComponent(safeLogin)}`;
+            document.getElementById('devProfileCompanyText').textContent = safeCompany;
+
+            // Ranking Nacional
+            const countryRankEl = document.getElementById('devProfileCountryRank');
+            const countryNameEl = document.getElementById('devProfileCountryName');
+            const countryFlagEl = document.getElementById('devProfileCountryFlag');
+            const badgePosEl = document.getElementById('devProfileBadgePosition');
+
+            // Continent mapping & Continental Rank Calculation
+            const continentNameEl = document.getElementById('devProfileContinentName');
+            const continentRankEl = document.getElementById('devProfileContinentRank');
+
+            let continentLabel = 'Global';
+            let continentRank = null;
+
+            if (primaryRecord && primaryRecord.group && primaryRecord.group !== 'global') {
+                const groupObj = DIRECTORY_GROUPS.find(g => g.key === primaryRecord.group);
+                continentLabel = groupObj ? groupObj.label : primaryRecord.group;
+                
+                // Calcula a colocação no continente entre todos os desenvolvedores desse grupo
+                const continentDevs = index
+                    .filter(u => u.group === primaryRecord.group)
+                    .sort((a, b) => ((b.commits || 0) + (b.contributions || 0)) - ((a.commits || 0) + (a.contributions || 0)));
+                
+                const cIndex = continentDevs.findIndex(u => u.login.toLowerCase() === cleanLogin);
+                if (cIndex !== -1) {
+                    continentRank = cIndex + 1;
+                }
+            }
+
+            continentNameEl.textContent = continentLabel;
+            if (continentRank !== null) {
+                continentRankEl.textContent = `#${continentRank}`;
+            } else {
+                continentRankEl.textContent = primaryRecord && primaryRecord.rank ? `#${primaryRecord.rank}` : '#--';
+            }
+
+            if (primaryRecord && primaryRecord.country_id !== 'worldwide') {
+                countryRankEl.textContent = `#${primaryRecord.rank}`;
+                countryNameEl.textContent = primaryRecord.country_name;
+                countryFlagEl.src = `https://hatscripts.github.io/circle-flags/flags/${primaryRecord.flag}.svg`;
+                countryFlagEl.classList.remove('hidden');
+                badgePosEl.textContent = `#${primaryRecord.rank} ${primaryRecord.country_name}`;
+                badgePosEl.className = 'absolute -bottom-2 -right-2 px-2.5 py-0.5 rounded-full text-[11px] font-mono font-bold shadow-xs bg-slate-900 text-white';
+            } else {
+                countryRankEl.textContent = `#${primaryRecord ? primaryRecord.rank : '--'}`;
+                countryNameEl.textContent = 'Worldwide';
+                countryFlagEl.src = 'https://hatscripts.github.io/circle-flags/flags/un.svg';
+                countryFlagEl.classList.remove('hidden');
+                badgePosEl.textContent = `#${primaryRecord ? primaryRecord.rank : 'Top'}`;
+                badgePosEl.className = 'absolute -bottom-2 -right-2 px-2.5 py-0.5 rounded-full text-[11px] font-mono font-bold shadow-xs bg-emerald-600 text-white';
+            }
+
+            // Ranking Global (Worldwide)
+            const globalRankEl = document.getElementById('devProfileGlobalRank');
+            const globalStatusEl = document.getElementById('devProfileGlobalStatus');
+
+            // Se o usuário não estiver expressamente no dataset do worldwide.json,
+            // computamos sua posição global relativa em relação a todos os 2100 devs dos datasets
+            let computedGlobalRank = null;
+            if (worldwideRecord) {
+                computedGlobalRank = worldwideRecord.rank;
+            } else {
+                const allGlobalDevs = [...index].sort((a, b) => ((b.commits || 0) + (b.contributions || 0)) - ((a.commits || 0) + (a.contributions || 0)));
+                const gIndex = allGlobalDevs.findIndex(u => u.login.toLowerCase() === cleanLogin);
+                if (gIndex !== -1) {
+                    computedGlobalRank = gIndex + 1;
+                }
+            }
+
+            if (worldwideRecord) {
+                globalRankEl.textContent = `#${worldwideRecord.rank}`;
+                globalStatusEl.textContent = 'Worldwide Top 100';
+            } else if (computedGlobalRank !== null) {
+                globalRankEl.textContent = `#${computedGlobalRank}`;
+                globalStatusEl.textContent = 'Global Scope Top';
+            } else {
+                globalRankEl.textContent = 'Top Active';
+                globalStatusEl.textContent = 'Active Contributor';
+            }
+
+            // Scores e métricas
+            document.getElementById('devProfileTotalScore').textContent = totalScore.toLocaleString();
+            document.getElementById('devProfileCommits').textContent = commits.toLocaleString();
+            document.getElementById('devProfileContributions').textContent = contribs.toLocaleString();
+
+            // 1. National Badge (País)
+            const badgeCountryLabel = (primaryRecord && primaryRecord.country_name) ? encodeURIComponent(primaryRecord.country_name.replace(/\s+/g, '_')) : 'Commit_Rank';
+            const badgeRankVal = primaryRecord ? `Top_%23${primaryRecord.rank}` : 'Top_Developer';
+            const countryBadgeUrl = `https://img.shields.io/badge/${badgeCountryLabel}-${badgeRankVal}-0f172a?style=flat&logo=github&logoColor=white`;
+
+            document.getElementById('devProfileBadgeImg').src = countryBadgeUrl;
+            document.getElementById('devProfileBadgeInput').value = `[![${primaryRecord ? primaryRecord.country_name : 'Country'} Ranking](https://img.shields.io/badge/${badgeCountryLabel}-${badgeRankVal}-0f172a?style=flat&logo=github&logoColor=white)](https://github.com/iradoweck/commit-rank#user/${encodeURIComponent(safeLogin)})`;
+
+            // 2. Continental Badge
+            const continentBadgeTitleEl = document.getElementById('devProfileContinentBadgeTitle');
+            const continentBadgeImg = document.getElementById('devProfileContinentBadgeImg');
+            const continentBadgeInput = document.getElementById('devProfileContinentBadgeInput');
+
+            const continentDisplayLabel = (continentLabel && continentLabel !== 'Global') ? continentLabel : 'Regional';
+            continentBadgeTitleEl.textContent = `${continentDisplayLabel} Badge`;
+            const continentBadgeKey = encodeURIComponent(continentDisplayLabel.replace(/\s+/g, '_'));
+            const cRankVal = continentRank !== null ? `Top_%23${continentRank}` : (primaryRecord && primaryRecord.rank ? `Top_%23${primaryRecord.rank}` : 'Ranked');
+            const continentBadgeUrl = `https://img.shields.io/badge/${continentBadgeKey}-${cRankVal}-4338ca?style=flat&logo=github&logoColor=white`;
+            continentBadgeImg.src = continentBadgeUrl;
+            continentBadgeInput.value = `[![${continentDisplayLabel} Ranking](https://img.shields.io/badge/${continentBadgeKey}-${cRankVal}-4338ca?style=flat&logo=github&logoColor=white)](https://github.com/iradoweck/commit-rank#user/${encodeURIComponent(safeLogin)})`;
+
+            // 3. Worldwide Global Badge
+            const worldwideBadgeImg = document.getElementById('devProfileWorldwideBadgeImg');
+            const worldwideBadgeInput = document.getElementById('devProfileWorldwideBadgeInput');
+            const gRankVal = computedGlobalRank ? `Top_%23${computedGlobalRank}` : 'Top_Global';
+            const worldwideBadgeUrl = `https://img.shields.io/badge/Worldwide-${gRankVal}-059669?style=flat&logo=github&logoColor=white`;
+            worldwideBadgeImg.src = worldwideBadgeUrl;
+            worldwideBadgeInput.value = `[![Worldwide Ranking](https://img.shields.io/badge/Worldwide-${gRankVal}-059669?style=flat&logo=github&logoColor=white)](https://github.com/iradoweck/commit-rank#user/${encodeURIComponent(safeLogin)})`;
+
+            // Botão voltar
+            const backLabel = document.getElementById('devViewBackLabel');
+            if (previousViewBeforeDevProfile === 'country' && currentActiveCountry) {
+                backLabel.textContent = `Back to ${currentActiveCountry.name}`;
+            } else {
+                backLabel.textContent = 'Back to Directory';
+            }
+
+            window.location.hash = `user/${encodeURIComponent(safeLogin)}`;
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function navigateBackFromDevView(event) {
+            if (event) event.preventDefault();
+            if (previousViewBeforeDevProfile === 'country' && currentActiveCountry) {
+                openCountryView(currentActiveCountry);
+            } else {
+                showHomeView();
+            }
+        }
+
         function handleHashRoute() {
             const hash = window.location.hash;
             if (hash === '#documentation' || hash === '#docs') {
@@ -1983,6 +2682,13 @@
                 const target = countries.find(c => c.id === countryId);
                 if (target) {
                     openCountryView(target);
+                    return;
+                }
+            }
+            if (hash.startsWith('#user/')) {
+                const devLogin = decodeURIComponent(hash.replace('#user/', ''));
+                if (devLogin) {
+                    openDeveloperProfileView(devLogin);
                     return;
                 }
             }
@@ -2013,6 +2719,7 @@
             if (e) e.preventDefault();
             document.getElementById('homeView').classList.add('hidden');
             document.getElementById('countryView').classList.add('hidden');
+            document.getElementById('developerView').classList.add('hidden');
             document.getElementById('docsView').classList.remove('hidden');
             window.location.hash = 'documentation';
             window.scrollTo({ top: 0, behavior: 'smooth' });
