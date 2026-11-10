@@ -343,44 +343,66 @@
                 </div>
             </div>
 
-            <!-- Home Section: Developers & Open Data Card -->
-            <div class="mt-12 p-6 rounded-2xl border border-slate-200/80 bg-slate-50/60 shadow-xs space-y-6">
-                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-200">
-                    <div>
-                        <div class="flex items-center gap-2">
-                            <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-                            <span class="font-bold text-slate-900 text-sm">Developers & Open Data</span>
+            <!-- Home Section: Community, Open Source & Telemetry -->
+            <div class="mt-14 space-y-6">
+                <!-- Community Call to Action Banner -->
+                <div class="p-6 sm:p-8 rounded-3xl bg-gradient-to-br from-slate-950 via-slate-900 to-indigo-950 text-white shadow-md relative overflow-hidden">
+                    <div class="absolute -right-10 -bottom-10 w-48 h-48 bg-indigo-500/10 rounded-full blur-2xl pointer-events-none"></div>
+                    <div class="relative flex flex-col md:flex-row md:items-center justify-between gap-6">
+                        <div class="space-y-2 max-w-xl">
+                            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/15 text-emerald-400 text-xs font-mono">
+                                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                                <span>Open Source Community Ecosystem</span>
+                            </div>
+                            <h3 class="text-xl sm:text-2xl font-bold tracking-tight text-white">
+                                Built by developers, for developers
+                            </h3>
+                            <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                                Commit-Rank is fully transparent and community-driven. Missing your country, found a missing local tech hub, or want to enhance the indexing algorithm? Join the project on GitHub.
+                            </p>
                         </div>
-                        <p class="text-xs text-slate-500 mt-0.5">
-                            Machine-readable data archives and embeddable dynamic badges for your GitHub profiles.
-                        </p>
+                        <div class="flex flex-wrap items-center gap-3 shrink-0">
+                            <a href="https://github.com/iradoweck/commit-rank" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white hover:bg-slate-100 text-slate-950 text-xs font-bold transition shadow-xs">
+                                <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+                                    <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                                </svg>
+                                <span>Star on GitHub</span>
+                            </a>
+                            <a href="https://github.com/iradoweck/commit-rank/issues/new" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/10 hover:bg-white/15 border border-white/20 text-white text-xs font-semibold transition">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
+                                </svg>
+                                <span>Suggest Country</span>
+                            </a>
+                        </div>
                     </div>
+                </div>
 
-                    <div class="flex items-center gap-2 shrink-0">
-                        <!-- Combined Global JSON Download Button -->
-                        <button onclick="downloadGlobalJson()" class="inline-flex items-center gap-2 bg-white hover:bg-slate-100 border border-slate-200 text-slate-700 hover:text-slate-950 px-3 py-1.5 rounded-lg text-xs font-medium font-mono transition shadow-2xs cursor-pointer">
-                            <svg class="w-3.5 h-3.5 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <!-- Open Data & Global JSON Download Card -->
+                <div class="p-6 rounded-2xl border border-slate-200/90 bg-white shadow-xs space-y-5">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-100">
+                        <div>
+                            <div class="flex items-center gap-2">
+                                <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                                <span class="font-bold text-slate-900 text-sm">Open Datasets & Profile Badges</span>
+                            </div>
+                            <p class="text-xs text-slate-500 mt-0.5">
+                                Public data feeds in JSON format and verified Shields.io badges.
+                            </p>
+                        </div>
+                        <button onclick="downloadGlobalJson()" class="inline-flex items-center gap-2 bg-slate-900 hover:bg-black text-white px-3.5 py-2 rounded-xl text-xs font-medium font-mono transition shadow-2xs cursor-pointer shrink-0">
+                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
                             </svg>
                             <span>Download Global JSON</span>
                         </button>
                     </div>
-                </div>
-
-                <!-- Global Badges Integration Section -->
-                <div class="space-y-4">
-                    <div>
-                        <span class="text-xs font-semibold text-slate-900 block">Embed Badges in your GitHub README</span>
-                        <p class="text-[11px] text-slate-500">
-                            Display your verified ranking status using Shields.io dynamic badges directly on your profile.
-                        </p>
-                    </div>
 
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <!-- Badge 1: User Badge -->
-                        <div class="p-4 bg-white border border-slate-200 rounded-xl space-y-2.5">
+                        <div class="p-4 bg-slate-50/80 border border-slate-200/80 rounded-xl space-y-2.5">
                             <div class="flex items-center justify-between">
-                                <span class="text-xs font-medium text-slate-700">Developer Profile Badge</span>
+                                <span class="text-xs font-semibold text-slate-700">Developer Profile Badge</span>
                                 <img src="https://img.shields.io/badge/Most_Active_GitHub_Users-Top_Contributor-0f172a?style=flat&logo=github&logoColor=white" alt="Developer Badge Preview" class="h-5">
                             </div>
                             <div class="relative">
@@ -389,7 +411,7 @@
                                     readonly 
                                     value="[![Most Active GitHub Users](https://img.shields.io/badge/Most_Active_GitHub_Users-Top_Contributor-0f172a?style=flat&logo=github&logoColor=white)](https://github.com/iradoweck/commit-rank)" 
                                     id="homeDevBadgeInput"
-                                    class="w-full text-[11px] font-mono bg-slate-50 border border-slate-200 rounded-lg pl-2.5 pr-16 py-1.5 text-slate-600 outline-none select-all"
+                                    class="w-full text-[11px] font-mono bg-white border border-slate-200 rounded-lg pl-2.5 pr-16 py-1.5 text-slate-600 outline-none select-all"
                                 >
                                 <button onclick="copySnippet('homeDevBadgeInput', this)" class="absolute right-1 top-1 bottom-1 px-2.5 bg-slate-900 hover:bg-black text-white text-[10px] font-medium rounded-md transition cursor-pointer">
                                     Copy
@@ -398,9 +420,9 @@
                         </div>
 
                         <!-- Badge 2: Org Badge -->
-                        <div class="p-4 bg-white border border-slate-200 rounded-xl space-y-2.5">
+                        <div class="p-4 bg-slate-50/80 border border-slate-200/80 rounded-xl space-y-2.5">
                             <div class="flex items-center justify-between">
-                                <span class="text-xs font-medium text-slate-700">Organization Badge</span>
+                                <span class="text-xs font-semibold text-slate-700">Organization Badge</span>
                                 <img src="https://img.shields.io/badge/Most_Active_GitHub_Orgs-Ranked-0f172a?style=flat&logo=github&logoColor=white" alt="Organization Badge Preview" class="h-5">
                             </div>
                             <div class="relative">
@@ -409,7 +431,7 @@
                                     readonly 
                                     value="[![Most Active GitHub Orgs](https://img.shields.io/badge/Most_Active_GitHub_Orgs-Ranked-0f172a?style=flat&logo=github&logoColor=white)](https://github.com/iradoweck/commit-rank)" 
                                     id="homeOrgBadgeInput"
-                                    class="w-full text-[11px] font-mono bg-slate-50 border border-slate-200 rounded-lg pl-2.5 pr-16 py-1.5 text-slate-600 outline-none select-all"
+                                    class="w-full text-[11px] font-mono bg-white border border-slate-200 rounded-lg pl-2.5 pr-16 py-1.5 text-slate-600 outline-none select-all"
                                 >
                                 <button onclick="copySnippet('homeOrgBadgeInput', this)" class="absolute right-1 top-1 bottom-1 px-2.5 bg-slate-900 hover:bg-black text-white text-[10px] font-medium rounded-md transition cursor-pointer">
                                     Copy
@@ -471,10 +493,10 @@
                 </div>
             </div>
 
-            <!-- UNIFIED ACTION TOOLBAR: Mobile-First Responsive Strip -->
-            <div class="p-2 sm:p-2.5 rounded-2xl bg-white border border-slate-200/90 shadow-xs flex flex-col lg:flex-row lg:items-center justify-between gap-2.5 sm:gap-3">
-                <!-- Search Box (Full width on mobile) -->
-                <div class="relative w-full lg:max-w-md">
+            <!-- UNIFIED ACTION TOOLBAR: Clean Single Strip Layout -->
+            <div class="p-2 sm:p-2.5 rounded-2xl bg-white border border-slate-200/90 shadow-xs flex flex-col md:flex-row md:items-center justify-between gap-2.5">
+                <!-- Search Box (Expands smoothly) -->
+                <div class="relative w-full md:max-w-xs lg:max-w-sm">
                     <svg class="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <circle cx="11" cy="11" r="8" stroke-width="2"/>
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35"/>
@@ -498,63 +520,63 @@
                     </button>
                 </div>
 
-                <!-- Right controls: Metric Pills + Top Cut Filter + Stats Badge (Scrollable on small mobile) -->
-                <div class="flex flex-col sm:flex-row sm:items-center justify-between lg:justify-end gap-2 w-full lg:w-auto">
+                <!-- Right controls: Metric Pills + Top Cut Filter + Stats Badge (Side-by-side) -->
+                <div class="flex items-center flex-wrap gap-2 w-full md:w-auto justify-between md:justify-end">
                     <!-- Metric Sort Filter (All vs Commits vs Contributions) -->
-                    <div id="metricSortGroup" class="grid grid-cols-3 sm:inline-flex p-1 bg-slate-100/80 rounded-xl text-xs font-medium border border-slate-200/70 w-full sm:w-auto">
-                        <button id="sortAllBtn" onclick="setDevsSortMetric('all')" class="justify-center px-2 sm:px-3 py-1.5 rounded-lg bg-white shadow-xs text-slate-950 font-semibold transition cursor-pointer flex items-center gap-1 sm:gap-1.5" title="Rank by Combined Commits and Contributions">
+                    <div id="metricSortGroup" class="inline-flex p-1 bg-slate-100/80 rounded-xl text-xs font-medium border border-slate-200/70 shrink-0">
+                        <button id="sortAllBtn" onclick="setDevsSortMetric('all')" class="justify-center px-2.5 py-1.5 rounded-lg bg-white shadow-xs text-slate-950 font-semibold transition cursor-pointer flex items-center gap-1.5 whitespace-nowrap" title="Rank by Combined Commits and Contributions">
                             <svg class="w-3 h-3 text-emerald-500 shrink-0" viewBox="0 0 24 24" fill="currentColor">
                                 <path d="M12 2l3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/>
                             </svg>
-                            <span class="truncate">All</span>
+                            <span>All</span>
                         </button>
-                        <button id="sortCommitsBtn" onclick="setDevsSortMetric('commits')" class="justify-center px-2 sm:px-3 py-1.5 rounded-lg text-slate-500 hover:text-slate-950 transition cursor-pointer flex items-center gap-1 sm:gap-1.5" title="Rank by Pure Git Commits">
+                        <button id="sortCommitsBtn" onclick="setDevsSortMetric('commits')" class="justify-center px-2.5 py-1.5 rounded-lg text-slate-500 hover:text-slate-950 transition cursor-pointer flex items-center gap-1.5 whitespace-nowrap" title="Rank by Pure Git Commits">
                             <svg class="w-3 h-3 text-cyan-500 opacity-70 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                                 <circle cx="12" cy="12" r="4"/>
                                 <line x1="1.05" y1="12" x2="7" y2="12"/>
                                 <line x1="17.01" y1="12" x2="22.96" y2="12"/>
                             </svg>
-                            <span class="truncate">Commits</span>
+                            <span>Commits</span>
                         </button>
-                        <button id="sortContributionsBtn" onclick="setDevsSortMetric('contributions')" class="justify-center px-2 sm:px-3 py-1.5 rounded-lg text-slate-500 hover:text-slate-950 transition cursor-pointer flex items-center gap-1 sm:gap-1.5" title="Rank by PRs, Issues and Code Reviews">
+                        <button id="sortContributionsBtn" onclick="setDevsSortMetric('contributions')" class="justify-center px-2.5 py-1.5 rounded-lg text-slate-500 hover:text-slate-950 transition cursor-pointer flex items-center gap-1.5 whitespace-nowrap" title="Rank by PRs, Issues and Code Reviews">
                             <svg class="w-3 h-3 text-indigo-500 opacity-70 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                                 <circle cx="18" cy="18" r="3"/>
                                 <circle cx="6" cy="6" r="3"/>
                                 <path d="M13 6h3a2 2 0 0 1 2 2v7"/>
                                 <line x1="6" y1="9" x2="6" y2="21"/>
                             </svg>
-                            <span class="truncate">Contribs</span>
+                            <span>Contribs</span>
                         </button>
                     </div>
 
                     <!-- Top Filter Selector (Top 5, Top 10, Top 50, Top 100, All) -->
-                    <div id="topCutFilterGroup" class="grid grid-cols-5 sm:inline-flex p-1 bg-slate-100/80 rounded-xl text-xs font-mono font-medium border border-slate-200/70 w-full sm:w-auto">
-                        <button id="topCut5Btn" onclick="setDevsTopCut(5)" class="justify-center px-2 sm:px-2.5 py-1.5 rounded-lg text-slate-500 hover:text-slate-950 transition cursor-pointer flex items-center" title="Top 5 Ranking">
+                    <div id="topCutFilterGroup" class="inline-flex p-1 bg-slate-100/80 rounded-xl text-xs font-mono font-medium border border-slate-200/70 shrink-0">
+                        <button id="topCut5Btn" onclick="setDevsTopCut(5)" class="px-2 py-1.5 rounded-lg text-slate-500 hover:text-slate-950 transition cursor-pointer whitespace-nowrap" title="Top 5 Ranking">
                             <span>Top 5</span>
                         </button>
-                        <button id="topCut10Btn" onclick="setDevsTopCut(10)" class="justify-center px-2 sm:px-2.5 py-1.5 rounded-lg text-slate-500 hover:text-slate-950 transition cursor-pointer flex items-center" title="Top 10 Ranking">
+                        <button id="topCut10Btn" onclick="setDevsTopCut(10)" class="px-2 py-1.5 rounded-lg text-slate-500 hover:text-slate-950 transition cursor-pointer whitespace-nowrap" title="Top 10 Ranking">
                             <span>Top 10</span>
                         </button>
-                        <button id="topCut50Btn" onclick="setDevsTopCut(50)" class="justify-center px-2 sm:px-2.5 py-1.5 rounded-lg text-slate-500 hover:text-slate-950 transition cursor-pointer flex items-center" title="Top 50 Ranking">
+                        <button id="topCut50Btn" onclick="setDevsTopCut(50)" class="px-2 py-1.5 rounded-lg text-slate-500 hover:text-slate-950 transition cursor-pointer whitespace-nowrap" title="Top 50 Ranking">
                             <span>Top 50</span>
                         </button>
-                        <button id="topCut100Btn" onclick="setDevsTopCut(100)" class="justify-center px-2 sm:px-2.5 py-1.5 rounded-lg text-slate-500 hover:text-slate-950 transition cursor-pointer flex items-center" title="Top 100 Ranking">
+                        <button id="topCut100Btn" onclick="setDevsTopCut(100)" class="px-2 py-1.5 rounded-lg text-slate-500 hover:text-slate-950 transition cursor-pointer whitespace-nowrap" title="Top 100 Ranking">
                             <span>Top 100</span>
                         </button>
-                        <button id="topCutAllBtn" onclick="setDevsTopCut('all')" class="justify-center px-2 sm:px-2.5 py-1.5 rounded-lg bg-white shadow-xs text-slate-950 font-semibold transition cursor-pointer flex items-center" title="Show All Indexed Users">
+                        <button id="topCutAllBtn" onclick="setDevsTopCut('all')" class="px-2 py-1.5 rounded-lg bg-white shadow-xs text-slate-950 font-semibold transition cursor-pointer whitespace-nowrap" title="Show All Indexed Users">
                             <span>All</span>
                         </button>
                     </div>
 
                     <!-- Search stats badge -->
-                    <div id="tableSearchResultsStats" class="text-xs font-mono text-slate-500 flex items-center justify-between sm:justify-start gap-1.5">
-                        <span id="tableSearchMatchesBadge" class="hidden px-2 py-0.5 rounded-md bg-purple-50 text-purple-700 border border-purple-200 font-semibold flex items-center gap-1 text-[11px]">
+                    <div id="tableSearchResultsStats" class="text-xs font-mono text-slate-500 flex items-center gap-1.5 shrink-0">
+                        <span id="tableSearchMatchesBadge" class="hidden px-2 py-0.5 rounded-md bg-purple-50 text-purple-700 border border-purple-200 font-semibold flex items-center gap-1 text-[11px] whitespace-nowrap">
                             <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                             </svg>
                             <span>Filtered</span>
                         </span>
-                        <span id="tableSearchMatchesCount" class="text-[11px] text-slate-500 bg-slate-50 px-2 py-1 rounded-lg border border-slate-100"></span>
+                        <span id="tableSearchMatchesCount" class="text-[11px] text-slate-500 bg-slate-50 px-2.5 py-1 rounded-lg border border-slate-100 whitespace-nowrap"></span>
                     </div>
                 </div>
             </div>
