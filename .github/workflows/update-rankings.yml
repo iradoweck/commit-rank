@@ -73,10 +73,10 @@ jobs:
             esac
           fi
 
-          # Fase de desenvolvimento: 100 Devs, 100 Orgs e 300 Consider em todos os presets
+          # Quantidade de Devs e Orgs finais no JSON, e profundidade de amostragem por seguidores
           AMOUNT=100
           ORGS=100
-          CONSIDER=300
+          CONSIDER=1000
 
           for preset in $PRESETS; do
             echo "Extracting ranking for: $preset (amount=$AMOUNT, orgs=$ORGS, consider=$CONSIDER)"
