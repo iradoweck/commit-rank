@@ -86,8 +86,8 @@ func MakeRequester(client *http.Client) Requester {
 
 		// 2. Erros transitórios de infraestrutura da GitHub (502 Bad Gateway / 503 / 504 Gateway Timeout)
 		if resp.StatusCode >= 500 {
-			// Backoff exponencial/adaptativo com jitter entre 6s e 11s para recuperacao rapida do gateway
-			backoff := 6*time.Second + computeJitter(5*time.Second)
+			// Backoff adaptativo ampliado com jitter (15s a 20s) para permitir descarte de cache e alívio do gateway
+			backoff := 15*time.Second + computeJitter(5*time.Second)
 			time.Sleep(backoff)
 			return []byte{}, fmt.Errorf("github server error (HTTP %d): %s", resp.StatusCode, bodySnippet)
 		}

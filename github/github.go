@@ -72,11 +72,12 @@ func (client HTTPGithubClient) SearchUsers(query UserSearchQuery) (GithubSearchR
 
 	minFollowerCount := -1
 	maxPerQuery := 1000
-	perPage := 5
+	// Em regiões densas ou mundiais, mantém lote defensivo de 2 nós para evitar timeouts (502/504) na API de busca
+	perPage := 2
 	totalUsersCount := 0
 	totalUsersCountSet := false
 
-	maxPageRetries := 4
+	maxPageRetries := 6
 	toxicSkips := 0
 	maxToxicSkips := 5
 
