@@ -72,8 +72,15 @@ func (client HTTPGithubClient) SearchUsers(query UserSearchQuery) (GithubSearchR
 
 	minFollowerCount := -1
 	maxPerQuery := 1000
-	// Em regiões densas ou mundiais, mantém lote defensivo de 2 nós para evitar timeouts (502/504) na API de busca
-	perPage := 2
+	// Paginação dinâmica balanceada: 10 nós por padrão (100 páginas para 1000 devs)
+	// Em queries hiperdensas (worldwide ou US) ou quando especificado em PerPage, ajusta de forma adaptativa.
+	perPage := 10
+	if query.PerPage > 0 {
+		perPage = query.PerPage
+	} else if strings.Contains(query.Q, "type:user") && (len(query.Q) < 15 || strings.Contains(query.Q, "California") || strings.Contains(query.Q, "New+York")) {
+		// Presets globais ou estados densos dos EUA usam lote menor (5) para evitar timeouts da API do GitHub
+		perPage = 5
+	}
 	totalUsersCount := 0
 	totalUsersCountSet := false
 
@@ -417,6 +424,7 @@ type UserSearchQuery struct {
 	Sort     string
 	Order    string
 	MaxUsers int
+	PerPage  int
 }
 
 type GithubSearchResults struct {

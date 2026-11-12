@@ -86,19 +86,31 @@ jobs:
           ORGS=100
           CONSIDER=1000
 
-          for preset in $PRESETS; do
-            echo "Extracting ranking for: $preset (amount=$AMOUNT, orgs=$ORGS, consider=$CONSIDER)"
-            ./commit-rank --preset "$preset" --amount "$AMOUNT" --consider "$CONSIDER" --orgs "$ORGS" --output json --file "data/countries/${preset}.json" || echo "Skipped $preset"
-          done
-
-      - name: Commit and Push Updated Datasets
-        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          for preset in $PRESETS; do
+            echo "Extracting ranking for: $preset (amount=$AMOUNT, orgs=$ORGS, consider=$CONSIDER)"
+            if ./commit-rank --preset "$preset" --amount "$AMOUNT" --consider "$CONSIDER" --orgs "$ORGS" --output json --file "data/countries/${preset}.json"; then
+              git add "data/countries/${preset}.json"
+              if ! git diff --staged --quiet; then
+                git commit -m "chore(data): update dataset for $preset [skip ci]"
+                # Puxa atualizações concorrentes com rebase e envia incrementalmente
+                git pull --rebase origin main || true
+                git push origin main || echo "Incremental push failed for $preset, continuing..."
+              fi
+            else
+              echo "Skipped $preset due to extraction errors"
+            fi
+          done
+
+      - name: Final Datasets Consistency Check
+        run: |
           git add data/countries/*.json
-          if git diff --staged --quiet; then
-            echo "No changes in datasets to commit."
-          else
+          if ! git diff --staged --quiet; then
             git commit -m "chore(data): auto-update country ranking datasets [skip ci]"
+            git pull --rebase origin main || true
             git push origin main
+          else
+            echo "All datasets are already synchronized."
           fi
