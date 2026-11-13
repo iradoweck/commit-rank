@@ -1,8 +1,8 @@
 {
   "country": "Kosovo",
-  "generated_at": "2026-11-10",
-  "min_followers_required": 7,
-  "total_users": 1854,
+  "generated_at": "2026-11-13",
+  "min_followers_required": 1,
+  "total_users": 1858,
   "definition_checksum": "fc2b3b88b6f55f4de2562f79afb6ad0d0eec13208dfe933988c4ae249ecff407",
   "users": [
     {
@@ -18,41 +18,96 @@
     },
     {
       "rank": 2,
-      "name": "Vigan Abdurrahmani",
-      "login": "vigan-abd",
-      "avatar_url": "https://avatars.githubusercontent.com/u/20401969?u=649e41138cd0a755efdf62bad9c495393dd7f72d\u0026v=4",
-      "contributions": 1574,
-      "commits": 744,
-      "prs": 89,
+      "name": "Ebrar Dushullovci",
+      "login": "ebrardushullovcii",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99851772?u=f517ffa32fed973f1ac127743fceb29a253bf690\u0026v=4",
+      "contributions": 3029,
+      "commits": 2314,
+      "prs": 663,
       "company": "-",
       "organizations": []
     },
     {
       "rank": 3,
-      "name": "Vegim Çarkaxhija",
-      "login": "vegimcarkaxhija",
-      "avatar_url": "https://avatars.githubusercontent.com/u/24407953?u=8aa385928ebd97985d1105a40ea281f116293423\u0026v=4",
-      "contributions": 1372,
-      "commits": 792,
-      "prs": 335,
-      "company": "Buckaroo",
+      "name": "Vigan Abdurrahmani",
+      "login": "vigan-abd",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20401969?u=649e41138cd0a755efdf62bad9c495393dd7f72d\u0026v=4",
+      "contributions": 1607,
+      "commits": 762,
+      "prs": 89,
+      "company": "-",
       "organizations": []
     },
     {
       "rank": 4,
+      "name": "Arianit Krasniqi",
+      "login": "arianitk19",
+      "avatar_url": "https://avatars.githubusercontent.com/u/187439039?u=5a482adac9b49081d6fff59e53d5b83d028b0cfc\u0026v=4",
+      "contributions": 1481,
+      "commits": 1438,
+      "prs": 0,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 5,
+      "name": "Vegim Çarkaxhija",
+      "login": "vegimcarkaxhija",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24407953?u=8aa385928ebd97985d1105a40ea281f116293423\u0026v=4",
+      "contributions": 1397,
+      "commits": 796,
+      "prs": 339,
+      "company": "Buckaroo",
+      "organizations": []
+    },
+    {
+      "rank": 6,
       "name": "Gezim Basha",
       "login": "gezibash",
       "avatar_url": "https://avatars.githubusercontent.com/u/14827660?u=62a2477d09ef26a820da0135cc51080c6eee6348\u0026v=4",
-      "contributions": 1098,
-      "commits": 548,
-      "prs": 388,
+      "contributions": 1151,
+      "commits": 576,
+      "prs": 413,
       "company": "@momentag",
       "organizations": [
         "momentag"
       ]
     },
     {
-      "rank": 5,
+      "rank": 7,
+      "name": "Laurent Maxhuni",
+      "login": "LaurentMaxhuni",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152623037?u=c5f10f91353c38cae209950acfe1e43b7b03e5d2\u0026v=4",
+      "contributions": 1102,
+      "commits": 998,
+      "prs": 64,
+      "company": "devstackedmagazine",
+      "organizations": []
+    },
+    {
+      "rank": 8,
+      "name": "Gentrit Biba",
+      "login": "gentritbiba",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43895066?u=093740bdd229f3b9c7bf64ac4865e1c1611e8145\u0026v=4",
+      "contributions": 1101,
+      "commits": 1037,
+      "prs": 44,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 9,
+      "name": "Amin",
+      "login": "aminbisl17",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115932510?v=4",
+      "contributions": 824,
+      "commits": 786,
+      "prs": 2,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 10,
       "name": "Johnson",
       "login": "Johnson-Berisha",
       "avatar_url": "https://avatars.githubusercontent.com/u/66844751?u=91906823225730d4d2ed9d43fd91e1a1abdcf00f\u0026v=4",
@@ -65,7 +120,18 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 11,
+      "name": "Vigan",
+      "login": "vigani1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108461578?u=2c34f030d4194bca63a4a42ec50edcdd4687978f\u0026v=4",
+      "contributions": 698,
+      "commits": 79,
+      "prs": 615,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 12,
       "name": "Bashkim",
       "login": "bashkimhashani",
       "avatar_url": "https://avatars.githubusercontent.com/u/149383216?u=c6f00864c4cdc4177b3464b875720a78481a5079\u0026v=4",
@@ -76,7 +142,7 @@
       "organizations": []
     },
     {
-      "rank": 7,
+      "rank": 13,
       "name": "Jean-Gaël",
       "login": "Alwil17",
       "avatar_url": "https://avatars.githubusercontent.com/u/61506484?u=dca00e18506e17a60829e52333b12275df95f9ac\u0026v=4",
@@ -87,7 +153,7 @@
       "organizations": []
     },
     {
-      "rank": 8,
+      "rank": 14,
       "name": "Daorsa Hyseni",
       "login": "Daxrsa",
       "avatar_url": "https://avatars.githubusercontent.com/u/79546481?v=4",
@@ -98,18 +164,40 @@
       "organizations": []
     },
     {
-      "rank": 9,
+      "rank": 15,
       "name": "Leart Maloku",
       "login": "Leart2003",
       "avatar_url": "https://avatars.githubusercontent.com/u/113311081?v=4",
-      "contributions": 587,
-      "commits": 577,
+      "contributions": 625,
+      "commits": 614,
       "prs": 0,
       "company": "-",
       "organizations": []
     },
     {
-      "rank": 10,
+      "rank": 16,
+      "name": "Gent Krasniqi",
+      "login": "gentkrasniqii1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/190004655?u=65ad9ac192352aa3da1e4b576a4abb5db6664a1a\u0026v=4",
+      "contributions": 523,
+      "commits": 435,
+      "prs": 84,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 17,
+      "name": "Greg Kreisman",
+      "login": "greggelong",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37335796?u=0ddcedbb7f375590875664e749454c0ae4b616bb\u0026v=4",
+      "contributions": 508,
+      "commits": 412,
+      "prs": 0,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 18,
       "name": "Shkumbin Hasani",
       "login": "shkumbinhasani",
       "avatar_url": "https://avatars.githubusercontent.com/u/34962865?u=f7e60f6d14df6214e0e45da58775c306ba471ec7\u0026v=4",
@@ -120,18 +208,7 @@
       "organizations": []
     },
     {
-      "rank": 11,
-      "name": "Greg Kreisman",
-      "login": "greggelong",
-      "avatar_url": "https://avatars.githubusercontent.com/u/37335796?u=0ddcedbb7f375590875664e749454c0ae4b616bb\u0026v=4",
-      "contributions": 504,
-      "commits": 409,
-      "prs": 0,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 12,
+      "rank": 19,
       "name": "artshllaku",
       "login": "artshllk",
       "avatar_url": "https://avatars.githubusercontent.com/u/77685827?u=8c2e4a06adf748f582e1a03d5efe82fc8463f1a9\u0026v=4",
@@ -142,29 +219,51 @@
       "organizations": []
     },
     {
-      "rank": 13,
-      "name": "Endrit Bejta",
-      "login": "endritbejta",
-      "avatar_url": "https://avatars.githubusercontent.com/u/102244525?v=4",
-      "contributions": 418,
-      "commits": 344,
-      "prs": 65,
+      "rank": 20,
+      "name": "DiellFazliu",
+      "login": "DiellFazliu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/190598107?v=4",
+      "contributions": 465,
+      "commits": 274,
+      "prs": 85,
       "company": "-",
       "organizations": []
     },
     {
-      "rank": 14,
+      "rank": 21,
+      "name": "Endrit Bejta",
+      "login": "endritbejta",
+      "avatar_url": "https://avatars.githubusercontent.com/u/102244525?v=4",
+      "contributions": 457,
+      "commits": 375,
+      "prs": 74,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 22,
       "name": "Gentian Voca",
       "login": "VocaDev",
       "avatar_url": "https://avatars.githubusercontent.com/u/185105992?u=8e9eda9b1b1c9c607fac5b65f46f9212834eba97\u0026v=4",
-      "contributions": 416,
-      "commits": 382,
-      "prs": 18,
+      "contributions": 420,
+      "commits": 385,
+      "prs": 19,
       "company": "Petrol Company",
       "organizations": []
     },
     {
-      "rank": 15,
+      "rank": 23,
+      "name": "Gentrit Halili",
+      "login": "gentrithalili1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21342752?u=a041c13009425777c3b13e920956a5fcff4e5c77\u0026v=4",
+      "contributions": 412,
+      "commits": 359,
+      "prs": 48,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 24,
       "name": "Kujtim Hoxha",
       "login": "kujtimiihoxha",
       "avatar_url": "https://avatars.githubusercontent.com/u/14311743?u=4610d71d5ec1aedbeb8761c18e71ae1679c4bb6e\u0026v=4",
@@ -175,7 +274,7 @@
       "organizations": []
     },
     {
-      "rank": 16,
+      "rank": 25,
       "name": "Armend Ukëhaxhaj",
       "login": "armendu",
       "avatar_url": "https://avatars.githubusercontent.com/u/23643036?u=a510aeacbd9b76a311a66df322b081658f22a883\u0026v=4",
@@ -186,7 +285,18 @@
       "organizations": []
     },
     {
-      "rank": 17,
+      "rank": 26,
+      "name": "Omer Maksuti",
+      "login": "omermaksutii",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48365784?u=ba0ca3b8c6e8e51bd11186e616c3977655c59b6f\u0026v=4",
+      "contributions": 371,
+      "commits": 348,
+      "prs": 14,
+      "company": "@attributy",
+      "organizations": []
+    },
+    {
+      "rank": 27,
       "name": "Gegë Dobruna",
       "login": "gegedobruna",
       "avatar_url": "https://avatars.githubusercontent.com/u/153127699?u=e723de8aaff602b39229abe10e6f8e589c73f0a7\u0026v=4",
@@ -197,40 +307,183 @@
       "organizations": []
     },
     {
-      "rank": 18,
-      "name": "Omer Maksuti",
-      "login": "omermaksutii",
-      "avatar_url": "https://avatars.githubusercontent.com/u/48365784?u=ba0ca3b8c6e8e51bd11186e616c3977655c59b6f\u0026v=4",
-      "contributions": 364,
-      "commits": 347,
-      "prs": 11,
-      "company": "@attributy",
-      "organizations": []
-    },
-    {
-      "rank": 19,
-      "name": "Gentrit Halili",
-      "login": "gentrithalili1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/21342752?u=a041c13009425777c3b13e920956a5fcff4e5c77\u0026v=4",
-      "contributions": 341,
-      "commits": 295,
-      "prs": 41,
+      "rank": 28,
+      "name": "Sofia",
+      "login": "MaDGiiRL",
+      "avatar_url": "https://avatars.githubusercontent.com/u/194077454?u=db1cc0ff24b636c86f482a49ed82a691881c1940\u0026v=4",
+      "contributions": 370,
+      "commits": 363,
+      "prs": 0,
       "company": "-",
       "organizations": []
     },
     {
-      "rank": 20,
+      "rank": 29,
+      "name": "Burim Koci",
+      "login": "bkocii",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20042450?v=4",
+      "contributions": 369,
+      "commits": 362,
+      "prs": 0,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 30,
+      "name": "Vesab",
+      "login": "vesab0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/168362412?u=5dbb086346586f6627e2996f56bb66958568ea5b\u0026v=4",
+      "contributions": 367,
+      "commits": 305,
+      "prs": 44,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 31,
+      "name": "Taulant Haxhiu",
+      "login": "T-h07",
+      "avatar_url": "https://avatars.githubusercontent.com/u/139374183?v=4",
+      "contributions": 344,
+      "commits": 315,
+      "prs": 18,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 32,
+      "name": "besmir ibrahimi el da bellino",
+      "login": "besmiribrahimi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/95540700?u=ee60449bced04ffc04cf66b66559d0623faebff9\u0026v=4",
+      "contributions": 333,
+      "commits": 313,
+      "prs": 0,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 33,
+      "name": "Ilaz Gashi",
+      "login": "iligashi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/119267734?u=26d81b8503c717bf23061fb61ca507923546bec1\u0026v=4",
+      "contributions": 332,
+      "commits": 279,
+      "prs": 47,
+      "company": "Nexora Agency",
+      "organizations": []
+    },
+    {
+      "rank": 34,
+      "name": "Amar Begolli",
+      "login": "amarbegolli",
+      "avatar_url": "https://avatars.githubusercontent.com/u/237645582?v=4",
+      "contributions": 317,
+      "commits": 229,
+      "prs": 58,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 35,
+      "name": "Ernest Jusuf",
+      "login": "ernestjsf",
+      "avatar_url": "https://avatars.githubusercontent.com/u/92805487?u=0845a5f0d2ea09138423a525ecab5f2e3ee7f8b5\u0026v=4",
+      "contributions": 316,
+      "commits": 296,
+      "prs": 7,
+      "company": "Teamleader",
+      "organizations": []
+    },
+    {
+      "rank": 36,
+      "name": "Leotrim Haliti",
+      "login": "leotrimhaliti",
+      "avatar_url": "https://avatars.githubusercontent.com/u/157644917?u=336e67d455c2756ad1a074a856266b66b6ed722d\u0026v=4",
+      "contributions": 312,
+      "commits": 290,
+      "prs": 10,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 37,
+      "name": "Enes Shehu",
+      "login": "Enes1998",
+      "avatar_url": "https://avatars.githubusercontent.com/u/104234112?v=4",
+      "contributions": 306,
+      "commits": 221,
+      "prs": 74,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 38,
       "name": "Melos Shabi",
       "login": "melosshabi",
       "avatar_url": "https://avatars.githubusercontent.com/u/84845228?u=bd35beb2e52c9f47a5d797be8cc56826cd23b311\u0026v=4",
-      "contributions": 278,
-      "commits": 241,
+      "contributions": 292,
+      "commits": 255,
       "prs": 29,
       "company": "-",
       "organizations": []
     },
     {
-      "rank": 21,
+      "rank": 39,
+      "name": "Qëndrim Pllana",
+      "login": "xqendrimpllana",
+      "avatar_url": "https://avatars.githubusercontent.com/u/21298352?u=d551a01f9ca0e2900232b11ab789b2d3f7e0e8c7\u0026v=4",
+      "contributions": 286,
+      "commits": 258,
+      "prs": 28,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 40,
+      "name": "EdinCodes",
+      "login": "EdinGrazhda",
+      "avatar_url": "https://avatars.githubusercontent.com/u/112960039?u=8ced9082f1ce58f0871d56ec317bf684a62e76e8\u0026v=4",
+      "contributions": 284,
+      "commits": 248,
+      "prs": 13,
+      "company": "Shkolla Digjitale",
+      "organizations": []
+    },
+    {
+      "rank": 41,
+      "name": "Lind GECI",
+      "login": "lindgeci1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/185832127?u=a4baa7b621ea288c2913669be59f62865de439ac\u0026v=4",
+      "contributions": 281,
+      "commits": 212,
+      "prs": 67,
+      "company": "BOREK Solutions Group",
+      "organizations": []
+    },
+    {
+      "rank": 42,
+      "name": "Edda Shkurti",
+      "login": "eddashkurti",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77439498?u=f7e48d738661616021dc4bf45138124c83c39e2f\u0026v=4",
+      "contributions": 277,
+      "commits": 228,
+      "prs": 34,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 43,
+      "name": "Amir Aliu",
+      "login": "amiraliuks",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82006623?u=3df29d605e9c5498849d634792fa8eb9d8b9f7b6\u0026v=4",
+      "contributions": 269,
+      "commits": 254,
+      "prs": 0,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 44,
       "name": "Topaz Whitelock",
       "login": "TopazTK",
       "avatar_url": "https://avatars.githubusercontent.com/u/95656963?u=22702d3c228e821f565bb904d392c9950ed7c4a8\u0026v=4",
@@ -241,29 +494,73 @@
       "organizations": []
     },
     {
-      "rank": 22,
-      "name": "Amir Aliu",
-      "login": "amiraliuks",
-      "avatar_url": "https://avatars.githubusercontent.com/u/82006623?u=3df29d605e9c5498849d634792fa8eb9d8b9f7b6\u0026v=4",
-      "contributions": 261,
-      "commits": 246,
-      "prs": 0,
+      "rank": 45,
+      "name": "Vesa A. Susuri",
+      "login": "vesasusuri",
+      "avatar_url": "https://avatars.githubusercontent.com/u/108492136?u=edb5dff46fe9976a20dc4eef5dc5a3e787c6107e\u0026v=4",
+      "contributions": 260,
+      "commits": 232,
+      "prs": 23,
       "company": "-",
       "organizations": []
     },
     {
-      "rank": 23,
-      "name": "EdinCodes",
-      "login": "EdinGrazhda",
-      "avatar_url": "https://avatars.githubusercontent.com/u/112960039?u=8ced9082f1ce58f0871d56ec317bf684a62e76e8\u0026v=4",
-      "contributions": 258,
-      "commits": 224,
-      "prs": 13,
-      "company": "Shkolla Digjitale",
+      "rank": 46,
+      "name": "Flutura Hyseni",
+      "login": "fh-umib",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186643442?v=4",
+      "contributions": 259,
+      "commits": 251,
+      "prs": 1,
+      "company": "University of Mitrovica \"Isa Boletini\" (UMIB)",
       "organizations": []
     },
     {
-      "rank": 24,
+      "rank": 47,
+      "name": "Blend Shala",
+      "login": "blendshalaa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/90574525?u=ba42dd8acb41b7e629db327243c6991bec376e8d\u0026v=4",
+      "contributions": 252,
+      "commits": 213,
+      "prs": 1,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 48,
+      "name": "Magpie",
+      "login": "magpiesacorvid",
+      "avatar_url": "https://avatars.githubusercontent.com/u/299500832?u=12ccb5d51dc71adb331ab6f404e1c6a0b3be6656\u0026v=4",
+      "contributions": 251,
+      "commits": 239,
+      "prs": 2,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 49,
+      "name": "Marijan",
+      "login": "Marijanoo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/186421830?u=0f0f1ec005c3e1ef1d06a473ba144e06e8809f8c\u0026v=4",
+      "contributions": 251,
+      "commits": 241,
+      "prs": 1,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 50,
+      "name": "Ensar Aliu",
+      "login": "EnsarAliu1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/206119510?u=5bc8aa51933e5e3ca9185b6eee271a380f53edb0\u0026v=4",
+      "contributions": 245,
+      "commits": 214,
+      "prs": 20,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 51,
       "name": "Egzon Pllana",
       "login": "egzonpllana",
       "avatar_url": "https://avatars.githubusercontent.com/u/27929436?u=d6f03d920b770435bbda7618fc2f1dbfac321cf0\u0026v=4",
@@ -274,7 +571,18 @@
       "organizations": []
     },
     {
-      "rank": 25,
+      "rank": 52,
+      "name": "Edi Krasniqi",
+      "login": "EdiKrasniqi11",
+      "avatar_url": "https://avatars.githubusercontent.com/u/93128181?u=693d54f13883fe49cf2a18db5a9960b5bee84d75\u0026v=4",
+      "contributions": 239,
+      "commits": 233,
+      "prs": 4,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 53,
       "name": "Lekë Dobruna",
       "login": "Leka74",
       "avatar_url": "https://avatars.githubusercontent.com/u/791494?u=875b35d5484f1242555178dcf8d8aadce26ef182\u0026v=4",
@@ -285,7 +593,18 @@
       "organizations": []
     },
     {
-      "rank": 26,
+      "rank": 54,
+      "name": "grapefizz",
+      "login": "grapefizz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/133788620?u=f3d636e060ccb94163d0f0e34cc4619140a24fb9\u0026v=4",
+      "contributions": 238,
+      "commits": 193,
+      "prs": 17,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 55,
       "name": "Artin Rexhepi",
       "login": "artinrexhepii",
       "avatar_url": "https://avatars.githubusercontent.com/u/66282654?u=606aae75e3df54ec3f1bf6fe3f5428e63699ecd1\u0026v=4",
@@ -296,18 +615,7 @@
       "organizations": []
     },
     {
-      "rank": 27,
-      "name": "grapefizz",
-      "login": "grapefizz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/133788620?u=f3d636e060ccb94163d0f0e34cc4619140a24fb9\u0026v=4",
-      "contributions": 237,
-      "commits": 193,
-      "prs": 17,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 28,
+      "rank": 56,
       "name": "Fillonit Ibishi",
       "login": "Fillonit",
       "avatar_url": "https://avatars.githubusercontent.com/u/34984304?u=14ffd8ada635dfb93500fd375a79270fd9ee9031\u0026v=4",
@@ -318,7 +626,62 @@
       "organizations": []
     },
     {
-      "rank": 29,
+      "rank": 57,
+      "name": "Elton",
+      "login": "EltonMustafaj",
+      "avatar_url": "https://avatars.githubusercontent.com/u/189873325?u=d484222db57b47694f0f012b4653be8af4b16a28\u0026v=4",
+      "contributions": 220,
+      "commits": 189,
+      "prs": 19,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 58,
+      "name": "Yll Veliu",
+      "login": "yllveliu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/79679557?u=49675e414789b333849592a1d3469294dbcb24c5\u0026v=4",
+      "contributions": 220,
+      "commits": 177,
+      "prs": 20,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 59,
+      "name": "BLND",
+      "login": "blendsylqevci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/235151969?u=b16fe5fcfec55c37b47f752dcdb7e04650b4e16c\u0026v=4",
+      "contributions": 218,
+      "commits": 208,
+      "prs": 6,
+      "company": "iCode LLC",
+      "organizations": []
+    },
+    {
+      "rank": 60,
+      "name": "Ardi Jashanica",
+      "login": "ArdiTech108",
+      "avatar_url": "https://avatars.githubusercontent.com/u/176216635?u=908d19bec63b55eec191458d7cc5169fb4ce4e2c\u0026v=4",
+      "contributions": 206,
+      "commits": 197,
+      "prs": 1,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 61,
+      "name": "Eron",
+      "login": "eronbegiqi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33758674?v=4",
+      "contributions": 204,
+      "commits": 155,
+      "prs": 44,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 62,
       "name": "Lotuuu",
       "login": "L0t1",
       "avatar_url": "https://avatars.githubusercontent.com/u/100962388?u=a111a87e13d08a65cab6c8ab85b2311da1c7d8a2\u0026v=4",
@@ -331,7 +694,51 @@
       ]
     },
     {
-      "rank": 30,
+      "rank": 63,
+      "name": "Fatjon Gashi",
+      "login": "fgash1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/133712577?u=1f95d49c94b3b83cb062206717dfdc57ad4c59fe\u0026v=4",
+      "contributions": 201,
+      "commits": 196,
+      "prs": 5,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 64,
+      "name": "Ylli Berisha",
+      "login": "Ylli-Berisha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183634939?u=54bdd5223d94069748d1f6e938777f4577fc9763\u0026v=4",
+      "contributions": 189,
+      "commits": 146,
+      "prs": 29,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 65,
+      "name": "Latif",
+      "login": "LatifKovani",
+      "avatar_url": "https://avatars.githubusercontent.com/u/151386211?u=2e7ac748c41bceb7cefec7d5a0417465a4816903\u0026v=4",
+      "contributions": 186,
+      "commits": 131,
+      "prs": 51,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 66,
+      "name": "Gjergj Çuni",
+      "login": "gjergjquni",
+      "avatar_url": "https://avatars.githubusercontent.com/u/185621819?u=42e28267b1552afd18001c77fd6bb3047a168c76\u0026v=4",
+      "contributions": 183,
+      "commits": 171,
+      "prs": 0,
+      "company": "University of Prishtina",
+      "organizations": []
+    },
+    {
+      "rank": 67,
       "name": "Driton Gashi",
       "login": "Driton-Gashi",
       "avatar_url": "https://avatars.githubusercontent.com/u/69894595?u=5d30e05f1f6dcba0eb2593f8ced5f3ff2e8cc569\u0026v=4",
@@ -342,7 +749,62 @@
       "organizations": []
     },
     {
-      "rank": 31,
+      "rank": 68,
+      "name": "Amr Rraci",
+      "login": "Amr1code",
+      "avatar_url": "https://avatars.githubusercontent.com/u/173397536?u=e5ce615daaaa3384a196ec2641cf34d01825520c\u0026v=4",
+      "contributions": 175,
+      "commits": 163,
+      "prs": 1,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 69,
+      "name": "SelatinHaliti",
+      "login": "SelatinHaliti",
+      "avatar_url": "https://avatars.githubusercontent.com/u/200827152?u=c953516fa278babbaf2cafecd0f17724313fe069\u0026v=4",
+      "contributions": 168,
+      "commits": 155,
+      "prs": 2,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 70,
+      "name": "Flamur Jashari",
+      "login": "FlamurJashari",
+      "avatar_url": "https://avatars.githubusercontent.com/u/48730897?u=637251bd2fce2765c20793afbbcc13de8853b4d6\u0026v=4",
+      "contributions": 165,
+      "commits": 162,
+      "prs": 1,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 71,
+      "name": "Shkelqim Hajrizi",
+      "login": "shajrizi2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36805405?u=c5821ee0865883f891b77915714967860ca3ea52\u0026v=4",
+      "contributions": 161,
+      "commits": 127,
+      "prs": 29,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 72,
+      "name": "Marigone Musliu",
+      "login": "MarigoneMusliu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109240085?v=4",
+      "contributions": 157,
+      "commits": 155,
+      "prs": 0,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 73,
       "name": "Naim Sulejmani",
       "login": "naimsulejmani",
       "avatar_url": "https://avatars.githubusercontent.com/u/12331526?u=d6c521d0236428be08a14bf2ae84d2ae3a15372d\u0026v=4",
@@ -353,18 +815,29 @@
       "organizations": []
     },
     {
-      "rank": 32,
-      "name": "KlajdixGashi",
-      "login": "klajdi-g",
-      "avatar_url": "https://avatars.githubusercontent.com/u/115544942?u=c689c601af36b35cb9974ad3be19235b25ce476b\u0026v=4",
-      "contributions": 143,
-      "commits": 133,
-      "prs": 0,
+      "rank": 74,
+      "name": "Art Grantolli",
+      "login": "ArttGrantollii",
+      "avatar_url": "https://avatars.githubusercontent.com/u/175612905?u=ee0bde02ffe0cc2379de631898a3732c475159c6\u0026v=4",
+      "contributions": 152,
+      "commits": 135,
+      "prs": 11,
       "company": "-",
       "organizations": []
     },
     {
-      "rank": 33,
+      "rank": 75,
+      "name": "Milot Hyseni",
+      "login": "milot-dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/198445334?u=93180e83c78b0cc422691bf50b16eab209ff3637\u0026v=4",
+      "contributions": 151,
+      "commits": 100,
+      "prs": 14,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 76,
       "name": "Driton Jasiqi",
       "login": "dritonjasiqi",
       "avatar_url": "https://avatars.githubusercontent.com/u/113119841?u=e6b84958eb6a28975dc967744b08e9f98a0a3704\u0026v=4",
@@ -375,7 +848,29 @@
       "organizations": []
     },
     {
-      "rank": 34,
+      "rank": 77,
+      "name": "KlajdixGashi",
+      "login": "klajdi-g",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115544942?u=c689c601af36b35cb9974ad3be19235b25ce476b\u0026v=4",
+      "contributions": 143,
+      "commits": 133,
+      "prs": 0,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 78,
+      "name": "R.paco",
+      "login": "hylianfin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167717853?u=8bd0cc86f35ff9aadb526200dee09b6d16bb1ef3\u0026v=4",
+      "contributions": 143,
+      "commits": 96,
+      "prs": 19,
+      "company": "@Elitedev-agency",
+      "organizations": []
+    },
+    {
+      "rank": 79,
       "name": "Gentrit Abazi",
       "login": "gentritabazi",
       "avatar_url": "https://avatars.githubusercontent.com/u/35135482?u=40c1c2c32d2725dbacdf2be8786911219fc5c968\u0026v=4",
@@ -389,7 +884,29 @@
       ]
     },
     {
-      "rank": 35,
+      "rank": 80,
+      "name": "Anis Neziri",
+      "login": "AnisNeziri",
+      "avatar_url": "https://avatars.githubusercontent.com/u/150564486?v=4",
+      "contributions": 137,
+      "commits": 125,
+      "prs": 9,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 81,
+      "name": "Uvejs Gjelaj",
+      "login": "UvejsGj",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61552503?u=991482dab4cc71868cd929c6cdca94ba4262513b\u0026v=4",
+      "contributions": 137,
+      "commits": 128,
+      "prs": 2,
+      "company": "Smart Engineering Tech",
+      "organizations": []
+    },
+    {
+      "rank": 82,
       "name": "Çelik Hasanaj",
       "login": "Qelik",
       "avatar_url": "https://avatars.githubusercontent.com/u/15960381?u=f54bd57645b6bf3fcb688758eafd9324b5917ea8\u0026v=4",
@@ -400,7 +917,18 @@
       "organizations": []
     },
     {
-      "rank": 36,
+      "rank": 83,
+      "name": "Denis Januzi",
+      "login": "Xprim3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/129306389?u=f94c7a0215101c0c01d6acb94f509b65d3693bde\u0026v=4",
+      "contributions": 135,
+      "commits": 129,
+      "prs": 1,
+      "company": "None (looking for job)",
+      "organizations": []
+    },
+    {
+      "rank": 84,
       "name": "Arbnor Tasholli",
       "login": "arbnortasholli",
       "avatar_url": "https://avatars.githubusercontent.com/u/188332356?u=40c6881d42a1790c0a801ca7b7de2c430fb0db65\u0026v=4",
@@ -411,7 +939,29 @@
       "organizations": []
     },
     {
-      "rank": 37,
+      "rank": 85,
+      "name": "Defrim Hasani",
+      "login": "defrimhasani",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33935491?u=a02a854f1111608a43212b8d5e805330d7751ebf\u0026v=4",
+      "contributions": 133,
+      "commits": 30,
+      "prs": 19,
+      "company": "Bottomline Technologies",
+      "organizations": []
+    },
+    {
+      "rank": 86,
+      "name": "Olti Abazi",
+      "login": "0ltii",
+      "avatar_url": "https://avatars.githubusercontent.com/u/116462713?v=4",
+      "contributions": 132,
+      "commits": 94,
+      "prs": 11,
+      "company": "student",
+      "organizations": []
+    },
+    {
+      "rank": 87,
       "name": "Afron Orana",
       "login": "afronorana",
       "avatar_url": "https://avatars.githubusercontent.com/u/19649126?u=78b4994e62cb3e2b65d0b91ea1c1eec279a040bc\u0026v=4",
@@ -422,18 +972,40 @@
       "organizations": []
     },
     {
-      "rank": 38,
+      "rank": 88,
+      "name": "Diona Gerxhaliu",
+      "login": "Diona-coder1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/192991504?u=1185eb72163eb20df87ad0711f50f1843343d803\u0026v=4",
+      "contributions": 131,
+      "commits": 90,
+      "prs": 35,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 89,
       "name": "Jon Kursani",
       "login": "jonkursani",
       "avatar_url": "https://avatars.githubusercontent.com/u/49448126?u=3ab0d41aa98349b5be629afa05c66114b15f32ab\u0026v=4",
-      "contributions": 127,
-      "commits": 119,
+      "contributions": 131,
+      "commits": 123,
       "prs": 0,
       "company": "-",
       "organizations": []
     },
     {
-      "rank": 39,
+      "rank": 90,
+      "name": "Albert",
+      "login": "AlbertBislimi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51818408?u=4d8869bc02795751ff263992b85a90ca91c7bc6e\u0026v=4",
+      "contributions": 122,
+      "commits": 112,
+      "prs": 6,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 91,
       "name": "Ervin Behxheti",
       "login": "ErvinBehxheti",
       "avatar_url": "https://avatars.githubusercontent.com/u/94991585?u=1514f63940c3c4eb1b5680395cedcee99199c6d2\u0026v=4",
@@ -444,7 +1016,18 @@
       "organizations": []
     },
     {
-      "rank": 40,
+      "rank": 92,
+      "name": "FFlorenti",
+      "login": "FFlorenti",
+      "avatar_url": "https://avatars.githubusercontent.com/u/139146533?v=4",
+      "contributions": 118,
+      "commits": 81,
+      "prs": 0,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 93,
       "name": "Ledjon Behluli",
       "login": "ledjon-behluli",
       "avatar_url": "https://avatars.githubusercontent.com/u/46324828?u=619b634931f072e15a3768b945f367bdb822b783\u0026v=4",
@@ -455,7 +1038,18 @@
       "organizations": []
     },
     {
-      "rank": 41,
+      "rank": 94,
+      "name": "Edison Alushaj",
+      "login": "EdisonAlushaj",
+      "avatar_url": "https://avatars.githubusercontent.com/u/96665518?v=4",
+      "contributions": 115,
+      "commits": 78,
+      "prs": 18,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 95,
       "name": "Iljas Neziri",
       "login": "lazineziri",
       "avatar_url": "https://avatars.githubusercontent.com/u/69989227?u=b4db391a24abe60f566f4ec162755ce5abe05a4e\u0026v=4",
@@ -466,18 +1060,40 @@
       "organizations": []
     },
     {
-      "rank": 42,
+      "rank": 96,
+      "name": "Altin",
+      "login": "AltinGashi1882",
+      "avatar_url": "https://avatars.githubusercontent.com/u/134645692?u=513e11fb2779c0d0731a48020d9a6d3c9294ae50\u0026v=4",
+      "contributions": 111,
+      "commits": 86,
+      "prs": 22,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 97,
+      "name": "Albin Izmaku",
+      "login": "AlbinIzmaku",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59483738?u=ee4618a9a3503061818a68ae434212585a50fe95\u0026v=4",
+      "contributions": 109,
+      "commits": 97,
+      "prs": 0,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 98,
       "name": "Melisa Vasija",
       "login": "mlsvsj",
       "avatar_url": "https://avatars.githubusercontent.com/u/100197978?u=0aaa9208b0c0a00017ff97369d9fa9f3e15a2cd5\u0026v=4",
-      "contributions": 106,
+      "contributions": 107,
       "commits": 92,
       "prs": 0,
       "company": "-",
       "organizations": []
     },
     {
-      "rank": 43,
+      "rank": 99,
       "name": "Aleksandar Petaković",
       "login": "saksofon997",
       "avatar_url": "https://avatars.githubusercontent.com/u/57069416?u=b71d3ee420f90f46fc20031d7bbbc7b9798b6c0c\u0026v=4",
@@ -488,18 +1104,7 @@
       "organizations": []
     },
     {
-      "rank": 44,
-      "name": "Enes Pacarizi",
-      "login": "YyepPo",
-      "avatar_url": "https://avatars.githubusercontent.com/u/121578559?u=5963b699cf04db227846aef8ee79610c8fc5c809\u0026v=4",
-      "contributions": 105,
-      "commits": 99,
-      "prs": 0,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 45,
+      "rank": 100,
       "name": "Sami Maxhuni",
       "login": "samushi",
       "avatar_url": "https://avatars.githubusercontent.com/u/3842345?u=3858ce664492b1f351c4371733043dcdc78472a9\u0026v=4",
@@ -508,647 +1113,30 @@
       "prs": 0,
       "company": "@laracodedeveloper,@kutia-software-company",
       "organizations": []
-    },
-    {
-      "rank": 46,
-      "name": "Liburn Krasniqi",
-      "login": "Liburn-Krasniqi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/148105426?u=97ed465f029e006807f29e81e83bff88fc545cf9\u0026v=4",
-      "contributions": 101,
-      "commits": 90,
-      "prs": 3,
-      "company": "@flosskosova",
-      "organizations": [
-        "flosskosova",
-        "GarageSteroids"
-      ]
-    },
-    {
-      "rank": 47,
-      "name": "Jeton Korenica",
-      "login": "Jettonn",
-      "avatar_url": "https://avatars.githubusercontent.com/u/47090497?u=dba42b03e021c7fc1b5350c8cf5c8eb8a9c90031\u0026v=4",
-      "contributions": 101,
-      "commits": 67,
-      "prs": 27,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 48,
-      "name": "Artim ",
-      "login": "gashiartim",
-      "avatar_url": "https://avatars.githubusercontent.com/u/73635267?u=b3c5e3c1ecf57c5ee184429bfb13fbb817c0f08e\u0026v=4",
-      "contributions": 94,
-      "commits": 82,
-      "prs": 3,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 49,
-      "name": "Egzon Krasniqi",
-      "login": "egzonkrs",
-      "avatar_url": "https://avatars.githubusercontent.com/u/71973901?u=def36cd5a5ca25eabae231ab772220a661b5a8ce\u0026v=4",
-      "contributions": 85,
-      "commits": 78,
-      "prs": 2,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 50,
-      "name": "Dielli Demjaha",
-      "login": "diellidemjaha",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26672663?u=638cb605f4b73059e5dea3680d25712c854cf9c0\u0026v=4",
-      "contributions": 85,
-      "commits": 68,
-      "prs": 1,
-      "company": "Scantech Group L.L.C",
-      "organizations": []
-    },
-    {
-      "rank": 51,
-      "name": "Enes",
-      "login": "Enesjashari",
-      "avatar_url": "https://avatars.githubusercontent.com/u/93095569?u=28cc9b345c58ba4da6581599138e80cb2379db3e\u0026v=4",
-      "contributions": 81,
-      "commits": 72,
-      "prs": 1,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 52,
-      "name": "Liridon Alimi",
-      "login": "liridonalimi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/54065912?u=2e81bcdbae961237a9c478875a8b2c8af26e7c42\u0026v=4",
-      "contributions": 79,
-      "commits": 73,
-      "prs": 0,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 53,
-      "name": "Shuajb Bunjaku",
-      "login": "shubi06",
-      "avatar_url": "https://avatars.githubusercontent.com/u/96589930?u=07483ac298e832a22efa0d5074f98c824b62be3d\u0026v=4",
-      "contributions": 76,
-      "commits": 65,
-      "prs": 6,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 54,
-      "name": "Endri Binaku",
-      "login": "BinakuEndri",
-      "avatar_url": "https://avatars.githubusercontent.com/u/57039368?u=2ee2d57aa810a2dacec134c73cdfe407a4034bdf\u0026v=4",
-      "contributions": 68,
-      "commits": 67,
-      "prs": 0,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 55,
-      "name": "Adnit Kamberi",
-      "login": "adnit",
-      "avatar_url": "https://avatars.githubusercontent.com/u/29920325?v=4",
-      "contributions": 67,
-      "commits": 43,
-      "prs": 2,
-      "company": "@upfiek",
-      "organizations": [
-        "upfiek"
-      ]
-    },
-    {
-      "rank": 56,
-      "name": "Meriton Pylla",
-      "login": "MeritonPylla",
-      "avatar_url": "https://avatars.githubusercontent.com/u/15126341?u=5d6d32e4989fb83a63225b627cf103504d36f549\u0026v=4",
-      "contributions": 66,
-      "commits": 18,
-      "prs": 3,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 57,
-      "name": "Brutiv",
-      "login": "brutiv",
-      "avatar_url": "https://avatars.githubusercontent.com/u/155109578?u=8451173eaf77cabc47695d716020ad0c26cd8e4a\u0026v=4",
-      "contributions": 64,
-      "commits": 60,
-      "prs": 0,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 58,
-      "name": "Ardit Beqiraj",
-      "login": "ArditBeqiraj",
-      "avatar_url": "https://avatars.githubusercontent.com/u/185199828?v=4",
-      "contributions": 64,
-      "commits": 52,
-      "prs": 7,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 59,
-      "name": "Durim Kryeziu",
-      "login": "durimkryeziu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11609385?u=c2dd1e123164b24bcb239f62f8a9a594006e2139\u0026v=4",
-      "contributions": 62,
-      "commits": 52,
-      "prs": 4,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 60,
-      "name": "Egzon Arifi",
-      "login": "EgzonArifi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7537706?u=10872a7a40f80d1c1fd13a15c2ca61586affe184\u0026v=4",
-      "contributions": 58,
-      "commits": 37,
-      "prs": 12,
-      "company": "Povio",
-      "organizations": [
-        "povio"
-      ]
-    },
-    {
-      "rank": 61,
-      "name": "AArdian",
-      "login": "arddluma",
-      "avatar_url": "https://avatars.githubusercontent.com/u/34317628?u=a205e27aa197be08dd38ca9960284bdcc63ee3d4\u0026v=4",
-      "contributions": 57,
-      "commits": 45,
-      "prs": 4,
-      "company": "dele-to",
-      "organizations": []
-    },
-    {
-      "rank": 62,
-      "name": "doridev",
-      "login": "dorgashi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7705349?v=4",
-      "contributions": 57,
-      "commits": 56,
-      "prs": 0,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 63,
-      "name": "ardit",
-      "login": "arditbe",
-      "avatar_url": "https://avatars.githubusercontent.com/u/88629825?u=bda4dda4bdd794b56e4ebb08b68b36c8a3613eb7\u0026v=4",
-      "contributions": 56,
-      "commits": 30,
-      "prs": 1,
-      "company": "CTO at Amaro Than Platforms LLC",
-      "organizations": []
-    },
-    {
-      "rank": 64,
-      "name": "Enes Shala",
-      "login": "enesshala",
-      "avatar_url": "https://avatars.githubusercontent.com/u/51416158?u=2eab882d09bb7a7852d91b451c55e003bfe5dd9b\u0026v=4",
-      "contributions": 56,
-      "commits": 46,
-      "prs": 3,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 65,
-      "name": "Arber",
-      "login": "arberiii",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8199285?u=d122d74cc51a797c2a034c7461ef0122fccd749a\u0026v=4",
-      "contributions": 51,
-      "commits": 33,
-      "prs": 0,
-      "company": "@short-d",
-      "organizations": [
-        "short-d"
-      ]
-    },
-    {
-      "rank": 66,
-      "name": "Shyqeri Gashi",
-      "login": "shyqerigashi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25856027?u=d56ebddd7f03100dd239ca6bfc8f084694a0ba89\u0026v=4",
-      "contributions": 50,
-      "commits": 35,
-      "prs": 5,
-      "company": "Povio",
-      "organizations": []
-    },
-    {
-      "rank": 67,
-      "name": "Endrit Vitija",
-      "login": "endritvitija",
-      "avatar_url": "https://avatars.githubusercontent.com/u/20324575?u=fc61965ab8daa669726e7abfe1f3318abd1f3e06\u0026v=4",
-      "contributions": 50,
-      "commits": 44,
-      "prs": 3,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 68,
-      "name": "Art Jashari",
-      "login": "Art-Jashari",
-      "avatar_url": "https://avatars.githubusercontent.com/u/116293673?u=ee1c14ceb12d1f59bc603cadeb38b0a372630869\u0026v=4",
-      "contributions": 49,
-      "commits": 47,
-      "prs": 0,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 69,
-      "name": "Leonita Sinani",
-      "login": "leonitaas",
-      "avatar_url": "https://avatars.githubusercontent.com/u/116465243?u=863eb9d902f1c6059d681f950f1e29ba10a7e3cb\u0026v=4",
-      "contributions": 48,
-      "commits": 44,
-      "prs": 0,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 70,
-      "name": "Ylber Gashi",
-      "login": "ylber-gashi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/58399076?u=a4caf0ce3c4469c25bdb3eb1fbea7f99dd9cefa4\u0026v=4",
-      "contributions": 46,
-      "commits": 7,
-      "prs": 37,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 71,
-      "name": "KPacarizi",
-      "login": "KPaccarizi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/26025929?v=4",
-      "contributions": 45,
-      "commits": 45,
-      "prs": 0,
-      "company": "Google Developers Group",
-      "organizations": []
-    },
-    {
-      "rank": 72,
-      "name": "Emir Binçe",
-      "login": "EmirXK",
-      "avatar_url": "https://avatars.githubusercontent.com/u/92262991?v=4",
-      "contributions": 44,
-      "commits": 38,
-      "prs": 0,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 73,
-      "name": "Jeton R.",
-      "login": "jetonr",
-      "avatar_url": "https://avatars.githubusercontent.com/u/2385217?u=b3e21c5dd99cda2fd5870ce36a856a213460b0a9\u0026v=4",
-      "contributions": 41,
-      "commits": 39,
-      "prs": 0,
-      "company": "JR Web Studio",
-      "organizations": []
-    },
-    {
-      "rank": 74,
-      "name": "Engjëll ",
-      "login": "engjellhas",
-      "avatar_url": "https://avatars.githubusercontent.com/u/57192274?u=232a9012457f11983a40bec398ce2297722d6ff2\u0026v=4",
-      "contributions": 40,
-      "commits": 31,
-      "prs": 1,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 75,
-      "name": "Ali Tafaj",
-      "login": "A-tafaj",
-      "avatar_url": "https://avatars.githubusercontent.com/u/58335577?v=4",
-      "contributions": 40,
-      "commits": 38,
-      "prs": 1,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 76,
-      "name": "Enis Toçilla",
-      "login": "tocilla",
-      "avatar_url": "https://avatars.githubusercontent.com/u/15322500?u=9f32e93cbca5ddd78b44eafc4836a96da3870ab8\u0026v=4",
-      "contributions": 40,
-      "commits": 38,
-      "prs": 0,
-      "company": "@IntuitiveWebSolutions",
-      "organizations": []
-    },
-    {
-      "rank": 77,
-      "name": "Tringa Desku",
-      "login": "tringadesku",
-      "avatar_url": "https://avatars.githubusercontent.com/u/58163801?v=4",
-      "contributions": 39,
-      "commits": 37,
-      "prs": 0,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 78,
-      "name": "Korab Arifi",
-      "login": "Korabi-dev",
-      "avatar_url": "https://avatars.githubusercontent.com/u/69105206?u=9e2f390e0de775979a2120e64e8e1664ee9cbb72\u0026v=4",
-      "contributions": 39,
-      "commits": 37,
-      "prs": 0,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 79,
-      "name": "Lirim Krosa",
-      "login": "lirimkrosa",
-      "avatar_url": "https://avatars.githubusercontent.com/u/25111860?u=62b91beafd69a24baa3dd41757de8adf81c7d9c1\u0026v=4",
-      "contributions": 38,
-      "commits": 36,
-      "prs": 0,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 80,
-      "name": "Ylljetë Kicaj",
-      "login": "ylljetakicaj",
-      "avatar_url": "https://avatars.githubusercontent.com/u/118022552?u=20d68c01605742ab8243d7d8d0ec0b69276a38e6\u0026v=4",
-      "contributions": 36,
-      "commits": 31,
-      "prs": 3,
-      "company": "@upfiek",
-      "organizations": []
-    },
-    {
-      "rank": 81,
-      "name": "Altin Ukshini",
-      "login": "altinukshini",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1146789?u=f1013ecfbee3abb534326c5ddbac586c067f81a5\u0026v=4",
-      "contributions": 36,
-      "commits": 31,
-      "prs": 2,
-      "company": "@flosskosova",
-      "organizations": [
-        "flosskosova",
-        "PrishtinaHackerspace"
-      ]
-    },
-    {
-      "rank": 82,
-      "name": "fiskryeziu",
-      "login": "fiskryeziu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/64495368?u=bca20d7c7021de4f7f6d638d314a8393f25cb170\u0026v=4",
-      "contributions": 36,
-      "commits": 33,
-      "prs": 0,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 83,
-      "name": "Puhiza Tmava",
-      "login": "PuhizaTmava",
-      "avatar_url": "https://avatars.githubusercontent.com/u/94013520?v=4",
-      "contributions": 35,
-      "commits": 19,
-      "prs": 0,
-      "company": "University of Prishtina",
-      "organizations": []
-    },
-    {
-      "rank": 84,
-      "name": "Mentor Kadriu",
-      "login": "mentorkadriu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7710840?u=a889236586160d1906e5751ac4fcb9335b82e111\u0026v=4",
-      "contributions": 34,
-      "commits": 28,
-      "prs": 4,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 85,
-      "name": "Gazi",
-      "login": "gazmorabdiu",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22417510?u=552a3e6d3d0098738b0384b9501b79d97c32c3ec\u0026v=4",
-      "contributions": 33,
-      "commits": 29,
-      "prs": 0,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 86,
-      "name": "Eroll Maxhuni",
-      "login": "341",
-      "avatar_url": "https://avatars.githubusercontent.com/u/227199?u=021488fc9b565fa8596537cbc2cf9d7509225b3c\u0026v=4",
-      "contributions": 32,
-      "commits": 29,
-      "prs": 0,
-      "company": "@coda.tech",
-      "organizations": []
-    },
-    {
-      "rank": 87,
-      "name": "Ismajl Ramadani",
-      "login": "ismajl-ramadani",
-      "avatar_url": "https://avatars.githubusercontent.com/u/18295983?u=26c92cb9dec82cfb5a28231374854bf3a23a176a\u0026v=4",
-      "contributions": 31,
-      "commits": 25,
-      "prs": 0,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 88,
-      "name": "Jeton Gjonbalaj",
-      "login": "JetonGjonbalaj",
-      "avatar_url": "https://avatars.githubusercontent.com/u/31703284?u=226c6c2d5de92d236a942d56da751edb1b31932e\u0026v=4",
-      "contributions": 31,
-      "commits": 28,
-      "prs": 0,
-      "company": "Radix",
-      "organizations": []
-    },
-    {
-      "rank": 89,
-      "name": "Njazi Shehu",
-      "login": "njaaazi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/6045163?u=eb3da9b8c8d44da20aa22e8bcdaf8fb3ca9d9902\u0026v=4",
-      "contributions": 31,
-      "commits": 23,
-      "prs": 2,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 90,
-      "name": "Kujtim Neziraj",
-      "login": "kujtaa",
-      "avatar_url": "https://avatars.githubusercontent.com/u/45258527?u=fa2e58a1c689f00b27ef0db015a16954a9fd6e2e\u0026v=4",
-      "contributions": 31,
-      "commits": 29,
-      "prs": 0,
-      "company": "Starlabs",
-      "organizations": []
-    },
-    {
-      "rank": 91,
-      "name": "Dion Gashi",
-      "login": "Diongashi09",
-      "avatar_url": "https://avatars.githubusercontent.com/u/116436845?u=aeca69016df491bdbd97a234459f95edaba5b662\u0026v=4",
-      "contributions": 30,
-      "commits": 29,
-      "prs": 0,
-      "company": "University of Prishtina",
-      "organizations": []
-    },
-    {
-      "rank": 92,
-      "name": "Remzi",
-      "login": "rem7i",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10940287?u=1de5c421e464e9d76547f65328ef2c91a81424fe\u0026v=4",
-      "contributions": 29,
-      "commits": 27,
-      "prs": 0,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 93,
-      "name": "Endrit Veseli",
-      "login": "endritv",
-      "avatar_url": "https://avatars.githubusercontent.com/u/43518990?u=95e5495186d7ab08344843c97ceeca3311362f7d\u0026v=4",
-      "contributions": 29,
-      "commits": 28,
-      "prs": 0,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 94,
-      "name": "Bonin Ferizi",
-      "login": "bonin1",
-      "avatar_url": "https://avatars.githubusercontent.com/u/74800501?u=1d31ebf0789d3495b3eb8591f985c107ffd456a0\u0026v=4",
-      "contributions": 29,
-      "commits": 25,
-      "prs": 0,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 95,
-      "name": "Drinor Berisha",
-      "login": "drinorberisha",
-      "avatar_url": "https://avatars.githubusercontent.com/u/72041569?v=4",
-      "contributions": 29,
-      "commits": 23,
-      "prs": 1,
-      "company": "Pixellent Solutions",
-      "organizations": []
-    },
-    {
-      "rank": 96,
-      "name": "Sibora Berisha",
-      "login": "siboraberishaa",
-      "avatar_url": "https://avatars.githubusercontent.com/u/137489294?u=b1b5a8763bd5b9c1211bab566694c291f0bdcad1\u0026v=4",
-      "contributions": 29,
-      "commits": 21,
-      "prs": 4,
-      "company": "Freelance Software developer",
-      "organizations": []
-    },
-    {
-      "rank": 97,
-      "name": "OsmanBytyqi",
-      "login": "OsmanBytyqi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/75097365?v=4",
-      "contributions": 27,
-      "commits": 25,
-      "prs": 0,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 98,
-      "name": "Edmondi",
-      "login": "edimonndi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/30123650?u=6dd3b23bb80adda1d6400c6e540e32db655aafef\u0026v=4",
-      "contributions": 27,
-      "commits": 21,
-      "prs": 0,
-      "company": "WindMotion",
-      "organizations": []
-    },
-    {
-      "rank": 99,
-      "name": "Mergim Krasniqi",
-      "login": "mergimkrasniqi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/5903621?u=1c44c5b50a9bc62181ab472d4527f97af6c74a11\u0026v=4",
-      "contributions": 26,
-      "commits": 25,
-      "prs": 0,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 100,
-      "name": "Robert Nikolla",
-      "login": "robnikolla",
-      "avatar_url": "https://avatars.githubusercontent.com/u/64592879?u=9ae81b168bfd46b883e775880b5c9299e00e8d53\u0026v=4",
-      "contributions": 25,
-      "commits": 22,
-      "prs": 2,
-      "company": "XK Group",
-      "organizations": []
     }
   ],
   "organizations": [
     {
       "rank": 1,
-      "name": "upfiek",
-      "members": 2,
+      "name": "skillro-oss",
+      "members": 1,
       "impact": "Normal"
     },
     {
       "rank": 2,
-      "name": "flosskosova",
-      "members": 2,
+      "name": "attributy",
+      "members": 1,
       "impact": "Normal"
     },
     {
       "rank": 3,
-      "name": "aios-inc",
+      "name": "albismart",
       "members": 1,
       "impact": "Normal"
     },
     {
       "rank": 4,
-      "name": "momentag",
+      "name": "aios-inc",
       "members": 1,
       "impact": "Normal"
     },
@@ -1166,49 +1154,7 @@
     },
     {
       "rank": 7,
-      "name": "garagesteroids",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 8,
-      "name": "albismart",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 9,
-      "name": "attributy",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 10,
-      "name": "skillro-oss",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 11,
-      "name": "povio",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 12,
-      "name": "short-d",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 13,
-      "name": "intuitivewebsolutions",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 14,
-      "name": "prishtinahackerspace",
+      "name": "momentag",
       "members": 1,
       "impact": "Normal"
     }
