@@ -1,0 +1,1882 @@
+{
+  "country": "Russia",
+  "generated_at": "2026-11-14",
+  "min_followers_required": 66,
+  "total_users": 153920,
+  "definition_checksum": "6145f387001ed56a2e93ecdb199bf19ed2a48314b0f80ec8eaf79c08a597b37c",
+  "users": [
+    {
+      "rank": 1,
+      "name": "mig1023",
+      "login": "mig1023",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45512128?u=c17dc152e7cc87776f7c03b3b3507f3862d7147e\u0026v=4",
+      "contributions": 17406,
+      "commits": 17406,
+      "prs": 0,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 2,
+      "name": "Vlad Shulcz",
+      "login": "vshulcz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/99616188?v=4",
+      "contributions": 11507,
+      "commits": 5353,
+      "prs": 3238,
+      "company": "Sber",
+      "organizations": []
+    },
+    {
+      "rank": 3,
+      "name": "Dvurechensky",
+      "login": "Dvurechensky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46356631?u=25fe9aaa7f0bf4c7089ffa6617b3f9e3b9591b08\u0026v=4",
+      "contributions": 8675,
+      "commits": 8653,
+      "prs": 12,
+      "company": "International Center for Informatics and Electronics (ICIE)",
+      "organizations": [
+        "Lizerium",
+        "Unifier-of-Systems",
+        "Dvurechensky-Docs",
+        "Dvurechensky-Test-Tasks",
+        "Dvurechensky-Tools"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "Sergey Kuzyukov",
+      "login": "bestdeejay-design",
+      "avatar_url": "https://avatars.githubusercontent.com/u/243793979?u=c5f345c8e305b68e636ffd0cac06e5b42c930243\u0026v=4",
+      "contributions": 7476,
+      "commits": 6405,
+      "prs": 756,
+      "company": "@axiiom-ru",
+      "organizations": [
+        "rucorp"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "StressOzz",
+      "login": "StressOzz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/131419324?v=4",
+      "contributions": 7280,
+      "commits": 7209,
+      "prs": 5,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 6,
+      "name": "Andrey Helldar",
+      "login": "andrey-helldar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10347617?u=06cbd2243c776040815aa194582e75d9cddfc12b\u0026v=4",
+      "contributions": 7206,
+      "commits": 4967,
+      "prs": 568,
+      "company": "@TheDragonCode",
+      "organizations": [
+        "Laravel-Lang",
+        "Laraberries",
+        "TheDragonCode",
+        "cashbox-laravel",
+        "package-wizard"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Mikhail Shugay",
+      "login": "mikessh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6215797?u=a4e723a7b04d823dbc1594a6f1ed647249c351da\u0026v=4",
+      "contributions": 7058,
+      "commits": 5728,
+      "prs": 773,
+      "company": "Immunosequencing Algorithms Lab",
+      "organizations": [
+        "antigenomics",
+        "repseqio",
+        "repseq"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "Ingvar Vilkman",
+      "login": "zeegin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/729213?u=37be2299ad9d32f5c62e2e183226d1a074a90d4a\u0026v=4",
+      "contributions": 6679,
+      "commits": 3268,
+      "prs": 1824,
+      "company": "@IngvarConsulting",
+      "organizations": [
+        "IngvarConsulting"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Dodgy",
+      "login": "Fayzimurod",
+      "avatar_url": "https://avatars.githubusercontent.com/u/194051402?u=20a857a1225e0dd243e2a72273972f2ed5d2e50a\u0026v=4",
+      "contributions": 6321,
+      "commits": 6313,
+      "prs": 0,
+      "company": "Dodgyyyness DDC",
+      "organizations": []
+    },
+    {
+      "rank": 10,
+      "name": "Malik Mukhametzyanov",
+      "login": "T8RIN",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52178347?u=4e7efb1fe0aee2d6c0daaefb6fb5cb7572ca9b7a\u0026v=4",
+      "contributions": 6319,
+      "commits": 4421,
+      "prs": 955,
+      "company": "@T8RIN-Dev",
+      "organizations": [
+        "T8RIN-Dev",
+        "T8RIN-Exp",
+        "T8RIN-Help"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "Oleg Chirukhin",
+      "login": "olegchir",
+      "avatar_url": "https://avatars.githubusercontent.com/u/127215?u=f0205e235a033ebaff3847ade6be2e0a9f7bf99a\u0026v=4",
+      "contributions": 6107,
+      "commits": 6100,
+      "prs": 0,
+      "company": "Anarchic AI",
+      "organizations": [
+        "maxinevm",
+        "textorio",
+        "graalvm-community"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "Sergey Pinus",
+      "login": "bropines",
+      "avatar_url": "https://avatars.githubusercontent.com/u/57861007?u=c9faee3de2a5b8791956105fd9911f6cbc8f972b\u0026v=4",
+      "contributions": 5951,
+      "commits": 5742,
+      "prs": 155,
+      "company": "Not a Company",
+      "organizations": []
+    },
+    {
+      "rank": 13,
+      "name": "Wajahat Ali Mir",
+      "login": "wajahat-ali-mir-dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/156110102?u=c407c0684339b08ac2d9c5bc14cd4bc8658c1ec6\u0026v=4",
+      "contributions": 5579,
+      "commits": 5546,
+      "prs": 8,
+      "company": "Wajahat Ali Mir Solutions",
+      "organizations": []
+    },
+    {
+      "rank": 14,
+      "name": "Sergei Predvoditelev",
+      "login": "vjik",
+      "avatar_url": "https://avatars.githubusercontent.com/u/525501?v=4",
+      "contributions": 4806,
+      "commits": 2181,
+      "prs": 1592,
+      "company": "@yiisoft",
+      "organizations": [
+        "yiisoft",
+        "yiisoft-contrib",
+        "phpvrn",
+        "httpsoft",
+        "21ideas-org"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "Konstantin Chukharev",
+      "login": "Lipen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1026835?u=4532c653c92f2eb0650e4494f3a71e1eb76f3a41\u0026v=4",
+      "contributions": 4778,
+      "commits": 4763,
+      "prs": 3,
+      "company": "ITMO University, @ctlab",
+      "organizations": [
+        "ctlab",
+        "UnitTestBot"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "STAM",
+      "login": "stamepicmorg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1307229?u=cf4d65cad4115682a5def20b176c7fec5398670c\u0026v=4",
+      "contributions": 4202,
+      "commits": 3262,
+      "prs": 928,
+      "company": "Saber Interactive",
+      "organizations": [
+        "EpicMorg",
+        "ZXCmod",
+        "EpicMorgVault",
+        "EpicMorgGames",
+        "EpicMorgArchive"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "nin-jin",
+      "login": "nin-jin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/442988?v=4",
+      "contributions": 4121,
+      "commits": 4028,
+      "prs": 3,
+      "company": "@hyoo-ru @piterjs",
+      "organizations": [
+        "hyoo-ru"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "Vsevolod Strukchinsky",
+      "login": "floatdrop",
+      "avatar_url": "https://avatars.githubusercontent.com/u/365089?u=e3dff40fc0bf4365f0e18f803b14add19e3e10a7\u0026v=4",
+      "contributions": 3689,
+      "commits": 2735,
+      "prs": 779,
+      "company": "Yandex",
+      "organizations": []
+    },
+    {
+      "rank": 19,
+      "name": "Anton Patsev",
+      "login": "patsevanton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10828883?u=565d231d4d35a828b70fbd86e10cb84ca981c1e8\u0026v=4",
+      "contributions": 3603,
+      "commits": 3215,
+      "prs": 254,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 20,
+      "name": "Andrew Ghostuhin",
+      "login": "TorinAsakura",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3940885?u=a59ff3b651eba993ae40ab55feb5005b1474f498\u0026v=4",
+      "contributions": 3325,
+      "commits": 2399,
+      "prs": 491,
+      "company": "@atls @torin-asakura",
+      "organizations": [
+        "atls",
+        "atls-academy",
+        "torin-asakura",
+        "epochcrysis",
+        "atls-design"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "Mikhail",
+      "login": "fagci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8795970?u=1daa55de3c37ed9a44455d9c0c8eeb638f761841\u0026v=4",
+      "contributions": 3281,
+      "commits": 1867,
+      "prs": 1400,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 22,
+      "name": "Litvinov Y.",
+      "login": "litury",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60976781?u=024c0ee36addcad1c4bebc402c3eb4626f3ca8e1\u0026v=4",
+      "contributions": 2970,
+      "commits": 2773,
+      "prs": 125,
+      "company": "Home",
+      "organizations": []
+    },
+    {
+      "rank": 23,
+      "name": "Daniel Podolsky",
+      "login": "onokonem",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1049874?u=57c49139dca7942246ae8dac9fd3011d3fddf5d9\u0026v=4",
+      "contributions": 2886,
+      "commits": 2698,
+      "prs": 158,
+      "company": "Djarvur group",
+      "organizations": [
+        "Djarvur"
+      ]
+    },
+    {
+      "rank": 24,
+      "name": "Michael Bely",
+      "login": "michaelbel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16020628?u=030b0beb55082731ea8858857bc07afb289055fb\u0026v=4",
+      "contributions": 2860,
+      "commits": 2689,
+      "prs": 88,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 25,
+      "name": "WofWca",
+      "login": "WofWca",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39462442?u=ee2202c31dc0511ade9f7f045f7d0f3e68785675\u0026v=4",
+      "contributions": 2816,
+      "commits": 1651,
+      "prs": 624,
+      "company": "@deltachat",
+      "organizations": [
+        "deltachat",
+        "pion",
+        "webxdc",
+        "chatmail"
+      ]
+    },
+    {
+      "rank": 26,
+      "name": "K900",
+      "login": "K900",
+      "avatar_url": "https://avatars.githubusercontent.com/u/386765?u=b8b36610c1807bf3be1ced41fded95cc3e3a0d4e\u0026v=4",
+      "contributions": 2806,
+      "commits": 2207,
+      "prs": 488,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 27,
+      "name": "Pavel Tatarskiy",
+      "login": "vintikzzz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/150981?u=aa4fcf02fe73410a93c4b8291e5fb8ba1dda43fa\u0026v=4",
+      "contributions": 2681,
+      "commits": 2457,
+      "prs": 219,
+      "company": "@webtor-io",
+      "organizations": [
+        "webtor-io"
+      ]
+    },
+    {
+      "rank": 28,
+      "name": "org",
+      "login": "ogamespec",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5828819?u=65abaf6236ed97044dcd03d3042cc84ba1b6f565\u0026v=4",
+      "contributions": 2662,
+      "commits": 2144,
+      "prs": 332,
+      "company": "@emu-russia",
+      "organizations": [
+        "emu-russia"
+      ]
+    },
+    {
+      "rank": 29,
+      "name": "Denis Stepulenok",
+      "login": "stden",
+      "avatar_url": "https://avatars.githubusercontent.com/u/435009?v=4",
+      "contributions": 2614,
+      "commits": 2443,
+      "prs": 143,
+      "company": "СПбГЭТУ \"ЛЭТИ\"",
+      "organizations": []
+    },
+    {
+      "rank": 30,
+      "name": "kurnakovv",
+      "login": "kurnakovv",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59327306?u=1f290aa9932274b6588faede4a9f43c25e56d049\u0026v=4",
+      "contributions": 2438,
+      "commits": 1992,
+      "prs": 186,
+      "company": "@tiburon-research",
+      "organizations": []
+    },
+    {
+      "rank": 31,
+      "name": "Gregor ",
+      "login": "gregor-tokarev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52395572?u=6030d6b100f233cf689bc7f64d66bd436399b986\u0026v=4",
+      "contributions": 2305,
+      "commits": 1744,
+      "prs": 340,
+      "company": "wb",
+      "organizations": []
+    },
+    {
+      "rank": 32,
+      "name": "Almaz",
+      "login": "monosans",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76561516?v=4",
+      "contributions": 2279,
+      "commits": 1772,
+      "prs": 483,
+      "company": "@djlint",
+      "organizations": [
+        "djlint"
+      ]
+    },
+    {
+      "rank": 33,
+      "name": "maruki00",
+      "login": "maruki00",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23297924?u=afe504b31641e2c3d02e1a12d656f62ff3c72b73\u0026v=4",
+      "contributions": 2265,
+      "commits": 2258,
+      "prs": 5,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 34,
+      "name": "Kalashnikov Igor",
+      "login": "silentroach",
+      "avatar_url": "https://avatars.githubusercontent.com/u/166803?u=568bae54597f5832655f974e13935c54b2799036\u0026v=4",
+      "contributions": 2156,
+      "commits": 1138,
+      "prs": 495,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 35,
+      "name": "Sergey Starykh",
+      "login": "tormozit",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11896251?u=94ece9eb707606c2b262617b76b61957f59dd9e5\u0026v=4",
+      "contributions": 2127,
+      "commits": 1092,
+      "prs": 7,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 36,
+      "name": "Marley",
+      "login": "webmakaka",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10372159?u=3a42b1000f71ee937895fa6fceb43bb080ffccc7\u0026v=4",
+      "contributions": 2051,
+      "commits": 1987,
+      "prs": 13,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 37,
+      "name": "Sergey S. Volkov",
+      "login": "js2me",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16340911?u=0b86735638fe0dc42ea6e9f046d130a38edf274a\u0026v=4",
+      "contributions": 2010,
+      "commits": 1910,
+      "prs": 52,
+      "company": "VK",
+      "organizations": [
+        "acacode"
+      ]
+    },
+    {
+      "rank": 38,
+      "name": "Sergey B Kirpichev",
+      "login": "skirpichev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2155800?u=6825f5af66a3126d92cee985f8b0a6925f9f64a8\u0026v=4",
+      "contributions": 1955,
+      "commits": 1252,
+      "prs": 308,
+      "company": "@python",
+      "organizations": [
+        "python",
+        "diofant",
+        "passagemath",
+        "gmpy2"
+      ]
+    },
+    {
+      "rank": 39,
+      "name": "Ilya Maslennikov",
+      "login": "xrip",
+      "avatar_url": "https://avatars.githubusercontent.com/u/420432?u=a85f8e3baa9da12b475a9d7bafdeb8db649edc51\u0026v=4",
+      "contributions": 1944,
+      "commits": 1797,
+      "prs": 67,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 40,
+      "name": "Fedor Lizunkov",
+      "login": "slacky1965",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28629969?u=2bd7b671a358f09b8cd10d9eafcad180634bf0f8\u0026v=4",
+      "contributions": 1920,
+      "commits": 1674,
+      "prs": 223,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 41,
+      "name": "Roman Shapiro",
+      "login": "rds1983",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1057289?u=eb3c39968e43706aa3c7921900c73082d13df3e8\u0026v=4",
+      "contributions": 1880,
+      "commits": 1770,
+      "prs": 3,
+      "company": "@StbSharp",
+      "organizations": [
+        "StbSharp",
+        "StbJava"
+      ]
+    },
+    {
+      "rank": 42,
+      "name": "vadv",
+      "login": "vadv",
+      "avatar_url": "https://avatars.githubusercontent.com/u/539450?u=85c48e80eda9cfc2ae81441820dcec5027f95622\u0026v=4",
+      "contributions": 1856,
+      "commits": 1269,
+      "prs": 527,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 43,
+      "name": "MaxMur",
+      "login": "TheMaxMur",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31189199?u=6a1a6af9da62c517405304df37d0d1829ede3d5e\u0026v=4",
+      "contributions": 1824,
+      "commits": 1691,
+      "prs": 53,
+      "company": "QmFjaGVsb3IgLyBEZXZPcHM=",
+      "organizations": [
+        "NixOS",
+        "nix-community",
+        "librekeys"
+      ]
+    },
+    {
+      "rank": 44,
+      "name": "nmzik",
+      "login": "Nmzik",
+      "avatar_url": "https://avatars.githubusercontent.com/u/691945?v=4",
+      "contributions": 1821,
+      "commits": 1765,
+      "prs": 34,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 45,
+      "name": "Alexandr Chernyaev",
+      "login": "tabuna",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5102591?u=12ce7cf5dcd0d62cbab40642936558ec694ef5b2\u0026v=4",
+      "contributions": 1780,
+      "commits": 1677,
+      "prs": 88,
+      "company": "@LaravelRUS",
+      "organizations": [
+        "LaravelRUS",
+        "orchidsoftware",
+        "PenateDB",
+        "sajya",
+        "cagilo"
+      ]
+    },
+    {
+      "rank": 46,
+      "name": "Marcus W Beck",
+      "login": "fawda123",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3086881?u=7e6f1b248743b4af7d67513b9f497d2ceb8fb72d\u0026v=4",
+      "contributions": 1776,
+      "commits": 1748,
+      "prs": 6,
+      "company": "Tampa Bay Estuary Program",
+      "organizations": [
+        "NCEAS",
+        "TampaUseRs",
+        "tbep-tech",
+        "FloridaSEACAR",
+        "massbays-tech"
+      ]
+    },
+    {
+      "rank": 47,
+      "name": "Rimuru",
+      "login": "RimuruDev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/85500556?u=2231da5c80037271f396808f4ca8e789eeb79162\u0026v=4",
+      "contributions": 1706,
+      "commits": 1639,
+      "prs": 13,
+      "company": "@Rimuru-Dev",
+      "organizations": [
+        "Rimuru-Dev"
+      ]
+    },
+    {
+      "rank": 48,
+      "name": "Mikhail Alabugin",
+      "login": "1t1sCooL",
+      "avatar_url": "https://avatars.githubusercontent.com/u/137305666?u=dee20347eb1beec9ce6ac739cc344017d5d11188\u0026v=4",
+      "contributions": 1668,
+      "commits": 1371,
+      "prs": 209,
+      "company": "globalpay",
+      "organizations": []
+    },
+    {
+      "rank": 49,
+      "name": "Vitaliy",
+      "login": "kuviman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5872782?u=2acc9ecb7dfd115ad59f4aa3c269ade648a77de1\u0026v=4",
+      "contributions": 1618,
+      "commits": 1563,
+      "prs": 8,
+      "company": "@kast-lang",
+      "organizations": [
+        "kast-lang"
+      ]
+    },
+    {
+      "rank": 50,
+      "name": "Adel Nizamutdinov",
+      "login": "meoyawn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1594148?u=30d8dbcb6c7d96d1a3d373dd35514fc57c493a5a\u0026v=4",
+      "contributions": 1581,
+      "commits": 1392,
+      "prs": 108,
+      "company": "@listenbox",
+      "organizations": [
+        "listenbox",
+        "arrowboxco"
+      ]
+    },
+    {
+      "rank": 51,
+      "name": "ak-git",
+      "login": "ak-git",
+      "avatar_url": "https://avatars.githubusercontent.com/u/655487?v=4",
+      "contributions": 1509,
+      "commits": 1509,
+      "prs": 0,
+      "company": "Bauman Moscow State Technical University",
+      "organizations": []
+    },
+    {
+      "rank": 52,
+      "name": "Vadim Pisarevsky",
+      "login": "vpisarev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2110786?u=c2e6d7949ad8d5b897066d660e2c403a88c4c59e\u0026v=4",
+      "contributions": 1509,
+      "commits": 1305,
+      "prs": 52,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 53,
+      "name": "Viacheslav Mezentsev",
+      "login": "ViacheslavMezentsev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/942421?u=4330a9c811cda97819d04ed018c8d300d20d3483\u0026v=4",
+      "contributions": 1467,
+      "commits": 1389,
+      "prs": 63,
+      "company": "Home",
+      "organizations": []
+    },
+    {
+      "rank": 54,
+      "name": "Vitaliy Novichkov",
+      "login": "Wohlstand",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6751442?u=0e6a91d0a31ff6fd7af5fdc0f73679ffa7afc8b1\u0026v=4",
+      "contributions": 1458,
+      "commits": 1311,
+      "prs": 31,
+      "company": "@WohlSoft",
+      "organizations": [
+        "WohlSoft",
+        "libgme",
+        "TheXTech"
+      ]
+    },
+    {
+      "rank": 55,
+      "name": "Sega",
+      "login": "Sega757",
+      "avatar_url": "https://avatars.githubusercontent.com/u/110115549?u=246413380c531c8bd138e2ba98bbda74ff645043\u0026v=4",
+      "contributions": 1373,
+      "commits": 409,
+      "prs": 941,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 56,
+      "name": "Andrey Moskvitin",
+      "login": "archimag",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84920?v=4",
+      "contributions": 1358,
+      "commits": 1354,
+      "prs": 0,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 57,
+      "name": "Дмитрий Карих",
+      "login": "TheDrHax",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6968908?u=5aff12c9681d3ffdd9d8621b7b0e076bf28a93b4\u0026v=4",
+      "contributions": 1351,
+      "commits": 1349,
+      "prs": 0,
+      "company": "@mosmetro-android",
+      "organizations": [
+        "mosmetro-android",
+        "thedrhax-dockerfiles"
+      ]
+    },
+    {
+      "rank": 58,
+      "name": "BlackRose",
+      "login": "LoneStamp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/170086549?u=65407621e7325cb89ed5ac54c7588aafd87faba8\u0026v=4",
+      "contributions": 1341,
+      "commits": 1281,
+      "prs": 20,
+      "company": "@BlackBlazent @BCICDIS",
+      "organizations": [
+        "BCICDIS",
+        "BlackBlazent",
+        "CCC-Network"
+      ]
+    },
+    {
+      "rank": 59,
+      "name": "Ivan Maidanski",
+      "login": "ivmai",
+      "avatar_url": "https://avatars.githubusercontent.com/u/460469?v=4",
+      "contributions": 1302,
+      "commits": 1072,
+      "prs": 174,
+      "company": "Samsung",
+      "organizations": [
+        "bdwgc"
+      ]
+    },
+    {
+      "rank": 60,
+      "name": "Ruslan Bel'kov",
+      "login": "dantetemplar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69670642?u=22e2e34cc2a9a9c16ce5161b1fafe83c10f90352\u0026v=4",
+      "contributions": 1289,
+      "commits": 1034,
+      "prs": 40,
+      "company": "@one-zero-eight",
+      "organizations": [
+        "one-zero-eight"
+      ]
+    },
+    {
+      "rank": 61,
+      "name": "Ilya Ilyinykh",
+      "login": "IlyasYOY",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18665585?u=aa2918e2238605b9ffc20faacfc35b7ab5f5cfd6\u0026v=4",
+      "contributions": 1267,
+      "commits": 1155,
+      "prs": 50,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 62,
+      "name": "Dmitry Ananev",
+      "login": "Demonrux",
+      "avatar_url": "https://avatars.githubusercontent.com/u/214517475?u=56d813e8e37abe09d3d8322f4fd7c5de4091e645\u0026v=4",
+      "contributions": 1265,
+      "commits": 1185,
+      "prs": 40,
+      "company": "Open to work",
+      "organizations": [
+        "Digital-SGN"
+      ]
+    },
+    {
+      "rank": 63,
+      "name": "Denis Samatov",
+      "login": "denis-samatov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98321287?u=c9944056c24410ae65fd1e01be7ff453e17607f7\u0026v=4",
+      "contributions": 1219,
+      "commits": 875,
+      "prs": 318,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 64,
+      "name": "Victor Smirnov",
+      "login": "vityaman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53015676?u=725299ee595237d4a0fac8bfb7119d1b0f3eab29\u0026v=4",
+      "contributions": 1203,
+      "commits": 953,
+      "prs": 109,
+      "company": "ITMO University",
+      "organizations": [
+        "vityaman-edu",
+        "secs-dev"
+      ]
+    },
+    {
+      "rank": 65,
+      "name": "Vladislav Kurenkov",
+      "login": "vkurenkov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4092658?u=189487978dea52e529862791ad48ae32d0e389be\u0026v=4",
+      "contributions": 1195,
+      "commits": 1091,
+      "prs": 100,
+      "company": "@dunnolab",
+      "organizations": [
+        "dunnolab"
+      ]
+    },
+    {
+      "rank": 66,
+      "name": "Kirill Klenov",
+      "login": "klen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/90699?u=24470371fff67c9f17f280d8321a698f5c3f4351\u0026v=4",
+      "contributions": 1192,
+      "commits": 1188,
+      "prs": 0,
+      "company": "home",
+      "organizations": [
+        "code-beatles",
+        "Stouts",
+        "Dipsomaniac"
+      ]
+    },
+    {
+      "rank": 67,
+      "name": "Artur Kryukov",
+      "login": "BigKAA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60059562?u=95bc413732595ee7939d36715b9281d1e94b8ef2\u0026v=4",
+      "contributions": 1181,
+      "commits": 1149,
+      "prs": 18,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 68,
+      "name": "Suren Khorenyan",
+      "login": "mahenzon",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20804158?v=4",
+      "contributions": 1175,
+      "commits": 1127,
+      "prs": 15,
+      "company": "@yandex; ex @VKCOM; ex @mts-ai; ex @ClaimerApp; ex @AdCombo",
+      "organizations": [
+        "botometr",
+        "Telegram-Bot-FAQ",
+        "mts-ai"
+      ]
+    },
+    {
+      "rank": 69,
+      "name": "IgorTimofeev",
+      "login": "IgorTimofeev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11760002?u=d6a5bdb63d1eed9e1fb63c6f0fcfe15e4e634038\u0026v=4",
+      "contributions": 1162,
+      "commits": 1132,
+      "prs": 6,
+      "company": "Soprano Instruments S.R.L.",
+      "organizations": []
+    },
+    {
+      "rank": 70,
+      "name": "Dmitry Stepanov",
+      "login": "mrDIMAS",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2785135?u=1c6ef5b82b9394789d79096c5b6ccff377b53481\u0026v=4",
+      "contributions": 1152,
+      "commits": 1128,
+      "prs": 7,
+      "company": "@FyroxEngine",
+      "organizations": [
+        "FyroxEngine",
+        "fyrox-book"
+      ]
+    },
+    {
+      "rank": 71,
+      "name": "Maksim Rozhkov",
+      "login": "Kerminator1973",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32524563?u=eb93f09199ef400a0dfe598768a9fe08f53e7ac3\u0026v=4",
+      "contributions": 1143,
+      "commits": 1122,
+      "prs": 1,
+      "company": "DORS",
+      "organizations": []
+    },
+    {
+      "rank": 72,
+      "name": "Alexandr Epaneshnikov",
+      "login": "alex19EP",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4889846?u=3a30e7312605794abc3bc8af885dc54b1d97d343\u0026v=4",
+      "contributions": 1123,
+      "commits": 1014,
+      "prs": 70,
+      "company": "@archlinux",
+      "organizations": [
+        "archlinux",
+        "espeak-ng",
+        "RHVoice",
+        "linux-speakup"
+      ]
+    },
+    {
+      "rank": 73,
+      "name": "Pautov Leonid",
+      "login": "Pr-Mex",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8627416?u=b1a47c9894a0d1fcf83a2eda0b9d4edb4d62182b\u0026v=4",
+      "contributions": 1120,
+      "commits": 944,
+      "prs": 6,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 74,
+      "name": "Kirill Vasin",
+      "login": "JerryI",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4111822?u=0b24ea3ddf7e51af8dc3c413c30f2416617cbf8b\u0026v=4",
+      "contributions": 1083,
+      "commits": 1040,
+      "prs": 17,
+      "company": "Augsburg University",
+      "organizations": [
+        "WLJSTeam"
+      ]
+    },
+    {
+      "rank": 75,
+      "name": "Gavin Stark",
+      "login": "gstark",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2607?u=7b133e6ba2178663286b7190dcaaba5c2e50498f\u0026v=4",
+      "contributions": 1065,
+      "commits": 951,
+      "prs": 70,
+      "company": "@TampaRuby",
+      "organizations": [
+        "TampaRuby"
+      ]
+    },
+    {
+      "rank": 76,
+      "name": "Ilya Petrash",
+      "login": "gil9red",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6244078?v=4",
+      "contributions": 1058,
+      "commits": 1048,
+      "prs": 0,
+      "company": "Compass Plus Ltd.",
+      "organizations": []
+    },
+    {
+      "rank": 77,
+      "name": "Anton Larichev",
+      "login": "AlariCode",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2528600?u=34f637b6972a8a5a0043635d64d02912d87bc623\u0026v=4",
+      "contributions": 1038,
+      "commits": 944,
+      "prs": 24,
+      "company": "PupleSchool",
+      "organizations": []
+    },
+    {
+      "rank": 78,
+      "name": "TrashboxBobylev",
+      "login": "TrashboxBobylev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22856970?u=4554a639a68a8c1070e31c5ecbb1422f2c9162d6\u0026v=4",
+      "contributions": 1005,
+      "commits": 996,
+      "prs": 1,
+      "company": "@DoukutsuRandamu",
+      "organizations": [
+        "DoukutsuRandamu"
+      ]
+    },
+    {
+      "rank": 79,
+      "name": "Vladilen Minin",
+      "login": "vladilenm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11278675?u=2c6b571cd78b561b739bca16512b2c902677b65e\u0026v=4",
+      "contributions": 1004,
+      "commits": 974,
+      "prs": 9,
+      "company": "Result University",
+      "organizations": []
+    },
+    {
+      "rank": 80,
+      "name": "Fyodor Sonikov",
+      "login": "the2pizza",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6414316?u=d0e723ba06df2197190d2b1d276b5cff2ad496c4\u0026v=4",
+      "contributions": 976,
+      "commits": 948,
+      "prs": 24,
+      "company": "frkn",
+      "organizations": [
+        "frkn-dev"
+      ]
+    },
+    {
+      "rank": 81,
+      "name": "Vasilii Karpenko",
+      "login": "invweb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2270351?u=5fd0ee4b8d967b185bb94efdd1dcb0cdbaa0e8e6\u0026v=4",
+      "contributions": 956,
+      "commits": 888,
+      "prs": 4,
+      "company": "Mobile solutions group",
+      "organizations": []
+    },
+    {
+      "rank": 82,
+      "name": "Aleksandr Poliakov",
+      "login": "artwist-polyakov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/42345388?u=e18a6297890fa5e3d83707c1e5b28eb47f783147\u0026v=4",
+      "contributions": 950,
+      "commits": 692,
+      "prs": 184,
+      "company": "Zoomkit",
+      "organizations": []
+    },
+    {
+      "rank": 83,
+      "name": "Ar3love",
+      "login": "arelove",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47655009?u=25bc3131bc537b64acefc33c2c8c2fa317ef6437\u0026v=4",
+      "contributions": 941,
+      "commits": 714,
+      "prs": 190,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 84,
+      "name": "Starinin Andrey",
+      "login": "anst-foto",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8177749?u=a10c1ad42419f75cd323e31804e5e7f193d59b9a\u0026v=4",
+      "contributions": 903,
+      "commits": 706,
+      "prs": 17,
+      "company": "@it-top-vrn",
+      "organizations": [
+        "it-top-vrn",
+        "IT-za-Edu"
+      ]
+    },
+    {
+      "rank": 85,
+      "name": "Dmitry Stogov",
+      "login": "dstogov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2510034?v=4",
+      "contributions": 893,
+      "commits": 713,
+      "prs": 51,
+      "company": "@php",
+      "organizations": [
+        "php"
+      ]
+    },
+    {
+      "rank": 86,
+      "name": "Kirill Gavrilov Tartynskih",
+      "login": "gkv311",
+      "avatar_url": "https://avatars.githubusercontent.com/u/851453?u=6d1f4ef88dc883c4f6fe1e79eecb70e114fe6a62\u0026v=4",
+      "contributions": 888,
+      "commits": 850,
+      "prs": 6,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 87,
+      "name": "Alexander V. Wolf",
+      "login": "alex-w",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88731?u=171144bbecfb981f15a77c28c55dd0130f608162\u0026v=4",
+      "contributions": 884,
+      "commits": 677,
+      "prs": 13,
+      "company": "Altai State Pedagogical University",
+      "organizations": [
+        "Stellarium"
+      ]
+    },
+    {
+      "rank": 88,
+      "name": "Makr",
+      "login": "MakrSas",
+      "avatar_url": "https://avatars.githubusercontent.com/u/58633902?u=a5e7734094557fc2749e14c7c4a4c3b5ec4134b8\u0026v=4",
+      "contributions": 858,
+      "commits": 805,
+      "prs": 16,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 89,
+      "name": "Vladimir Cores",
+      "login": "VladimirCores",
+      "avatar_url": "https://avatars.githubusercontent.com/u/442111?u=6593c8e1beb83295509191d0e069ae0f97d37508\u0026v=4",
+      "contributions": 853,
+      "commits": 772,
+      "prs": 10,
+      "company": "SUPER CLUSTER",
+      "organizations": []
+    },
+    {
+      "rank": 90,
+      "name": "Biseuv Olzhas",
+      "login": "dosymep",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5417225?u=b0ad29d3fe2d62374cc972ca1098190c410cff28\u0026v=4",
+      "contributions": 839,
+      "commits": 349,
+      "prs": 214,
+      "company": "dosymep",
+      "organizations": [
+        "AndroidStudyJam-Omsk2016",
+        "pyrevitlabs",
+        "BIMOpenGroup",
+        "Bim4Everyone"
+      ]
+    },
+    {
+      "rank": 91,
+      "name": "Toil",
+      "login": "ilyhalight",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62353659?u=3ac1c77066fa3d1d120885dae2b10e3487082729\u0026v=4",
+      "contributions": 838,
+      "commits": 746,
+      "prs": 26,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 92,
+      "name": "Vitalij Ryndin",
+      "login": "crashmax-dev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/15673111?u=5ceaa6fc28348379cb8612b86d96687af9a7119a\u0026v=4",
+      "contributions": 830,
+      "commits": 801,
+      "prs": 21,
+      "company": "@spaces-dev",
+      "organizations": [
+        "spaces-dev",
+        "atestacraft",
+        "yoloforks",
+        "gigachad-dev",
+        "zero-dependency"
+      ]
+    },
+    {
+      "rank": 93,
+      "name": "Mike Kazantsev",
+      "login": "mk-fg",
+      "avatar_url": "https://avatars.githubusercontent.com/u/227121?v=4",
+      "contributions": 819,
+      "commits": 792,
+      "prs": 6,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 94,
+      "name": "Dmitry",
+      "login": "autowp",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2299280?v=4",
+      "contributions": 800,
+      "commits": 786,
+      "prs": 1,
+      "company": "HD-Tech",
+      "organizations": []
+    },
+    {
+      "rank": 95,
+      "name": "Max Vasiliev",
+      "login": "skammer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17655?v=4",
+      "contributions": 793,
+      "commits": 783,
+      "prs": 0,
+      "company": "@truckerpathteam",
+      "organizations": [
+        "IntegratorLLC"
+      ]
+    },
+    {
+      "rank": 96,
+      "name": "Alexander Chepurnoy",
+      "login": "kushti",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1972441?v=4",
+      "contributions": 791,
+      "commits": 546,
+      "prs": 63,
+      "company": "Ergo Platform",
+      "organizations": [
+        "ergoplatform"
+      ]
+    },
+    {
+      "rank": 97,
+      "name": "Ruslan",
+      "login": "quantumlgm",
+      "avatar_url": "https://avatars.githubusercontent.com/u/190508167?u=377ebe635000f85457dfed07121341062179acf2\u0026v=4",
+      "contributions": 789,
+      "commits": 776,
+      "prs": 11,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 98,
+      "name": "Artem Bulgakov",
+      "login": "ArtemSBulgakov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44732506?u=7115a096ab3a9ccf0c092dbf84a849aeca3bc28e\u0026v=4",
+      "contributions": 770,
+      "commits": 707,
+      "prs": 9,
+      "company": "@one-zero-eight",
+      "organizations": [
+        "kivymd",
+        "kivymd-extensions",
+        "one-zero-eight"
+      ]
+    },
+    {
+      "rank": 99,
+      "name": "Alberto Mardegan",
+      "login": "mardy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59287?v=4",
+      "contributions": 769,
+      "commits": 656,
+      "prs": 72,
+      "company": "@ubports",
+      "organizations": [
+        "ubports"
+      ]
+    },
+    {
+      "rank": 100,
+      "name": "Maxim Valyanskiy",
+      "login": "maxcom",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69385?v=4",
+      "contributions": 764,
+      "commits": 762,
+      "prs": 0,
+      "company": "-",
+      "organizations": []
+    }
+  ],
+  "organizations": [
+    {
+      "rank": 1,
+      "name": "one-zero-eight",
+      "members": 2,
+      "impact": "Normal"
+    },
+    {
+      "rank": 2,
+      "name": "ubports",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 3,
+      "name": "libgme",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 4,
+      "name": "epochcrysis",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 5,
+      "name": "dvurechensky-docs",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 6,
+      "name": "listenbox",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 7,
+      "name": "wohlsoft",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 8,
+      "name": "spaces-dev",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 9,
+      "name": "repseqio",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 10,
+      "name": "hyoo-ru",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 11,
+      "name": "torin-asakura",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 12,
+      "name": "fyroxengine",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 13,
+      "name": "tamparuby",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 14,
+      "name": "truckerpathteam",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 15,
+      "name": "rucorp",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 16,
+      "name": "t8rin-dev",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 17,
+      "name": "graalvm-community",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 18,
+      "name": "floridaseacar",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 19,
+      "name": "digital-sgn",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 20,
+      "name": "it-za-edu",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 21,
+      "name": "gigachad-dev",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 22,
+      "name": "tbep-tech",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 23,
+      "name": "kivymd-extensions",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 24,
+      "name": "httpsoft",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 25,
+      "name": "epicmorggames",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 26,
+      "name": "nixos",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 27,
+      "name": "kast-lang",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 28,
+      "name": "mosmetro-android",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 29,
+      "name": "mts-ai",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 30,
+      "name": "djlint",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 31,
+      "name": "arrowboxco",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 32,
+      "name": "linux-speakup",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 33,
+      "name": "antigenomics",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 34,
+      "name": "ctlab",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 35,
+      "name": "atls-academy",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 36,
+      "name": "webtor-io",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 37,
+      "name": "librekeys",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 38,
+      "name": "package-wizard",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 39,
+      "name": "pion",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 40,
+      "name": "wljsteam",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 41,
+      "name": "thedragoncode",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 42,
+      "name": "sajya",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 43,
+      "name": "nceas",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 44,
+      "name": "cashbox-laravel",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 45,
+      "name": "tampausers",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 46,
+      "name": "maxinevm",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 47,
+      "name": "yiisoft-contrib",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 48,
+      "name": "gmpy2",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 49,
+      "name": "nix-community",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 50,
+      "name": "dvurechensky-test-tasks",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 51,
+      "name": "t8rin-help",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 52,
+      "name": "diofant",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 53,
+      "name": "php",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 54,
+      "name": "dipsomaniac",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 55,
+      "name": "ergoplatform",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 56,
+      "name": "laraberries",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 57,
+      "name": "phpvrn",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 58,
+      "name": "stbsharp",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 59,
+      "name": "orchidsoftware",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 60,
+      "name": "pyrevitlabs",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 61,
+      "name": "it-top-vrn",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 62,
+      "name": "djarvur",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 63,
+      "name": "laravelrus",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 64,
+      "name": "code-beatles",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 65,
+      "name": "zero-dependency",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 66,
+      "name": "integratorllc",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 67,
+      "name": "lizerium",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 68,
+      "name": "t8rin-exp",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 69,
+      "name": "stbjava",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 70,
+      "name": "doukutsurandamu",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 71,
+      "name": "frkn-dev",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 72,
+      "name": "epicmorg",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 73,
+      "name": "zxcmod",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 74,
+      "name": "python",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 75,
+      "name": "bdwgc",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 76,
+      "name": "cagilo",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 77,
+      "name": "telegram-bot-faq",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 78,
+      "name": "laravel-lang",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 79,
+      "name": "21ideas-org",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 80,
+      "name": "ingvarconsulting",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 81,
+      "name": "thedrhax-dockerfiles",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 82,
+      "name": "kivymd",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 83,
+      "name": "emu-russia",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 84,
+      "name": "acacode",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 85,
+      "name": "ccc-network",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 86,
+      "name": "webxdc",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 87,
+      "name": "massbays-tech",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 88,
+      "name": "blackblazent",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 89,
+      "name": "botometr",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 90,
+      "name": "atestacraft",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 91,
+      "name": "unittestbot",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 92,
+      "name": "unifier-of-systems",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 93,
+      "name": "textorio",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 94,
+      "name": "stouts",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 95,
+      "name": "espeak-ng",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 96,
+      "name": "rhvoice",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 97,
+      "name": "repseq",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 98,
+      "name": "fyrox-book",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 99,
+      "name": "dunnolab",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 100,
+      "name": "deltachat",
+      "members": 1,
+      "impact": "Normal"
+    }
+  ]
+}
