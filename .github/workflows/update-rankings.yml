@@ -7,23 +7,31 @@ on:
   workflow_dispatch:
     inputs:
       preset:
-        description: 'Preset específico, "all" para todos os 16, ou vazio para o lote diário automático'
+        description: 'Preset específico (ex: mozambique), "batch-0".."batch-7", "missing" (os que faltam), "all" (todos os 34), ou vazio para o lote diário'
         required: false
         default: ''
 
 permissions:
   contents: write
 
+# Impede execuções concorrentes que causam conflitos de git push e desperdício de rate limit
+concurrency:
+  group: update-country-rankings-main
+  cancel-in-progress: false
+
 jobs:
   update-rankings:
     name: Extract & Generate Country JSON
     runs-on: ubuntu-latest
+    timeout-minutes: 330
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v7
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          fetch-depth: 0
 
       - name: Set up Go
-        uses: actions/setup-go@v7
+        uses: actions/setup-go@b7ad1dad31e06c5925ef5d2fc7ad053ef454303e # v7
         with:
           go-version: '1.24'
           cache: false
@@ -34,17 +42,45 @@ jobs:
       - name: Generate Country JSON Datasets
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
+          # Isola o input em variável de ambiente para prevenir Command Injection (CWE-78)
+          INPUT_PRESET_RAW: ${{ inputs.preset }}
         run: |
+          set -uo pipefail
           mkdir -p data/countries
 
-          INPUT_PRESET="${{ github.event.inputs.preset }}"
-          if [ "$INPUT_PRESET" = "all" ]; then
-            PRESETS="worldwide mozambique angola nigeria south-africa kenya united-states canada mexico the-bahamas panama brazil argentina colombia venezuela uruguay hong-kong macau taiwan kosovo kurdistan portugal germany france netherlands russia china india japan south-korea saudi-arabia australia new-zealand papua-new-guinea"
-          elif [ -n "$INPUT_PRESET" ]; then
-            PRESETS="$INPUT_PRESET"
+          ALL_PRESETS="worldwide mozambique angola nigeria south-africa kenya united-states canada mexico the-bahamas panama brazil argentina colombia venezuela uruguay hong-kong macau taiwan kosovo kurdistan portugal germany france netherlands russia china india japan south-korea saudi-arabia australia new-zealand papua-new-guinea"
+
+          # Sanitiza o input: converte para minúsculas e permite apenas letras, números, espaços e hífens
+          CLEAN_INPUT=$(echo "${INPUT_PRESET_RAW:-}" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9 -]//g' | xargs)
+
+          if [ "$CLEAN_INPUT" = "all" ]; then
+            PRESETS="$ALL_PRESETS"
+          elif [ "$CLEAN_INPUT" = "missing" ]; then
+            PRESETS=""
+            for p in $ALL_PRESETS; do
+              if [ ! -s "data/countries/${p}.json" ]; then
+                PRESETS="$PRESETS $p"
+              fi
+            done
+            PRESETS=$(echo "$PRESETS" | xargs)
+            echo "Missing presets detected: ${PRESETS:-none}"
+          elif [[ "$CLEAN_INPUT" =~ ^batch-[0-7]$ ]]; then
+            BATCH_NUM="${CLEAN_INPUT#batch-}"
+            case "$BATCH_NUM" in
+              0) PRESETS="worldwide united-states" ;;
+              1) PRESETS="worldwide brazil" ;;
+              2) PRESETS="mozambique angola nigeria south-africa kenya" ;;
+              3) PRESETS="canada mexico the-bahamas panama" ;;
+              4) PRESETS="argentina colombia venezuela uruguay" ;;
+              5) PRESETS="hong-kong macau taiwan kosovo kurdistan" ;;
+              6) PRESETS="portugal germany france netherlands russia" ;;
+              7) PRESETS="china india japan south-korea saudi-arabia australia new-zealand papua-new-guinea" ;;
+            esac
+          elif [ -n "$CLEAN_INPUT" ]; then
+            PRESETS="$CLEAN_INPUT"
           else
             # Rotacao diaria inteligente (ciclo de 8 dias) para equilibrar paises densos e lotes continentais
-            DAY_MOD=$(( $(date -u +%j) % 8 ))
+            DAY_MOD=$(( 10#$(date -u +%j) % 8 ))
             case $DAY_MOD in
               0)
                 echo "Batch 0 (Long Presets - North America): Worldwide + United States"
@@ -81,6 +117,11 @@ jobs:
             esac
           fi
 
+          if [ -z "$PRESETS" ]; then
+            echo "No presets to process. Exiting cleanly."
+            exit 0
+          fi
+
           # Quantidade de Devs e Orgs finais no JSON, e profundidade de amostragem por seguidores
           AMOUNT=100
           ORGS=100
@@ -90,27 +131,65 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           for preset in $PRESETS; do
+            # Valida nome do preset contra path traversal
+            if [[ ! "$preset" =~ ^[a-z0-9-]+$ ]]; then
+              echo "::warning::Invalid preset identifier '$preset', skipping."
+              continue
+            fi
+
+            TARGET_FILE="data/countries/${preset}.json"
+            TMP_FILE=$(mktemp "data/countries/.${preset}.XXXXXX.tmp")
+
+            echo "=================================================================="
             echo "Extracting ranking for: $preset (amount=$AMOUNT, orgs=$ORGS, consider=$CONSIDER)"
-            if ./commit-rank --preset "$preset" --amount "$AMOUNT" --consider "$CONSIDER" --orgs "$ORGS" --output json --file "data/countries/${preset}.json"; then
-              git add "data/countries/${preset}.json"
-              if ! git diff --staged --quiet; then
-                git commit -m "chore(data): update dataset for $preset [skip ci]"
-                # Puxa atualizações concorrentes com rebase e envia incrementalmente
-                git pull --rebase origin main || true
-                git push origin main || echo "Incremental push failed for $preset, continuing..."
+            echo "=================================================================="
+
+            if ./commit-rank --preset "$preset" --amount "$AMOUNT" --consider "$CONSIDER" --orgs "$ORGS" --output json --file "$TMP_FILE"; then
+              # Valida se o JSON gerado é íntegro e contém ao menos 1 usuário válido antes de substituir o arquivo de produção
+              if jq -e '.users | type == "array" and length > 0' "$TMP_FILE" >/dev/null 2>&1; then
+                mv "$TMP_FILE" "$TARGET_FILE"
+                git add "$TARGET_FILE"
+
+                if ! git diff --staged --quiet; then
+                  git commit -m "chore(data): update dataset for $preset [skip ci]"
+
+                  # Push resiliente com até 3 tentativas e rebase automático mantendo a versão recém-extraída
+                  PUSH_OK=false
+                  for attempt in 1 2 3; do
+                    if git pull --rebase -X theirs origin main && git push origin main; then
+                      echo "Successfully pushed dataset for $preset (attempt $attempt)"
+                      PUSH_OK=true
+                      break
+                    fi
+                    echo "Push conflict or network issue on attempt $attempt, retrying in 5s..."
+                    git rebase --abort 2>/dev/null || true
+                    sleep 5
+                  done
+
+                  if [ "$PUSH_OK" = "false" ]; then
+                    echo "::warning::Could not push $preset immediately; commit kept locally for final synchronization."
+                  fi
+                else
+                  echo "No data changes for $preset."
+                fi
+              else
+                echo "::warning::Generated JSON for $preset is empty or invalid; preserving existing dataset."
+                rm -f "$TMP_FILE"
               fi
             else
-              echo "Skipped $preset due to extraction errors"
+              echo "::warning::Extraction failed for $preset; preserving existing dataset."
+              rm -f "$TMP_FILE"
             fi
           done
 
       - name: Final Datasets Consistency Check
+        if: always()
         run: |
-          git add data/countries/*.json
+          rm -f data/countries/.*.tmp 2>/dev/null || true
+          git add data/countries/*.json 2>/dev/null || true
           if ! git diff --staged --quiet; then
-            git commit -m "chore(data): auto-update country ranking datasets [skip ci]"
-            git pull --rebase origin main || true
-            git push origin main
-          else
-            echo "All datasets are already synchronized."
+            git commit -m "chore(data): auto-update remaining country ranking datasets [skip ci]"
           fi
+          # Garante que quaisquer commits locais pendentes subam no encerramento do job
+          git pull --rebase -X theirs origin main || true
+          git push origin main || true
