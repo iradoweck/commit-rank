@@ -9,3 +9,9 @@ _data/locations/*.yml
 # Local environment / IDE
 .DS_Store
 Thumbs.db
+
+# AI Agents & Context Directories
+.agent/
+.agents/
+.gemini/
+.system_generated/

@@ -48,3 +48,9 @@ rank_only/*.json
 *.pdf
 *.zip
 *.tar.gz
+
+# AI Agents & Context Directories
+.agent/
+.agents/
+.gemini/
+.system_generated/
