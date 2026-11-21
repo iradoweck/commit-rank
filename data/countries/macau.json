@@ -1,8 +1,8 @@
 {
   "country": "Macau",
-  "generated_at": "2026-11-13",
+  "generated_at": "2026-11-21",
   "min_followers_required": 0,
-  "total_users": 1416,
+  "total_users": 1424,
   "definition_checksum": "3522140136ba43d33801424ffcfe6afb6e1d80ed59828c09c6a827bd37d10c65",
   "users": [
     {
@@ -10,9 +10,9 @@
       "name": "Magne Dina Neves",
       "login": "KRYPTON0078",
       "avatar_url": "https://avatars.githubusercontent.com/u/142139028?u=b6e2459bec00d50ba170b7c233c3067c41ff6bdd\u0026v=4",
-      "contributions": 18199,
-      "commits": 18176,
-      "prs": 9,
+      "contributions": 18214,
+      "commits": 18188,
+      "prs": 10,
       "company": "University of Macau",
       "organizations": []
     },
@@ -21,8 +21,8 @@
       "name": "KenSou",
       "login": "sou350121",
       "avatar_url": "https://avatars.githubusercontent.com/u/26254602?u=9be0ee38963940ed705845f8138c111dde6701b9\u0026v=4",
-      "contributions": 6115,
-      "commits": 6049,
+      "contributions": 6196,
+      "commits": 6130,
       "prs": 13,
       "company": "-",
       "organizations": []
@@ -43,8 +43,8 @@
       "name": "spiritlhl",
       "login": "spiritLHLS",
       "avatar_url": "https://avatars.githubusercontent.com/u/103393591?u=80495991bc6b0414f64845b12aa5b11bf84ef952\u0026v=4",
-      "contributions": 5142,
-      "commits": 5129,
+      "contributions": 5116,
+      "commits": 5102,
       "prs": 4,
       "company": "@oneclickvirt",
       "organizations": [
@@ -56,9 +56,9 @@
       "name": "Elder Ryan",
       "login": "RyanKung",
       "avatar_url": "https://avatars.githubusercontent.com/u/662346?u=50154546075fd0ada753e846fe142032093668bf\u0026v=4",
-      "contributions": 4562,
-      "commits": 3167,
-      "prs": 1031,
+      "contributions": 4900,
+      "commits": 3344,
+      "prs": 1157,
       "company": "@RingsNetwork",
       "organizations": [
         "RingsNetwork"
@@ -66,12 +66,23 @@
     },
     {
       "rank": 6,
+      "name": "希曼",
+      "login": "lens077",
+      "avatar_url": "https://avatars.githubusercontent.com/u/129924623?u=d3bf10ce58e8d5bff8d7594011d505379721eb81\u0026v=4",
+      "contributions": 2911,
+      "commits": 2885,
+      "prs": 5,
+      "company": "University of Macau",
+      "organizations": []
+    },
+    {
+      "rank": 7,
       "name": "Shu Fai Cheung",
       "login": "sfcheung",
       "avatar_url": "https://avatars.githubusercontent.com/u/7019263?u=9f5a50fb91d373214ae19c24c759003ccdddc85c\u0026v=4",
-      "contributions": 2933,
-      "commits": 2456,
-      "prs": 458,
+      "contributions": 2878,
+      "commits": 2404,
+      "prs": 454,
       "company": "University of Macau",
       "organizations": [
         "blender4stat",
@@ -79,23 +90,12 @@
       ]
     },
     {
-      "rank": 7,
-      "name": "希曼",
-      "login": "lens077",
-      "avatar_url": "https://avatars.githubusercontent.com/u/129924623?u=d3bf10ce58e8d5bff8d7594011d505379721eb81\u0026v=4",
-      "contributions": 2866,
-      "commits": 2839,
-      "prs": 5,
-      "company": "University of Macau",
-      "organizations": []
-    },
-    {
       "rank": 8,
       "name": "Peng",
       "login": "mugpeng",
       "avatar_url": "https://avatars.githubusercontent.com/u/52995448?u=65f6a1b84b1ecf8b158b6e971409f2ca0d6ff49d\u0026v=4",
-      "contributions": 2386,
-      "commits": 2245,
+      "contributions": 2403,
+      "commits": 2262,
       "prs": 49,
       "company": "-",
       "organizations": []
@@ -105,8 +105,8 @@
       "name": "hheei",
       "login": "hheei",
       "avatar_url": "https://avatars.githubusercontent.com/u/13113076?u=56aed0131d70268098ec2a1f0bc3ed43872ebe95\u0026v=4",
-      "contributions": 2123,
-      "commits": 1983,
+      "contributions": 2238,
+      "commits": 2097,
       "prs": 50,
       "company": "-",
       "organizations": []
@@ -116,14 +116,25 @@
       "name": "know-macao",
       "login": "k-macao",
       "avatar_url": "https://avatars.githubusercontent.com/u/248604011?v=4",
-      "contributions": 1867,
-      "commits": 1354,
-      "prs": 411,
+      "contributions": 1974,
+      "commits": 1431,
+      "prs": 441,
       "company": "macao",
       "organizations": []
     },
     {
       "rank": 11,
+      "name": "Rookie, LIN",
+      "login": "yyyyyyounger",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55580370?u=481e4c89407e31e9c103ef3453df6205f97aae32\u0026v=4",
+      "contributions": 1326,
+      "commits": 1221,
+      "prs": 21,
+      "company": "University of Macau",
+      "organizations": []
+    },
+    {
+      "rank": 12,
       "name": "Simon Iong",
       "login": "simoniong",
       "avatar_url": "https://avatars.githubusercontent.com/u/131174?u=c7feacdd1a759341ed3a993a71ba86410938d7d1\u0026v=4",
@@ -134,24 +145,13 @@
       "organizations": []
     },
     {
-      "rank": 12,
-      "name": "Rookie, LIN",
-      "login": "yyyyyyounger",
-      "avatar_url": "https://avatars.githubusercontent.com/u/55580370?u=481e4c89407e31e9c103ef3453df6205f97aae32\u0026v=4",
-      "contributions": 1297,
-      "commits": 1193,
-      "prs": 20,
-      "company": "University of Macau",
-      "organizations": []
-    },
-    {
       "rank": 13,
       "name": "hj-core",
       "login": "hj-core",
       "avatar_url": "https://avatars.githubusercontent.com/u/88603338?u=afd77222a5abf2e61a8dfce817e8bf9ef5fabc2c\u0026v=4",
-      "contributions": 1289,
-      "commits": 1005,
-      "prs": 283,
+      "contributions": 1264,
+      "commits": 981,
+      "prs": 282,
       "company": "-",
       "organizations": []
     },
@@ -160,9 +160,9 @@
       "name": "peterchang",
       "login": "wahengchang",
       "avatar_url": "https://avatars.githubusercontent.com/u/5538753?u=3ea4e454c4d757099622d21537d87649bef2f478\u0026v=4",
-      "contributions": 1184,
-      "commits": 622,
-      "prs": 429,
+      "contributions": 1197,
+      "commits": 630,
+      "prs": 434,
       "company": "@Yahoo",
       "organizations": []
     },
@@ -171,8 +171,8 @@
       "name": "Chonwai Un, Edison",
       "login": "Chonwai",
       "avatar_url": "https://avatars.githubusercontent.com/u/13167806?u=1006b3b64a9922fd8263f8a6e4e586aec68efffb\u0026v=4",
-      "contributions": 1012,
-      "commits": 1000,
+      "contributions": 1027,
+      "commits": 1015,
       "prs": 5,
       "company": "-",
       "organizations": []
@@ -182,9 +182,9 @@
       "name": "Victor",
       "login": "mrvictoru",
       "avatar_url": "https://avatars.githubusercontent.com/u/33645782?u=9cbce2ed8c08fd0d719bf498457ef11493278034\u0026v=4",
-      "contributions": 963,
-      "commits": 939,
-      "prs": 18,
+      "contributions": 986,
+      "commits": 964,
+      "prs": 16,
       "company": "-",
       "organizations": []
     },
@@ -193,19 +193,30 @@
       "name": "Joaquim Carvalho",
       "login": "joaquimrcarvalho",
       "avatar_url": "https://avatars.githubusercontent.com/u/13982569?u=a9b8ce0bb794074c89b7d2f08bab125efc25d46d\u0026v=4",
-      "contributions": 932,
-      "commits": 784,
-      "prs": 53,
+      "contributions": 957,
+      "commits": 807,
+      "prs": 54,
       "company": "Macao Polytechnic University / Universidade de Coimbra",
       "organizations": []
     },
     {
       "rank": 18,
+      "name": "GU YUJIE",
+      "login": "yujie212689543",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52372980?u=d1b10f392aae9b846a632b1f0df174103d87ce26\u0026v=4",
+      "contributions": 933,
+      "commits": 929,
+      "prs": 0,
+      "company": "University of Macau",
+      "organizations": []
+    },
+    {
+      "rank": 19,
       "name": "Cloris",
       "login": "1595901624",
       "avatar_url": "https://avatars.githubusercontent.com/u/35366425?u=ca496ef9901d98c6d9e27aab23db98eaae550935\u0026v=4",
-      "contributions": 916,
-      "commits": 895,
+      "contributions": 917,
+      "commits": 896,
       "prs": 0,
       "company": "@FuchsiaOS",
       "organizations": [
@@ -213,7 +224,18 @@
       ]
     },
     {
-      "rank": 19,
+      "rank": 20,
+      "name": "NIE WEI",
+      "login": "Abner199",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16055614?u=c6b32152889b679ed7f54b72778a8e19b6a5662f\u0026v=4",
+      "contributions": 908,
+      "commits": 881,
+      "prs": 5,
+      "company": "University of Macau",
+      "organizations": []
+    },
+    {
+      "rank": 21,
       "name": "comsaint",
       "login": "comsaint",
       "avatar_url": "https://avatars.githubusercontent.com/u/5213306?u=d151ea5ad9943d3d19f98d314caffa828d1cd99d\u0026v=4",
@@ -224,7 +246,7 @@
       "organizations": []
     },
     {
-      "rank": 20,
+      "rank": 22,
       "name": "G.",
       "login": "godbout",
       "avatar_url": "https://avatars.githubusercontent.com/u/121373?u=c76f0167cc769c87fc533f6b002b32c59033cfca\u0026v=4",
@@ -238,23 +260,23 @@
       ]
     },
     {
-      "rank": 21,
+      "rank": 23,
       "name": "Chinge Yang",
       "login": "ygqygq2",
       "avatar_url": "https://avatars.githubusercontent.com/u/17672440?u=cc2550d805d0c80f7195c359ba7d7bd4d6a00794\u0026v=4",
-      "contributions": 736,
-      "commits": 675,
+      "contributions": 724,
+      "commits": 664,
       "prs": 5,
       "company": "-",
       "organizations": []
     },
     {
-      "rank": 22,
+      "rank": 24,
       "name": "Frankie Dong Li",
       "login": "DoongLi",
       "avatar_url": "https://avatars.githubusercontent.com/u/86915071?u=10f502718503555843924069c15dc51a8900b2bc\u0026v=4",
-      "contributions": 694,
-      "commits": 671,
+      "contributions": 696,
+      "commits": 673,
       "prs": 6,
       "company": "@SUSTech-AMASLAB",
       "organizations": [
@@ -263,36 +285,14 @@
       ]
     },
     {
-      "rank": 23,
+      "rank": 25,
       "name": "Jean-Gaël",
       "login": "Alwil17",
       "avatar_url": "https://avatars.githubusercontent.com/u/61506484?u=dca00e18506e17a60829e52333b12275df95f9ac\u0026v=4",
-      "contributions": 687,
+      "contributions": 688,
       "commits": 555,
-      "prs": 71,
+      "prs": 72,
       "company": "@Grey-Workers-Togo",
-      "organizations": []
-    },
-    {
-      "rank": 24,
-      "name": "NIE WEI",
-      "login": "Abner199",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16055614?u=c6b32152889b679ed7f54b72778a8e19b6a5662f\u0026v=4",
-      "contributions": 665,
-      "commits": 640,
-      "prs": 3,
-      "company": "University of Macau",
-      "organizations": []
-    },
-    {
-      "rank": 25,
-      "name": "Zhedong Zheng",
-      "login": "layumi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/8390471?u=e27e08733aec370652d577408356702c9f83f42e\u0026v=4",
-      "contributions": 622,
-      "commits": 613,
-      "prs": 2,
-      "company": "University of Macau",
       "organizations": []
     },
     {
@@ -300,47 +300,58 @@
       "name": "Bo li (李波)",
       "login": "Boom5426",
       "avatar_url": "https://avatars.githubusercontent.com/u/83391363?u=539cffe78a135cef254649e2c3463ff6d865fb50\u0026v=4",
-      "contributions": 610,
-      "commits": 548,
-      "prs": 44,
+      "contributions": 649,
+      "commits": 581,
+      "prs": 50,
       "company": "University of Macau",
       "organizations": []
     },
     {
       "rank": 27,
+      "name": "Brian Li",
+      "login": "ShabbyGayBar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115197764?u=3d2822dddade44625d8f47ebfd7ed3e67c075b79\u0026v=4",
+      "contributions": 604,
+      "commits": 580,
+      "prs": 3,
+      "company": "University of Macau",
+      "organizations": []
+    },
+    {
+      "rank": 28,
+      "name": "Zhedong Zheng",
+      "login": "layumi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8390471?u=e27e08733aec370652d577408356702c9f83f42e\u0026v=4",
+      "contributions": 599,
+      "commits": 590,
+      "prs": 2,
+      "company": "University of Macau",
+      "organizations": []
+    },
+    {
+      "rank": 29,
       "name": "xuanyucai",
       "login": "gorgeousfish",
       "avatar_url": "https://avatars.githubusercontent.com/u/196590163?u=0d0959fcaa748861319caae8c1316766960f321d\u0026v=4",
-      "contributions": 593,
+      "contributions": 592,
       "commits": 572,
       "prs": 2,
       "company": "City University of Macau",
       "organizations": []
     },
     {
-      "rank": 28,
-      "name": "Brian Li",
-      "login": "ShabbyGayBar",
-      "avatar_url": "https://avatars.githubusercontent.com/u/115197764?u=3d2822dddade44625d8f47ebfd7ed3e67c075b79\u0026v=4",
-      "contributions": 592,
-      "commits": 567,
-      "prs": 3,
-      "company": "University of Macau",
-      "organizations": []
-    },
-    {
-      "rank": 29,
-      "name": "samyyc",
-      "login": "samyycX",
-      "avatar_url": "https://avatars.githubusercontent.com/u/60744529?u=b6d5e8d676bdc46d9bc27e9c1c269c1f91b3bc72\u0026v=4",
-      "contributions": 573,
-      "commits": 482,
-      "prs": 51,
-      "company": "MUST",
-      "organizations": []
-    },
-    {
       "rank": 30,
+      "name": "Tony Liang",
+      "login": "TonyLiangP2010405",
+      "avatar_url": "https://avatars.githubusercontent.com/u/86188856?u=6e2a9cd17c11cdf17c2cc240e2edf304eb5955bd\u0026v=4",
+      "contributions": 563,
+      "commits": 517,
+      "prs": 0,
+      "company": "个人",
+      "organizations": []
+    },
+    {
+      "rank": 31,
       "name": "Kingsley",
       "login": "Kingsley1116",
       "avatar_url": "https://avatars.githubusercontent.com/u/93391504?u=797268d0c829ba38310f5bdd5586e86e123c4267\u0026v=4",
@@ -351,22 +362,11 @@
       "organizations": []
     },
     {
-      "rank": 31,
-      "name": "Tony Liang",
-      "login": "TonyLiangP2010405",
-      "avatar_url": "https://avatars.githubusercontent.com/u/86188856?u=6e2a9cd17c11cdf17c2cc240e2edf304eb5955bd\u0026v=4",
-      "contributions": 502,
-      "commits": 457,
-      "prs": 0,
-      "company": "个人",
-      "organizations": []
-    },
-    {
       "rank": 32,
       "name": "Weng Long Pang",
       "login": "weng-pang",
       "avatar_url": "https://avatars.githubusercontent.com/u/7587960?u=c97798e3721317bb065f3367348ab848623ec0a2\u0026v=4",
-      "contributions": 494,
+      "contributions": 507,
       "commits": 5,
       "prs": 10,
       "company": "-",
@@ -377,25 +377,36 @@
       "name": "Lemon Lam",
       "login": "alemonmk",
       "avatar_url": "https://avatars.githubusercontent.com/u/3955369?v=4",
-      "contributions": 489,
-      "commits": 451,
+      "contributions": 501,
+      "commits": 463,
       "prs": 18,
       "company": "Lemon Network Solutions",
       "organizations": []
     },
     {
       "rank": 34,
+      "name": "Bai Lujia",
+      "login": "LumiaBlack51",
+      "avatar_url": "https://avatars.githubusercontent.com/u/198035981?u=c86045f38534ab457275393134e7f0f90cf0b5e6\u0026v=4",
+      "contributions": 490,
+      "commits": 370,
+      "prs": 97,
+      "company": "MUST",
+      "organizations": []
+    },
+    {
+      "rank": 35,
       "name": "Ron",
       "login": "zerong7777-boop",
       "avatar_url": "https://avatars.githubusercontent.com/u/240618132?u=2529b295160b537fd68789559337484fe9d6fc17\u0026v=4",
-      "contributions": 483,
-      "commits": 440,
+      "contributions": 481,
+      "commits": 439,
       "prs": 22,
       "company": "University of Macau",
       "organizations": []
     },
     {
-      "rank": 35,
+      "rank": 36,
       "name": "Daniel",
       "login": "LunchBox",
       "avatar_url": "https://avatars.githubusercontent.com/u/37430?v=4",
@@ -406,7 +417,18 @@
       "organizations": []
     },
     {
-      "rank": 36,
+      "rank": 37,
+      "name": "samyyc",
+      "login": "samyycX",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60744529?u=b6d5e8d676bdc46d9bc27e9c1c269c1f91b3bc72\u0026v=4",
+      "contributions": 468,
+      "commits": 384,
+      "prs": 45,
+      "company": "MUST",
+      "organizations": []
+    },
+    {
+      "rank": 38,
       "name": "Ｂiu🦊",
       "login": "swlok0",
       "avatar_url": "https://avatars.githubusercontent.com/u/47691322?u=1e89e5af977f1daeee7a15a5632e97efbdf5e01e\u0026v=4",
@@ -417,29 +439,20 @@
       "organizations": []
     },
     {
-      "rank": 37,
-      "name": "Nick Lin",
-      "login": "Nick-LCY",
-      "avatar_url": "https://avatars.githubusercontent.com/u/46786312?v=4",
-      "contributions": 436,
-      "commits": 430,
-      "prs": 1,
-      "company": "University of Macau",
-      "organizations": []
-    },
-    {
-      "rank": 38,
-      "name": "Bai Lujia",
-      "login": "LumiaBlack51",
-      "avatar_url": "https://avatars.githubusercontent.com/u/198035981?u=c86045f38534ab457275393134e7f0f90cf0b5e6\u0026v=4",
-      "contributions": 426,
-      "commits": 321,
-      "prs": 82,
-      "company": "MUST",
-      "organizations": []
-    },
-    {
       "rank": 39,
+      "name": "Rimuru",
+      "login": "RimuruTempest0417",
+      "avatar_url": "https://avatars.githubusercontent.com/u/323195369?v=4",
+      "contributions": 432,
+      "commits": 389,
+      "prs": 31,
+      "company": "puiva middle school",
+      "organizations": [
+        "Gary-s-Group"
+      ]
+    },
+    {
+      "rank": 40,
       "name": "ChickenD",
       "login": "ChickenD233",
       "avatar_url": "https://avatars.githubusercontent.com/u/148517199?u=944ee9486380a0466b26caabb4a38c99219b97b8\u0026v=4",
@@ -450,12 +463,12 @@
       "organizations": []
     },
     {
-      "rank": 40,
+      "rank": 41,
       "name": "Warrior Xu",
       "login": "WarriorXu0302",
       "avatar_url": "https://avatars.githubusercontent.com/u/211244072?u=0149b0642a60f1bd6db0faf15513be73d93983d9\u0026v=4",
-      "contributions": 386,
-      "commits": 336,
+      "contributions": 388,
+      "commits": 337,
       "prs": 35,
       "company": "Macau University of Science and Technology",
       "organizations": [
@@ -463,29 +476,40 @@
       ]
     },
     {
-      "rank": 41,
+      "rank": 42,
+      "name": "Yuzhang Zhong",
+      "login": "yuzhang-zhong",
+      "avatar_url": "https://avatars.githubusercontent.com/u/154724006?u=fe629fbfb6bb07fb0dda6477f61f7cb157acbdca\u0026v=4",
+      "contributions": 385,
+      "commits": 330,
+      "prs": 16,
+      "company": "@microsoft",
+      "organizations": []
+    },
+    {
+      "rank": 43,
+      "name": "Chenghou Tang",
+      "login": "chenghoutang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/318570654?u=7ff7c21933843e3f4c975c396d88e0c23f90250a\u0026v=4",
+      "contributions": 382,
+      "commits": 379,
+      "prs": 0,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 44,
       "name": "XVs32",
       "login": "XVs32",
       "avatar_url": "https://avatars.githubusercontent.com/u/16824564?u=3c9fee34838f8d868fbf05c9961e7c01c2ae29af\u0026v=4",
-      "contributions": 382,
-      "commits": 229,
+      "contributions": 381,
+      "commits": 223,
       "prs": 66,
       "company": "-",
       "organizations": []
     },
     {
-      "rank": 42,
-      "name": "HaroldHuanrongLIU",
-      "login": "HaroldHuanrongLIU",
-      "avatar_url": "https://avatars.githubusercontent.com/u/83053555?u=c48c15e61ec0d19aad4bf44516eb0a9aa9e457cb\u0026v=4",
-      "contributions": 372,
-      "commits": 305,
-      "prs": 0,
-      "company": "University of Macau",
-      "organizations": []
-    },
-    {
-      "rank": 43,
+      "rank": 45,
       "name": "Zeongit J.",
       "login": "JipZeonGit",
       "avatar_url": "https://avatars.githubusercontent.com/u/38375013?u=927c2d26e559d987eb5a700460873dfdd01138c6\u0026v=4",
@@ -496,18 +520,51 @@
       "organizations": []
     },
     {
-      "rank": 44,
+      "rank": 46,
+      "name": "HaroldHuanrongLIU",
+      "login": "HaroldHuanrongLIU",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83053555?u=c48c15e61ec0d19aad4bf44516eb0a9aa9e457cb\u0026v=4",
+      "contributions": 364,
+      "commits": 305,
+      "prs": 0,
+      "company": "University of Macau",
+      "organizations": []
+    },
+    {
+      "rank": 47,
+      "name": "MoXiao",
+      "login": "MoXiao528",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61106825?u=67948afa076384f87ee4d48d113aa7ac05459b64\u0026v=4",
+      "contributions": 362,
+      "commits": 284,
+      "prs": 70,
+      "company": "University of Macau",
+      "organizations": []
+    },
+    {
+      "rank": 48,
+      "name": "Nick Lin",
+      "login": "Nick-LCY",
+      "avatar_url": "https://avatars.githubusercontent.com/u/46786312?v=4",
+      "contributions": 355,
+      "commits": 351,
+      "prs": 1,
+      "company": "University of Macau",
+      "organizations": []
+    },
+    {
+      "rank": 49,
       "name": "yongheng.qian",
       "login": "qyhsxdx",
       "avatar_url": "https://avatars.githubusercontent.com/u/21570179?v=4",
-      "contributions": 350,
-      "commits": 347,
+      "contributions": 351,
+      "commits": 348,
       "prs": 0,
       "company": "-",
       "organizations": []
     },
     {
-      "rank": 45,
+      "rank": 50,
       "name": "Judy Wong",
       "login": "j4dy",
       "avatar_url": "https://avatars.githubusercontent.com/u/1736845?u=9ac9d3f7aa50d6e154640f3b6e135d8fb638b18f\u0026v=4",
@@ -520,42 +577,7 @@
       ]
     },
     {
-      "rank": 46,
-      "name": "MoXiao",
-      "login": "MoXiao528",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61106825?u=67948afa076384f87ee4d48d113aa7ac05459b64\u0026v=4",
-      "contributions": 342,
-      "commits": 266,
-      "prs": 68,
-      "company": "University of Macau",
-      "organizations": []
-    },
-    {
-      "rank": 47,
-      "name": "Chenghou Tang",
-      "login": "chenghoutang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/318570654?u=7ff7c21933843e3f4c975c396d88e0c23f90250a\u0026v=4",
-      "contributions": 329,
-      "commits": 327,
-      "prs": 0,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 48,
-      "name": "Yuzhang Zhong",
-      "login": "yuzhang-zhong",
-      "avatar_url": "https://avatars.githubusercontent.com/u/154724006?u=fe629fbfb6bb07fb0dda6477f61f7cb157acbdca\u0026v=4",
-      "contributions": 326,
-      "commits": 269,
-      "prs": 16,
-      "company": "@microsoft",
-      "organizations": [
-        "POPMART-PMU"
-      ]
-    },
-    {
-      "rank": 49,
+      "rank": 51,
       "name": "DC",
       "login": "freedomw1987",
       "avatar_url": "https://avatars.githubusercontent.com/u/519858?u=f3d57038ac55f9b7f441e8ad52d51290a2e750e2\u0026v=4",
@@ -566,7 +588,7 @@
       "organizations": []
     },
     {
-      "rank": 50,
+      "rank": 52,
       "name": "zayn",
       "login": "DSYZayn",
       "avatar_url": "https://avatars.githubusercontent.com/u/98650340?u=f2d8aca262cda7c4c6de5430158f867c4a7166ee\u0026v=4",
@@ -577,7 +599,7 @@
       "organizations": []
     },
     {
-      "rank": 51,
+      "rank": 53,
       "name": "Isaac Leong",
       "login": "Isaac7777-cpu",
       "avatar_url": "https://avatars.githubusercontent.com/u/177199332?u=a20ba4a869a4f75b32160167f300eeaa0d83161b\u0026v=4",
@@ -588,18 +610,29 @@
       "organizations": []
     },
     {
-      "rank": 52,
+      "rank": 54,
       "name": "Ke\"Ken\"WANG",
       "login": "ken0225",
       "avatar_url": "https://avatars.githubusercontent.com/u/61583324?u=961f92a993e92887da74c4017520ed639a681445\u0026v=4",
-      "contributions": 268,
-      "commits": 265,
+      "contributions": 267,
+      "commits": 264,
       "prs": 0,
       "company": "Universidade Politécnica de Macau",
       "organizations": []
     },
     {
-      "rank": 53,
+      "rank": 55,
+      "name": "AUNG MINN KHANT",
+      "login": "aungminnkhant94",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60321203?u=0b5aa44119666dd8a5d98aeb82b5c8ee75f26614\u0026v=4",
+      "contributions": 264,
+      "commits": 187,
+      "prs": 72,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 56,
       "name": "vincentwongmax",
       "login": "vincentwongmax",
       "avatar_url": "https://avatars.githubusercontent.com/u/61440757?v=4",
@@ -610,18 +643,7 @@
       "organizations": []
     },
     {
-      "rank": 54,
-      "name": "AUNG MINN KHANT",
-      "login": "aungminnkhant94",
-      "avatar_url": "https://avatars.githubusercontent.com/u/60321203?u=0b5aa44119666dd8a5d98aeb82b5c8ee75f26614\u0026v=4",
-      "contributions": 258,
-      "commits": 181,
-      "prs": 72,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 55,
+      "rank": 57,
       "name": "Gong Shufan",
       "login": "Unprincess17",
       "avatar_url": "https://avatars.githubusercontent.com/u/71475755?u=843fbf79b13a15d22c3993e1269e00a20a094ea6\u0026v=4",
@@ -632,29 +654,40 @@
       "organizations": []
     },
     {
-      "rank": 56,
-      "name": "Mingyang Chen",
-      "login": "MingyangChen0211",
-      "avatar_url": "https://avatars.githubusercontent.com/u/190580440?u=a66cf524f1a57416ef2ea2c3ca72a5346e760e68\u0026v=4",
-      "contributions": 252,
-      "commits": 251,
-      "prs": 0,
-      "company": "University of Macau",
-      "organizations": []
-    },
-    {
-      "rank": 57,
+      "rank": 58,
       "name": "Mark.pan",
       "login": "7788ken",
       "avatar_url": "https://avatars.githubusercontent.com/u/161792663?v=4",
-      "contributions": 250,
-      "commits": 204,
+      "contributions": 252,
+      "commits": 205,
       "prs": 4,
       "company": "-",
       "organizations": []
     },
     {
-      "rank": 58,
+      "rank": 59,
+      "name": "Mingyang Chen",
+      "login": "MingyangChen0211",
+      "avatar_url": "https://avatars.githubusercontent.com/u/190580440?u=a66cf524f1a57416ef2ea2c3ca72a5346e760e68\u0026v=4",
+      "contributions": 246,
+      "commits": 245,
+      "prs": 0,
+      "company": "University of Macau",
+      "organizations": []
+    },
+    {
+      "rank": 60,
+      "name": "EthanChan",
+      "login": "EthanChan050430",
+      "avatar_url": "https://avatars.githubusercontent.com/u/165824891?u=3bf9991b2cf4ad40730f072fc0c69fa8d7f7046b\u0026v=4",
+      "contributions": 243,
+      "commits": 231,
+      "prs": 2,
+      "company": "City University of Macau",
+      "organizations": []
+    },
+    {
+      "rank": 61,
       "name": "Kiwi",
       "login": "kiwiwu02",
       "avatar_url": "https://avatars.githubusercontent.com/u/229550262?u=e2f06f8665d49e0b57dbaa6c88d7b8acc439a5c4\u0026v=4",
@@ -665,40 +698,29 @@
       "organizations": []
     },
     {
-      "rank": 59,
+      "rank": 62,
+      "name": "Emily Chan",
+      "login": "emilyykchan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64957547?u=a49cdd445e5f7066222bd924cb7148d3e5bea874\u0026v=4",
+      "contributions": 228,
+      "commits": 187,
+      "prs": 7,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 63,
       "name": "Tianzuo Yuan",
       "login": "Max-YUAN-22",
       "avatar_url": "https://avatars.githubusercontent.com/u/173641483?u=4378ed4e14c9943f9d544a4897e32f232ee2d664\u0026v=4",
-      "contributions": 229,
-      "commits": 215,
+      "contributions": 223,
+      "commits": 210,
       "prs": 0,
       "company": "University of Macao",
       "organizations": []
     },
     {
-      "rank": 60,
-      "name": "Antonio Cheong",
-      "login": "WindoC",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10722906?u=f366dfab7aa29c62590c7a93d6fd063b72fe0072\u0026v=4",
-      "contributions": 226,
-      "commits": 159,
-      "prs": 13,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 61,
-      "name": "Hon Chi Kit",
-      "login": "kinoras",
-      "avatar_url": "https://avatars.githubusercontent.com/u/39506429?u=fadcd6979941254c6661aa1c6d15e1e1fc610caf\u0026v=4",
-      "contributions": 224,
-      "commits": 204,
-      "prs": 18,
-      "company": "National Taiwan University",
-      "organizations": []
-    },
-    {
-      "rank": 62,
+      "rank": 64,
       "name": "Colin",
       "login": "HansiChan",
       "avatar_url": "https://avatars.githubusercontent.com/u/20923601?u=f249a003cfcd42f35aeb847d43ed25b264a2a798\u0026v=4",
@@ -709,18 +731,7 @@
       "organizations": []
     },
     {
-      "rank": 63,
-      "name": "EthanChan",
-      "login": "EthanChan050430",
-      "avatar_url": "https://avatars.githubusercontent.com/u/165824891?u=3bf9991b2cf4ad40730f072fc0c69fa8d7f7046b\u0026v=4",
-      "contributions": 220,
-      "commits": 209,
-      "prs": 2,
-      "company": "City University of Macau",
-      "organizations": []
-    },
-    {
-      "rank": 64,
+      "rank": 65,
       "name": "Ze Wang",
       "login": "pikipity",
       "avatar_url": "https://avatars.githubusercontent.com/u/3416951?v=4",
@@ -731,23 +742,34 @@
       "organizations": []
     },
     {
-      "rank": 65,
-      "name": "Emily Chan",
-      "login": "emilyykchan",
-      "avatar_url": "https://avatars.githubusercontent.com/u/64957547?u=a49cdd445e5f7066222bd924cb7148d3e5bea874\u0026v=4",
-      "contributions": 214,
-      "commits": 179,
-      "prs": 6,
+      "rank": 66,
+      "name": "Antonio Cheong",
+      "login": "WindoC",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10722906?u=f366dfab7aa29c62590c7a93d6fd063b72fe0072\u0026v=4",
+      "contributions": 215,
+      "commits": 148,
+      "prs": 14,
       "company": "-",
       "organizations": []
     },
     {
-      "rank": 66,
+      "rank": 67,
+      "name": "Li2nOnline",
+      "login": "Lienol",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23146169?u=cae02ba18648d4af4c3ed2347c5529964303580b\u0026v=4",
+      "contributions": 212,
+      "commits": 208,
+      "prs": 1,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 68,
       "name": "KaLok Sam",
       "login": "K4Lok",
       "avatar_url": "https://avatars.githubusercontent.com/u/82365010?u=2274da05b844fc64a16bb12eb0f770a347be5dcc\u0026v=4",
-      "contributions": 210,
-      "commits": 170,
+      "contributions": 211,
+      "commits": 171,
       "prs": 6,
       "company": "@UM-ARK",
       "organizations": [
@@ -756,7 +778,18 @@
       ]
     },
     {
-      "rank": 67,
+      "rank": 69,
+      "name": "ALTaleX",
+      "login": "ALTaleX531",
+      "avatar_url": "https://avatars.githubusercontent.com/u/105535231?u=ad911b5467b3c9fbc51e80b6330fb25210b45f71\u0026v=4",
+      "contributions": 209,
+      "commits": 187,
+      "prs": 0,
+      "company": "City University of Macau",
+      "organizations": []
+    },
+    {
+      "rank": 70,
       "name": "nintreesssss",
       "login": "nintreesssss",
       "avatar_url": "https://avatars.githubusercontent.com/u/254861706?u=e0d0b794f53017c479b4b53f049cfe275305dcfa\u0026v=4",
@@ -767,29 +800,32 @@
       "organizations": []
     },
     {
-      "rank": 68,
-      "name": "Li2nOnline",
-      "login": "Lienol",
-      "avatar_url": "https://avatars.githubusercontent.com/u/23146169?u=cae02ba18648d4af4c3ed2347c5529964303580b\u0026v=4",
-      "contributions": 207,
-      "commits": 204,
+      "rank": 71,
+      "name": "WU JUNCHAO",
+      "login": "junchaoIU",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53634397?u=9d7adec5523c53387ca040092d3823980a60accd\u0026v=4",
+      "contributions": 202,
+      "commits": 197,
       "prs": 1,
-      "company": "-",
+      "company": "University of Macau",
+      "organizations": [
+        "NLP2CT",
+        "CantonKG"
+      ]
+    },
+    {
+      "rank": 72,
+      "name": "Hejun Zhang",
+      "login": "codeofwhite",
+      "avatar_url": "https://avatars.githubusercontent.com/u/107248108?u=c0fca7d2374c8916129a61daf0c6b46ceba56b5c\u0026v=4",
+      "contributions": 202,
+      "commits": 188,
+      "prs": 3,
+      "company": "Peking University Shenzhen",
       "organizations": []
     },
     {
-      "rank": 69,
-      "name": "ALTaleX",
-      "login": "ALTaleX531",
-      "avatar_url": "https://avatars.githubusercontent.com/u/105535231?u=ad911b5467b3c9fbc51e80b6330fb25210b45f71\u0026v=4",
-      "contributions": 205,
-      "commits": 183,
-      "prs": 0,
-      "company": "City University of Macau",
-      "organizations": []
-    },
-    {
-      "rank": 70,
+      "rank": 73,
       "name": "Eric Chang",
       "login": "EricChang1015",
       "avatar_url": "https://avatars.githubusercontent.com/u/27806684?u=aaf686ab0e38ba27fd4e0eed9191caffcf999624\u0026v=4",
@@ -800,7 +836,7 @@
       "organizations": []
     },
     {
-      "rank": 71,
+      "rank": 74,
       "name": "Noah_Xu",
       "login": "noah200910070082-dotcom",
       "avatar_url": "https://avatars.githubusercontent.com/u/259320399?u=0f0ea932ff1f81d57a9dc16a488b96639749f6e2\u0026v=4",
@@ -811,43 +847,29 @@
       "organizations": []
     },
     {
-      "rank": 72,
-      "name": "WU JUNCHAO",
-      "login": "junchaoIU",
-      "avatar_url": "https://avatars.githubusercontent.com/u/53634397?u=9d7adec5523c53387ca040092d3823980a60accd\u0026v=4",
-      "contributions": 194,
-      "commits": 189,
-      "prs": 1,
-      "company": "University of Macau",
-      "organizations": [
-        "NLP2CT",
-        "CantonKG"
-      ]
-    },
-    {
-      "rank": 73,
-      "name": "Hejun Zhang",
-      "login": "codeofwhite",
-      "avatar_url": "https://avatars.githubusercontent.com/u/107248108?u=c0fca7d2374c8916129a61daf0c6b46ceba56b5c\u0026v=4",
-      "contributions": 193,
-      "commits": 181,
-      "prs": 1,
-      "company": "Peking University Shenzhen",
+      "rank": 75,
+      "name": "Hon Chi Kit",
+      "login": "kinoras",
+      "avatar_url": "https://avatars.githubusercontent.com/u/39506429?u=fadcd6979941254c6661aa1c6d15e1e1fc610caf\u0026v=4",
+      "contributions": 192,
+      "commits": 174,
+      "prs": 16,
+      "company": "National Taiwan University",
       "organizations": []
     },
     {
-      "rank": 74,
+      "rank": 76,
       "name": "Tao Zhang",
       "login": "cszhangtao",
       "avatar_url": "https://avatars.githubusercontent.com/u/33510381?v=4",
-      "contributions": 188,
-      "commits": 188,
+      "contributions": 190,
+      "commits": 190,
       "prs": 0,
       "company": "Macau University of Science and Technology",
       "organizations": []
     },
     {
-      "rank": 75,
+      "rank": 77,
       "name": "史雲昔 (Vincy SHI)",
       "login": "Vincy1230",
       "avatar_url": "https://avatars.githubusercontent.com/u/81342412?u=ab5e256a4077a4a91f3f9cd2115ba80780454cbe\u0026v=4",
@@ -858,7 +880,29 @@
       "organizations": []
     },
     {
-      "rank": 76,
+      "rank": 78,
+      "name": "Jackson Tai",
+      "login": "JacksonTai2007",
+      "avatar_url": "https://avatars.githubusercontent.com/u/117316518?u=a2e2a1caad8da8c34d9fa5c3330514f14d6575fd\u0026v=4",
+      "contributions": 179,
+      "commits": 151,
+      "prs": 18,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 79,
+      "name": "Tati Muniz",
+      "login": "tatimunizz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22306957?u=44f01c42b4da90be5677518045f022b81e24f5af\u0026v=4",
+      "contributions": 176,
+      "commits": 146,
+      "prs": 18,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 80,
       "name": "GingerTea",
       "login": "DCTyxx",
       "avatar_url": "https://avatars.githubusercontent.com/u/39491638?u=f5b82e4a4c5bf07147a2a6b5af26b138cf626aac\u0026v=4",
@@ -869,29 +913,18 @@
       "organizations": []
     },
     {
-      "rank": 77,
-      "name": "Tati Muniz",
-      "login": "tatimunizz",
-      "avatar_url": "https://avatars.githubusercontent.com/u/22306957?u=44f01c42b4da90be5677518045f022b81e24f5af\u0026v=4",
-      "contributions": 175,
-      "commits": 146,
-      "prs": 18,
+      "rank": 81,
+      "name": "Alexandre Alonso",
+      "login": "FinalDes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1146609?v=4",
+      "contributions": 169,
+      "commits": 165,
+      "prs": 2,
       "company": "-",
       "organizations": []
     },
     {
-      "rank": 78,
-      "name": "Jackson Tai",
-      "login": "JacksonTai2007",
-      "avatar_url": "https://avatars.githubusercontent.com/u/117316518?u=a2e2a1caad8da8c34d9fa5c3330514f14d6575fd\u0026v=4",
-      "contributions": 173,
-      "commits": 146,
-      "prs": 18,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 79,
+      "rank": 82,
       "name": "wuzhenhuo",
       "login": "wuzhenhuo",
       "avatar_url": "https://avatars.githubusercontent.com/u/42853310?u=fbd55a249a5194a84e871db1022d200369e4ad3f\u0026v=4",
@@ -902,69 +935,45 @@
       "organizations": []
     },
     {
-      "rank": 80,
-      "name": "Alexandre Alonso",
-      "login": "FinalDes",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1146609?v=4",
-      "contributions": 168,
-      "commits": 164,
-      "prs": 2,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 81,
+      "rank": 83,
       "name": "Rollo",
       "login": "aungminnkhant9400",
       "avatar_url": "https://avatars.githubusercontent.com/u/111413961?u=ea1c2aa21e462b8cbffe37afddc8f41b1109b31d\u0026v=4",
-      "contributions": 166,
-      "commits": 152,
-      "prs": 2,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 82,
-      "name": "lin wu",
-      "login": "eddylin2015",
-      "avatar_url": "https://avatars.githubusercontent.com/u/10782342?u=c2259d98dded865f9c0f74343d8bcbc106b94d2b\u0026v=4",
-      "contributions": 163,
-      "commits": 154,
-      "prs": 0,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 83,
-      "name": "Rain Forest",
-      "login": "WkJ01N",
-      "avatar_url": "https://avatars.githubusercontent.com/u/118724252?u=b02b61d87c693d660f4416868cda333069d7170c\u0026v=4",
-      "contributions": 155,
-      "commits": 146,
-      "prs": 0,
+      "contributions": 161,
+      "commits": 148,
+      "prs": 1,
       "company": "-",
       "organizations": []
     },
     {
       "rank": 84,
-      "name": "one3chens",
-      "login": "one3chens",
-      "avatar_url": "https://avatars.githubusercontent.com/u/7861351?u=b6af7d513640ef45fbd6dc7ba5b18bf4f445555a\u0026v=4",
-      "contributions": 154,
-      "commits": 0,
-      "prs": 154,
-      "company": "www.fccbet.com",
-      "organizations": [
-        "feicc"
-      ]
+      "name": "lin wu",
+      "login": "eddylin2015",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10782342?u=c2259d98dded865f9c0f74343d8bcbc106b94d2b\u0026v=4",
+      "contributions": 161,
+      "commits": 152,
+      "prs": 0,
+      "company": "-",
+      "organizations": []
     },
     {
       "rank": 85,
+      "name": "Rain Forest",
+      "login": "WkJ01N",
+      "avatar_url": "https://avatars.githubusercontent.com/u/118724252?u=b02b61d87c693d660f4416868cda333069d7170c\u0026v=4",
+      "contributions": 156,
+      "commits": 146,
+      "prs": 0,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 86,
       "name": "Shudong Liu",
       "login": "sudanl",
       "avatar_url": "https://avatars.githubusercontent.com/u/57032474?u=6e4d7ad8bc18ccfd40bb692b6a68346f3ac3f015\u0026v=4",
-      "contributions": 153,
-      "commits": 146,
+      "contributions": 154,
+      "commits": 147,
       "prs": 3,
       "company": "University of Macau",
       "organizations": [
@@ -972,18 +981,53 @@
       ]
     },
     {
-      "rank": 86,
+      "rank": 87,
       "name": "LUOIAOSENG",
       "login": "LuoIaoSeng",
       "avatar_url": "https://avatars.githubusercontent.com/u/71080298?u=d1895400b4da495b70db3efcc826df60dcf2766e\u0026v=4",
-      "contributions": 149,
-      "commits": 113,
+      "contributions": 152,
+      "commits": 116,
       "prs": 23,
       "company": "University of Macau",
       "organizations": []
     },
     {
-      "rank": 87,
+      "rank": 88,
+      "name": "one3chens",
+      "login": "one3chens",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7861351?u=b6af7d513640ef45fbd6dc7ba5b18bf4f445555a\u0026v=4",
+      "contributions": 147,
+      "commits": 0,
+      "prs": 147,
+      "company": "www.fccbet.com",
+      "organizations": [
+        "feicc"
+      ]
+    },
+    {
+      "rank": 89,
+      "name": "zhengbenhong",
+      "login": "zhengwaihongben",
+      "avatar_url": "https://avatars.githubusercontent.com/u/233089512?u=fc13a5f584e3a6315a357525f08db40736b72b88\u0026v=4",
+      "contributions": 147,
+      "commits": 142,
+      "prs": 0,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 90,
+      "name": "Mike",
+      "login": "gba-mep",
+      "avatar_url": "https://avatars.githubusercontent.com/u/273500482?u=5b13f4d988b998d143a9df45f3632d350fcfa8f6\u0026v=4",
+      "contributions": 143,
+      "commits": 130,
+      "prs": 0,
+      "company": "-",
+      "organizations": []
+    },
+    {
+      "rank": 91,
       "name": "maomiko",
       "login": "maomiko",
       "avatar_url": "https://avatars.githubusercontent.com/u/171109667?v=4",
@@ -994,40 +1038,18 @@
       "organizations": []
     },
     {
-      "rank": 88,
-      "name": "Mike",
-      "login": "gba-mep",
-      "avatar_url": "https://avatars.githubusercontent.com/u/273500482?u=5b13f4d988b998d143a9df45f3632d350fcfa8f6\u0026v=4",
-      "contributions": 140,
-      "commits": 128,
-      "prs": 0,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 89,
-      "name": "zhengbenhong",
-      "login": "zhengwaihongben",
-      "avatar_url": "https://avatars.githubusercontent.com/u/233089512?u=fc13a5f584e3a6315a357525f08db40736b72b88\u0026v=4",
-      "contributions": 132,
-      "commits": 127,
-      "prs": 0,
-      "company": "-",
-      "organizations": []
-    },
-    {
-      "rank": 90,
+      "rank": 92,
       "name": "Ayaka157",
       "login": "Ayaka157",
       "avatar_url": "https://avatars.githubusercontent.com/u/71247805?u=8da1de93e24d3ea1b7b41c89731e88a350239be6\u0026v=4",
-      "contributions": 132,
+      "contributions": 133,
       "commits": 128,
       "prs": 0,
       "company": "-",
       "organizations": []
     },
     {
-      "rank": 91,
+      "rank": 93,
       "name": "Gustavo Santana",
       "login": "gustavsant",
       "avatar_url": "https://avatars.githubusercontent.com/u/95528216?u=34ec9267504f864f5d9cf0dae37c46b68cbc1d8c\u0026v=4",
@@ -1038,29 +1060,42 @@
       "organizations": []
     },
     {
-      "rank": 92,
+      "rank": 94,
       "name": "Daniel (Bennett) Bai",
       "login": "danielbennett888",
       "avatar_url": "https://avatars.githubusercontent.com/u/300048568?u=1885d37e07cb431d322dce5aef65886511c69e7d\u0026v=4",
-      "contributions": 131,
-      "commits": 119,
+      "contributions": 129,
+      "commits": 117,
       "prs": 2,
       "company": "Macau University of Science and Technology",
       "organizations": []
     },
     {
-      "rank": 93,
-      "name": "Henry",
-      "login": "henry-tpwong",
-      "avatar_url": "https://avatars.githubusercontent.com/u/115126035?v=4",
-      "contributions": 125,
-      "commits": 117,
+      "rank": 95,
+      "name": "许彦熙",
+      "login": "cdwfb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/171275992?u=0945c4c6187ea31f9cbc174133bd65b0a95ec867\u0026v=4",
+      "contributions": 127,
+      "commits": 103,
+      "prs": 23,
+      "company": "China",
+      "organizations": [
+        "MUST-FYP-2026-ZHU"
+      ]
+    },
+    {
+      "rank": 96,
+      "name": "Miao Zhang",
+      "login": "ZenMule",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11798390?u=a981c1d4b5f87ad69362f26a1c122e0b7dd44419\u0026v=4",
+      "contributions": 126,
+      "commits": 126,
       "prs": 0,
-      "company": "-",
+      "company": "Macau University of Science and Technology",
       "organizations": []
     },
     {
-      "rank": 94,
+      "rank": 97,
       "name": "Xingfeng LI",
       "login": "xingfengli",
       "avatar_url": "https://avatars.githubusercontent.com/u/112468521?v=4",
@@ -1071,69 +1106,36 @@
       "organizations": []
     },
     {
-      "rank": 95,
-      "name": "Miao Zhang",
-      "login": "ZenMule",
-      "avatar_url": "https://avatars.githubusercontent.com/u/11798390?u=a981c1d4b5f87ad69362f26a1c122e0b7dd44419\u0026v=4",
-      "contributions": 121,
-      "commits": 121,
-      "prs": 0,
-      "company": "Macau University of Science and Technology",
-      "organizations": []
-    },
-    {
-      "rank": 96,
-      "name": "Runqi Su",
-      "login": "surun7",
-      "avatar_url": "https://avatars.githubusercontent.com/u/72337451?u=307872dd8bf4e771c7db0b79f68273a8a7ace20d\u0026v=4",
-      "contributions": 112,
-      "commits": 107,
-      "prs": 0,
-      "company": "Macao Polytechnic University",
-      "organizations": []
-    },
-    {
-      "rank": 97,
-      "name": "ansonlotiniat",
-      "login": "ansonlotiniat",
-      "avatar_url": "https://avatars.githubusercontent.com/u/154033530?v=4",
-      "contributions": 112,
-      "commits": 73,
-      "prs": 5,
-      "company": "Pui Ching Middle School",
-      "organizations": []
-    },
-    {
       "rank": 98,
-      "name": "JINHAO TU",
-      "login": "wangzhefawang",
-      "avatar_url": "https://avatars.githubusercontent.com/u/121208594?v=4",
-      "contributions": 110,
-      "commits": 101,
+      "name": "Henry",
+      "login": "henry-tpwong",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115126035?v=4",
+      "contributions": 125,
+      "commits": 117,
       "prs": 0,
-      "company": "Macau University of Science and Technology",
+      "company": "-",
       "organizations": []
     },
     {
       "rank": 99,
-      "name": "Kent Tong",
-      "login": "freemant2000",
-      "avatar_url": "https://avatars.githubusercontent.com/u/1174319?v=4",
-      "contributions": 110,
-      "commits": 107,
-      "prs": 0,
-      "company": "TipTec Development",
+      "name": "Mclarenlife",
+      "login": "Mclarenlife",
+      "avatar_url": "https://avatars.githubusercontent.com/u/90885542?u=c577d942e4da0d39c2c5ec2bd68f9151e5131ed5\u0026v=4",
+      "contributions": 115,
+      "commits": 97,
+      "prs": 3,
+      "company": "City University of Macau",
       "organizations": []
     },
     {
       "rank": 100,
-      "name": "Mclarenlife",
-      "login": "Mclarenlife",
-      "avatar_url": "https://avatars.githubusercontent.com/u/90885542?u=c577d942e4da0d39c2c5ec2bd68f9151e5131ed5\u0026v=4",
-      "contributions": 109,
-      "commits": 92,
-      "prs": 3,
-      "company": "City University of Macau",
+      "name": "JINHAO TU",
+      "login": "wangzhefawang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/121208594?v=4",
+      "contributions": 113,
+      "commits": 104,
+      "prs": 0,
+      "company": "Macau University of Science and Technology",
       "organizations": []
     }
   ],
@@ -1146,31 +1148,31 @@
     },
     {
       "rank": 2,
-      "name": "um-ark",
+      "name": "openspace-lab",
       "members": 1,
       "impact": "Normal"
     },
     {
       "rank": 3,
-      "name": "blender4stat",
+      "name": "microsoft",
       "members": 1,
       "impact": "Normal"
     },
     {
       "rank": 4,
-      "name": "cantonkg",
+      "name": "wikisuite",
       "members": 1,
       "impact": "Normal"
     },
     {
       "rank": 5,
-      "name": "realityloopai",
+      "name": "sleeplessmind-ltd",
       "members": 1,
       "impact": "Normal"
     },
     {
       "rank": 6,
-      "name": "yahoo",
+      "name": "gary-s-group",
       "members": 1,
       "impact": "Normal"
     },
@@ -1188,73 +1190,79 @@
     },
     {
       "rank": 9,
-      "name": "feicc",
+      "name": "oneclickvirt",
       "members": 1,
       "impact": "Normal"
     },
     {
       "rank": 10,
-      "name": "microsoft",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 11,
-      "name": "fuchsiaos",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 12,
       "name": "blogonresearch",
       "members": 1,
       "impact": "Normal"
     },
     {
-      "rank": 13,
-      "name": "wikisuite",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 14,
-      "name": "sleeplessmind-ltd",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 15,
+      "rank": 11,
       "name": "sustech-amaslab",
       "members": 1,
       "impact": "Normal"
     },
     {
-      "rank": 16,
-      "name": "openspace-lab",
+      "rank": 12,
+      "name": "fuchsiaos",
       "members": 1,
       "impact": "Normal"
     },
     {
-      "rank": 17,
-      "name": "popmart-pmu",
-      "members": 1,
-      "impact": "Normal"
-    },
-    {
-      "rank": 18,
+      "rank": 13,
       "name": "cpsumsu",
       "members": 1,
       "impact": "Normal"
     },
     {
+      "rank": 14,
+      "name": "realityloopai",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 15,
+      "name": "cantonkg",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 16,
+      "name": "must-fyp-2026-zhu",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 17,
+      "name": "yahoo",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 18,
+      "name": "um-ark",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
       "rank": 19,
-      "name": "oneclickvirt",
+      "name": "feicc",
       "members": 1,
       "impact": "Normal"
     },
     {
       "rank": 20,
       "name": "ringsnetwork",
+      "members": 1,
+      "impact": "Normal"
+    },
+    {
+      "rank": 21,
+      "name": "blender4stat",
       "members": 1,
       "impact": "Normal"
     }
